@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97b40781-8663-402b-8bec-31c30c73745a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bibs/test.bib" beforeDir="false" afterPath="$PROJECT_DIR$/bibs/test.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="97b40781-8663-402b-8bec-31c30c73745a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="103" column="32" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="41" />
+              <caret line="104" column="32" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -31,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/bibtex_js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1323">
-              <caret line="74" column="26" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="26" />
+            <state relative-caret-position="264">
+              <caret line="638" column="6" selection-start-line="638" selection-start-column="6" selection-end-line="638" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -47,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bibs/test.bib">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+            <state relative-caret-position="161">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
             </state>
           </provider>
         </entry>
@@ -71,8 +68,8 @@
     <findStrings>
       <find>bibtex</find>
       <find>article</find>
-      <find>(</find>
       <find>misma</find>
+      <find>(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,16 +164,15 @@
       <option name="presentableId" value="Default" />
       <updated>1547175944477</updated>
       <workItem from="1547175949789" duration="1837000" />
-      <workItem from="1547177836256" duration="1641000" />
+      <workItem from="1547177836256" duration="3048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3478000" />
+    <option name="totallyTimeSpent" value="4885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18133895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -184,7 +180,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.472808" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30521643" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -242,7 +238,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="103" column="32" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="41" />
+          <caret line="104" column="32" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -252,10 +248,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bibs/test.bib">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/bibtex_js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1323">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="638" column="6" selection-start-line="638" selection-start-column="6" selection-end-line="638" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -263,13 +266,6 @@
             <element signature="n#style#0;n#a#0;n#span#2;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibs/test.bib">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
         </state>
       </provider>
     </entry>
