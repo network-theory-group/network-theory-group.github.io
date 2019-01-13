@@ -33,13 +33,34 @@
 
         <div id="bibtex_errors"></div>
 
-        <h2>Error Estimating Code (EEC)</h2>
-        <hr />
+        <div class="bibtex_topics"> </div>
+
+        <div class="bibtex_structure">
+          <div class="sections tag">
+            <div class="section EEC">
+              <h2>Error Estimating Codes (EEC)</h2><hr/>
+              <div class="sort year" extra="ASC number">
+                <div class="templates"></div>
+              </div>
+            </div>
+            <div class="section lecture">
+              <h2>Lectures Related to EEC</h2><hr/>
+              <div class="sort year" extra="ASC number">
+                <div class="templates"></div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+        <!--<h2>Error Estimating Code (EEC)</h2>-->
+        <!--<hr />-->
         <div id="bibtex_display">
-          <div class="if bibtex_template" style="display: none;">
+
+          <!--<div class="if bibtex_template" style="display: none;">-->
+            <div class="bibtex_template">
             <ul>
               <li>
-                <span class="if journal !nolink">
+                <span class="if file">
                   <a
                     class="bibtexVar"
                     target="_blank"
@@ -70,8 +91,8 @@
                   <span class="if publisher"
                     ><em><span class="publisher"></span></em>,</span
                   >
-                  <span class="if !journal number"
-                    >Technical report <span class="number"></span>,</span
+                  <span class="if type"
+                    ><em><span class="type"></span></em>,</span
                   >
                   <span class="if institution"
                     ><span class="institution"></span>,</span
@@ -124,9 +145,12 @@
               </li>
             </ul>
           </div>
+
         </div>
-      </div>
+
     </div>
+    </div>
+
     <script type="text/javascript" charset="utf-8">
       refresh = false;
       window.setInterval(function() {
