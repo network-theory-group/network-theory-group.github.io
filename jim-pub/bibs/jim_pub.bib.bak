@@ -1,0 +1,1042 @@
+% Encoding: UTF-8
+
+@inproceedings{liu_quantized_2018,
+  location = {Zurich, Switzerland},
+ author = {Liang Liu and Jun Xu and Lance Fortnow},
+ booktitle = {IEEE/ACM 11th International Conference on Utility and Cloud Computing (UCC)},
+ doi = {10.1109/UCC.2018.00032},
+ file = {Liu et al. - 2018 - Quantized BvND A Better Solution for Optical and .pdf},
+ isbn = {978-1-5386-5504-7},
+ month = dec,
+ pages = {237--246},
+ publisher = {IEEE},
+ abstract={Data center network continues to grow relentlessly in the amount of data traffic it has to “switch” between its server racks. A traditional data center switching architecture, consisting of a network of commodity packet switches (viewed as a giant packet switch), cannot scale with this growing switching demand. Adding an optical switch, which has a much higher bandwidth than the packet switch but incurs a nontrivial reconfiguration delay, to a data center network has been proposed as a costeffective approach to boosting its switching capacity. However, to effectively do so, we need to meticulously schedule the optical switch. In fact, we are dealing with two very different scheduling problems here, namely hybrid switching and standalone optical switching, depending on whether or not there is effective cooperation between the optical switch and the packet switch during their respective scheduling processes. In this work, we propose a solution that performs better than the respective state of art solutions for both scheduling problems. Our solution outperforms by a wide margin all existing optical switching solutions in terms of throughput, yet its computational complexity is comparable to those of others. Our solution also has the best properties of both Eclipse and Solstice, the state of the art hybrid switching solutions. Eclipse and Solstice have different advantages: Eclipse has better throughput performance but incurs a much higher computationally complexity than Solstice. Our solution gets the better of both worlds: it delivers almost the same throughput performance as Eclipse, yet incurs a similar computational complexity as Solstice.},
+ shorttitle = {Quantized BvND},
+ title = {Quantized BvND: A Better Solution for Optical and Hybrid Switching in Data Center Networks},
+ url = {https://ieeexplore.ieee.org/document/8603170/},
+ award = {Best Student Paper Awards},
+ urldate = {2019-01-15},
+ year = {2018}
+}
+
+
+@inproceedings{liu_bff_2018,
+ abstract = {Hybrid switching for data center networks (DCN) has received considerable research attention recently. A hybrid-switched DCN employs a much faster circuit switch that is reconfigurable with a nontrivial cost, and a much slower packet switch, to interconnect its racks of servers. The research problem is, given a traffic demand (between the racks), how to properly schedule the circuit switch so that it removes most of the traffic demand, leaving little for the slower packet switch to handle. All existing solutions make a convenient but unnecessarily restrictive assumption that when the circuit switch changes from one configuration to another, all input ports have to stop data transmission during the reconfiguration period. However, the circuit switch can usually readily support partial reconfiguration in the following sense: Only the input ports affected by the reconfiguration need to pay a reconfiguration delay, while unaffected input ports can continue to transmit data during the reconfiguration. In this work, we propose BFF (best first fit), the first solution to exploit this partial reconfigurability in hybrid-switched DCNs. BFF not only significantly outperforms but also has much lower computational complexity than the state of the art solutions that do not exploit this partial reconfigurability.},
+ author = {Liang Liu and Long Gong and Sen Yang and  Jun Xu and Lance Fortnow},
+ booktitle = {IEEE 11th International Conference on Cloud Computing (CLOUD)},
+ doi = {10.1109/CLOUD.2018.00060},
+ file = {Liu et al. - 2018 - Best First Fit (BFF) An Approach to Partially Rec.pdf},
+ isbn = {978-1-5386-7235-8},
+ keywords = {circuit switching, computer centres, packet switching, scheduling, telecommunication traffic},
+ month = jul,
+ pages = {426--433},
+ location={San Francisco, CA, USA},
+ shorttitle = {Best First Fit (BFF)},
+ title = {Best First Fit (BFF): An Approach to Partially Reconfigurable Hybrid Circuit and Packet Switching},
+ url = {doi.ieeecomputersociety.org/10.1109/CLOUD.2018.00060},
+ urldate = {2019-01-15},
+ year = {2018}
+}
+
+@InProceedings{liu_2-hop_2018,
+  author    = {Liang Liu and Long Gong and Sen Yang and Jun Xu and Lance Fortnow},
+  title     = {2-Hop Eclipse: A Fast Algorithm for Bandwidth-Efficient Data Center Switching},
+  booktitle = {Cloud Computing – CLOUD 2018},
+  year      = {2018},
+  editor    = {Luo, Min and Zhang, Liang-Jie},
+  pages     = {69--83},
+  publisher = {Springer International Publishing},
+  abstract  = {A hybrid-switched data center network interconnects its racks of servers with a combination of a fast circuit switch that a schedule can reconfigure at significant cost and a much slower packet switch that a schedule can reconfigure at negligible cost. Given a traffic demand matrix between the racks, how can we best compute a good circuit switch configuration schedule that meets most of the traffic demand, leaving as little as possible for the packet switch to handle?},
+  award     = {Best Student Paper Awards},
+  file      = {Liu et al. - 2018 - 2-Hop Eclipse A Fast Algorithm for Bandwidth-Effi.pdf},
+  isbn      = {978-3-319-94295-7},
+  location  = {Seattle, WA, USA},
+}
+
+
+@article{zhang_prefix_2018,
+ author = {Shenglin Zhang and Ying Liu and Weibin Meng and Zhiling Luo and Jiahao Bu and Sen Yang and Peixian Liang and Dan Pei and Jun Xu and Yuzhi Zhang and Yu Chen and Hui Dong and Xianping Qu and Lei Song},
+ doi = {10.1145/3179405},
+ file = {Zhang et al. - 2018 - PreFix Switch Failure Prediction in Datacenter Ne.pdf},
+ journal = {Proceedings of the ACM on Measurement and Analysis of Computing Systems - SIGMETRICS},
+ month = apr,
+ number = {1},
+ pages = {2},
+ shorttitle = {PreFix},
+ title = {PreFix: Switch Failure Prediction in Datacenter Networks},
+ url = {http://dl.acm.org/citation.cfm?id=3203302.3179405},
+ urldate = {2019-01-14},
+ volume = {2},
+ year = {2018}
+}
+
+@article{yang_predictive_2017,
+ author = {Sen Yang and He Yan and Zihui Ge and Dongmei Wang and Jun Xu},
+ doi = {10.1145/3154488},
+ file = {Yang et al. - 2017 - Predictive Impact Analysis for Designing a Resilie.pdf},
+ journal = {Proceedings of the ACM on Measurement and Analysis of Computing Systems - SIGMETRICS},
+ month = dec,
+ number = {2},
+ pages = {30},
+ title = {Predictive Impact Analysis for Designing a Resilient Cellular Backhaul Network},
+ url = {http://dl.acm.org/citation.cfm?id=3175501.3154488},
+ urldate = {2019-01-15},
+ volume = {1},
+ year = {2017}
+}
+
+@article{yang_safe_2017,
+ abstract = {Load-balanced switch architectures are known to be scalable in both size and speed, which is of interest due to the continued exponential growth in Internet traffic. However, the main drawback of load-balanced switches is that packets can depart out of order from the switch. Randomized load-balancing of application flows by means of hashing on the packet header is a well-known simple solution to this packet reordering problem in which all packets belonging to the same application flow are routed through the same intermediate port and hence the same path through the switch. Unfortunately, this method of load-balancing can lead to instability, depending on the mix of flow sizes and durations in the group of flows that gets randomly assigned to route through the same intermediate port. In this paper, we show that the randomized load-balancing of application flows can be enhanced to provably guarantee both stability and packet ordering by extending the approach with safety mechanisms that can uniformly diffuse packets across the switch whenever there is a build-up of packets waiting to route through some intermediate port. Although simple and intuitive, our experimental results show that our extended randomized load-balancing approach outperforms existing load-balanced switch architectures.},
+ author = {Sen Yang and Bill Lin and Jun Xu},
+ doi = {10.1145/3154487},
+ file = {Yang et al. - 2017 - Safe Randomized Load-Balanced Switching By Diffusi.pdf},
+ issn = {2476-1249},
+ journal = {Proceedings of the ACM on Measurement and Analysis of Computing Systems - SIGMETRICS},
+ keywords = {throughput guarantees, load-balanced switches, low latency, packet reordering},
+ month = dec,
+ number = {2},
+ pages = {29:1--29:37},
+ title = {Safe Randomized Load-Balanced Switching By Diffusing Extra Loads},
+ url = {http://doi.acm.org/10.1145/3154487},
+ urldate = {2019-01-14},
+ volume = {1},
+ year = {2017}
+}
+
+
+@article{gong_queue-proportional_2017,
+ abstract = {Most present day switching systems, in Internet routers and data-center switches, employ a single input-queued crossbar to interconnect input ports with output ports. Such switches need to compute a matching, between input and output ports, for each switching cycle (time slot). The main challenge in designing such matching algorithms is to deal with the unfortunate tradeoff between the quality of the computed matching and the computational complexity of the algorithm. In this paper, we propose a general approach that can significantly boost the performance of both SERENA and iSLIP, yet incurs only O(1) additional computational complexity at each input/output port. Our approach is a novel proposing strategy, called Queue-Proportional Sampling (QPS), that generates an excellent starter matching. We show, through rigorous simulations, that when starting with this starter matching, iSLIP and SERENA can output much better final matching decisions, as measured by the resulting throughput and delay performance, than they otherwise can.},
+ author = {Long Gong and Paul Tune and Liang Liu and Sen Yang and Jun Xu},
+ doi = {10.1145/3084440},
+ file = {Gong et al. - 2017 - Queue-Proportional Sampling A Better Approach to .pdf},
+ issn = {2476-1249},
+ journal = {Proceedings of the ACM on Measurement and Analysis of Computing Systems - SIGMETRICS},
+ keywords = {input-queued switch, crossbar scheduling, matching, queue-proportional sampling},
+ month = jun,
+ number = {1},
+ pages = {3:1--3:33},
+ shorttitle = {Queue-Proportional Sampling},
+ title = {Queue-Proportional Sampling: A Better Approach to Crossbar Scheduling for Input-Queued Switches},
+ url = {http://doi.acm.org/10.1145/3084440},
+ urldate = {2019-01-15},
+ volume = {1},
+ year = {2017}
+}
+
+@inproceedings{zhang_syslog_2017,
+ abstract = {Syslogs on switches are a rich source of information for both post-mortem diagnosis and proactive prediction of switch failures in a datacenter network. However, such information can be effectively extracted only through proper processing of syslogs, e.g., using suitable machine learning techniques. A common approach to syslog processing is to extract (i.e., build) templates from historical syslog messages and then match syslog messages to these templates. However, existing template extraction techniques either have low accuracies in learning the “correct” set of templates, or does not support incremental learning in the sense the entire set of templates has to be rebuilt (from processing all historical syslog messages again) when a new template is to be added, which is prohibitively expensive computationally if used for a large datacenter network. To address these two problems, we propose a frequent template tree (FT-tree) model in which frequent combinations of (syslog) words are identified and then used as message templates. FTtree empirically extracts message templates more accurately than existing approaches, and naturally supports incremental learning. To compare the performance of FT-tree and three other template learning techniques, we experimented them on two-years' worth of failure tickets and syslogs collected from switches deployed across 10+ datacenters of a tier-1 cloud service provider. The experiments demonstrated that FT-tree improved the estimation/prediction accuracy (as measured by F1) by 155\% to 188\%, and the computational efficiency by 117 to 730 times.},
+ author = {Shenglin Zhang and Weibin Meng and Jiahao Bu and Sen Yang and Ying Liu and Dan Pei and Jun Xu and Yu Chen and Hui Dong and Xianping Qu and Lei Song},
+ booktitle = {Proc. of IEEE/ACM 25th International Symposium on Quality of Service (IWQoS)},
+ doi = {10.1109/IWQoS.2017.7969130},
+ file = {Zhang et al. - 2017 - Syslog processing for switch failure diagnosis and.pdf},
+ keywords = {Switches, Computer science, telecommunication switching, computer centres, computer network management, datacenter networks, cloud computing, Servers, datacenter network, Firewalls (computing), frequent template tree model, FT-tree, historical syslog messages, incremental learning, learning (artificial intelligence), machine learning techniques, post-mortem diagnosis, Predictive models, proactive prediction, Software, switch failure diagnosis, syslog processing, template extraction techniques, tier-1 cloud service provider, Virtual private networks},
+ month = jun,
+ pages = {1--10},
+ title = {Syslog processing for switch failure diagnosis and prediction in datacenter networks},
+ year = {2017},
+ location={Vilanova i la Geltru, Spain},
+}
+
+@INPROCEEDINGS{yin_backpressure_2017,
+author={Ping Yin and Sen Yang and  Jun Xu and Jim Dai and Bill Lin},
+booktitle={Proc. of ACM/IEEE Symposium on Architectures for Networking and Communications Systems (ANCS)},
+title={Improving Backpressure-based Adaptive Routing via Incremental Expansion of Routing Choices},
+year={2017},
+pages={1-12},
+keywords={optimisation;queueing theory;synchronisation;telecommunication network routing;telecommunication traffic;incremental expansion;backpressure-based adaptive routing algorithms;destination queue;pairwise differential backlogs;backlog information;shortest-path routes;traffic load;fluid analysis;network-wide throughput optimality;Routing;Throughput;Delays;Algorithm design and analysis;Heuristic algorithms;Adaptive systems;Internet;Backpressure;adaptive routing;delay reduction},
+location={Beijing, China},
+doi={10.1109/ANCS.2017.11},
+file={Yin et al. - 2017 - Improving Backpressure-based Adaptive Routing via .pdf},
+url={https://ieeexplore.ieee.org/document/7966895},
+month=may,
+}
+
+@inproceedings{yang_simple_2017,
+ abstract = {Chang et al. proposed the load-balanced switch in their seminal work [1], which has received wide attention due to its inherent scalability properties in both size and speed. These scalability properties continue to be of significant interest due to the relentless exponential growth in Internet traffic. The main drawback of the load-balanced switch is that packets can depart out-of-order from the switch, which can significantly degrade network performance by negatively interacting with TCP congestion control. Hence, a large body of subsequent work has proposed a variety of modifications for ensuring packet ordering, but all the proposed approaches tend to increase packet delay significantly in comparison to the basic load-balanced switch. In this paper, we show that the amount of packet reordering that can occur with the load-balanced switch is actually quite limited, which means that packet reordering can simply be rectified by employing reordering buffers at the switch outputs. In particular, we formally bound the worst-case amount of time that a packet has to wait in these output reordering buffers before it is guaranteed to be ready for in-order departure with high probability, and we prove that this bound is linear with respect to the switch size. This linear bound is significant because previous approaches can add quadratic or cubic delays to the load-balanced switch. In addition, we use a hash-grouping method that further reduces resequencing delays significantly. Although simple and intuitive, our experimental results show that our output packet reordering approach substantially outperforms existing load-balanced switch architectures.},
+ author = {Sen Yang and Bill Lin and Paul Tune and Jun Xu},
+ booktitle = {Proc. of IEEE INFOCOM},
+ doi = {10.1109/INFOCOM.2017.8057174},
+ file = {Yang et al. - 2017 - A simple re-sequencing load-balanced switch based .pdf},
+ keywords = {packet switching, telecommunication traffic, telecommunication congestion control, Ports (Computers), Delays, transport protocols, probability, resource allocation, Computer architecture, Internet, Internet traffic, Optical switches, analytical packet, analytical packet reordering bounds, basic load-balanced switch, hash-grouping method, load-balanced switch architectures, Out of order, Semantics, simple resequencing load-balanced switch, switch size, TCP congestion control},
+ month = may,
+ location={Atlanta, GA, USA},
+ pages = {1--9},
+ title = {A simple re-sequencing load-balanced switch based on analytical packet reordering bounds},
+ year = {2017}
+}
+
+@inproceedings{liu_randomized_2016,
+ author = {Liang Liu and Lance Fortnow and Jin Li and Yating Wang and Jun Xu},
+ booktitle = {Proc. of ACM Symposium on Cloud Computing},
+  location={Santa Clara, CA, USA},
+ month=oct,
+ doi = {10.1145/2987550.2987572},
+ editor = {Aguilera, Marcos K. and Cooper, Brian and Diao, Yanlei},
+ file = {Liu et al. - 2016 - Randomized Algorithms for Dynamic Storage Load-Bal.pdf},
+ isbn = {978-1-4503-4525-5},
+ pages = {210--222},
+ publisher = {ACM},
+ title = {Randomized Algorithms for Dynamic Storage Load-Balancing},
+ year = {2016}
+}
+
+@InProceedings{lu_router_2016,
+  author    = {Jianyuan Lu and Liang Liu and and Jun Xu and Bin Liu},
+  title     = {Toward Power-Efficient Backbone Routers},
+  booktitle = {Proc. of ACM GreenMetrics Workshop},
+  year      = {2016},
+  pages     = {94--99},
+  month     = sep,
+  publisher = {ACM},
+  abstract  = {Recently, a new design framework, called GreenRouter, has been proposed to reduce the power consumption of backbone routers. In a GreenRouter, a line card is partitioned into two functional parts, namely, an InTerFace (ITF) part that is relatively much lighter and a Processing Engine (PE) part that is relatively much heavier, in power consumption. This partitioning allows ITFs to share the collective processing capability of PEs, which in turn allows a significant percentage of PEs to be put into sleep mode (to save energy) during periods of light link utilizations. In this paper, we study how ITFs can distribute traffic flows to the PEs so that the offered loads on all active PEs are near-perfectly balanced over time, and kept close to a target load (say 90%), so that the number of active PEs can be minimized. Since Green- Router's original solution to this problem is quite crude,we propose a principled solution that has much lower system overheads and achieves better load-balance. Throughboth simulation studies and rigorous analyses, we show our solution can, with high probability, rapidly restore the nearperfect load balance among active PEs, after each PE overload event.},
+  acmid     = {3004003},
+  doi       = {10.1145/3003977.3004003},
+  file      = {Lu et al. - 2016 - Toward Power-Efficient Backbone Routers.pdf},
+  issn      = {0163-5999},
+  location  = {Antibes Juan-les-Pins, France},
+  numpages  = {6},
+  url       = {http://doi.acm.org/10.1145/3003977.3004003},
+}
+
+@inproceedings{ding_sprinklers_2014,
+ abstract = {Internet traffic continues to grow exponentially, calling for switches that can scale well in both size and speed. While load-balanced switches can achieve such scalability, they suffer from a fundamental packet reordering problem. Existing proposals either suffer from poor worst-case packet delays or require sophisticated matching mechanisms. In this paper, we propose a new family of stable load-balanced switches called "Sprinklers" that has comparable implementation cost and performance as the baseline load-balanced switch, but yet can guarantee packet ordering. The main idea is to force all packets within the same virtual output queue (VOQ) to traverse the same ``fat path'' through the switch, so that packet reordering cannot occur. At the core of Sprinklers are two key innovations: a randomized way to determine the "fat path" for each VOQ, and a way to determine its "fatness" roughly in proportion to the rate of the VOQ. These innovations enable Sprinklers to achieve near-perfect load-balancing under arbitrary admissible traffic. Proving this property rigorously using novel worst-case large deviation techniques is another key contribution of this work.},
+  location = {Sydney, Australia},
+ author = {Weijun Ding and Jun Xu and Jim Dai and Yang Song and Bill Lin},
+ booktitle = {Proc. of ACM CoNEXT},
+ doi = {10.1145/2674005.2674986},
+ file = {Ding et al. - 2014 - Sprinklers A Randomized Variable-Size Striping Ap.pdf},
+ isbn = {978-1-4503-3279-8},
+ keywords = {performance, algorithm, design},
+ pages = {89--100},
+ publisher = {ACM},
+ series = {{CoNEXT} '14},
+ shorttitle = {Sprinklers},
+ title = {Sprinklers: A Randomized Variable-Size Striping Approach to Reordering-Free Load-Balanced Switching},
+ url = {http://doi.acm.org/10.1145/2674005.2674986},
+ urldate = {2019-01-15},
+ year = {2014}
+}
+
+@inproceedings{yu_crossroads_2014,
+ abstract = {The explosive increase in cellular network traffic, users, and applications, as well as the corresponding shifts in user expectations, has created heavy needs and demands on cellular data providers. In this paper we address one such need: mining the logs of cellular voice and data traffic to rapidly detect network performance anomalies and other events of interest. The core challenge in solving this problem is the issue that it is impossible to predict beforehand where in the traffic the event may appear, requiring us to be able to query arbitrary subsets of the network traffic (e.g., longer than usual round-trip times for users in a specific urban area to connect to FunContent.com using a particular model of phone). Since it is infeasible to store all combinations of such data, especially when it is collected in real-time, we need to be able to summarize the traffic data using succinct sketch data structures to answer these queries. The major contribution of this paper is the introduction of a scheme, called Crossroads, that can be used to compute the intersection of the measurements between two overlapping streams. For instance, in the above example, it is possible to compute the intersection of all the data going between the downtown area and FunContent.com with all the data generated by the model of phone to detect anomalous RTT behavior. In effect, this gives us a way to essentially "square root" the number of sketches that we need to maintain, transforming a prohibitively expensive problem to one that is tractable in practice. We provide rigorous analysis of our sketch and the trade-offs between memory footprint and accuracy. We also demonstrate the efficacy of our solution via simulation on data collected at a major cellular service carrier in the US.},
+  location = {Vancouver, British Columbia, Canada},
+ author = {Zhenglin Yu and Zihui Ge and Ashwin Lall and Jia Wang and Jun Xu and He Yan},
+ booktitle = {Proc. of ACM Internet Measurement Conference},
+ doi = {10.1145/2663716.2663733},
+ file = {Yu et al. - 2014 - Crossroads A Practical Data Sketching Solution fo.pdf},
+ isbn = {978-1-4503-3213-2},
+ keywords = {algorithms, data streaming, traffic analysis},
+ pages = {223--234},
+ publisher = {ACM},
+ series = {{IMC} '14},
+ shorttitle = {Crossroads},
+ title = {Crossroads: A Practical Data Sketching Solution for Mining Intersection of Streams},
+ url = {http://doi.acm.org/10.1145/2663716.2663733},
+ urldate = {2019-01-15},
+ year = {2014}
+}
+
+@inproceedings{huang_eec_2014,
+ abstract = {Error estimating codes (EEC) have recently been proposed for measuring the bit error rate (BER) in packets transmitted over wireless links. They however can provide such measurements only when there are no insertion and deletion errors, which could occur in various wireless network environments. In this work, we propose ``idEEC'', the first technique that can do so even in the presence of insertion and deletion errors. We show that idEEC is provable robust under most bit insertion and deletion scenarios, provided insertion/deletion errors occur with much lower probability than bit flipping errors. Our idEEC design can build upon any existing EEC scheme. The basic idea of the idEEC encoding is to divide the packet into a number of segments, each of which is encoded using the underlying EEC scheme. The basic idea of the idEEC decoding is to divide the packet into a few slices in a randomized manner -- each of which may contain several segments -- and then try to identify a slice that has no insertion and deletion errors in it (called a ``clean slice''). Once such a clean slice is found, it is removed from the packet for later processing, and this ``randomized divide and search'' procedure will be iteratively performed on the rest of the packet until no more clean slices can be found. The BER will then be estimated from all the clean slices discovered through all the iterations. A careful analysis of the accuracy guarantees of the idEEC decoding is provided, and the efficacy of idEEC is further validated by simulation experiments.},
+  location = {Austin, TX, USA},
+ author = {Jiwei Huang and Sen Yang and Ashwin Lall and Justin Romberg and Jun Xu and Chuang Lin},
+ booktitle = {Proc. of ACM Sigmetrics},
+ doi = {10.1145/2591971.2591976},
+ file = {Huang et al. - 2014 - Error Estimating Codes for Insertion and Deletion .pdf},
+ isbn = {978-1-4503-2789-3},
+ keywords = {error estimating coding, deletion channel, insertion channel},
+ pages = {381--393},
+ publisher = {ACM},
+ series = {{SIGMETRICS} '14},
+ title = {Error Estimating Codes for Insertion and Deletion Channels},
+ url = {http://doi.acm.org/10.1145/2591971.2591976},
+ urldate = {2019-01-15},
+ year = {2014}
+}
+
+
+@inproceedings{hua_eec_2012,
+ abstract = {Error estimating coding (EEC) has recently been established as an important tool to estimate bit error rates in the transmission of packets over wireless links, with a number of potential applications in wireless networks. In this paper, we present an in-depth study of error estimating codes through the lens of Fisher information analysis and find that the original EEC estimator fails to exploit the information contained in its code to the fullest extent. Motivated by this discovery, we design a new estimator for the original EEC algorithm, which significantly improves the estimation accuracy, and is empirically very close to the Cramer-Rao bound. Following this path, we generalize the EEC algorithm to a new family of algorithms called gEEC generalized EEC. These algorithms can be tuned to hold 25-35\% more information with the same overhead, and hence deliver even better estimation accuracy---close to optimal, as evidenced by the Cramer-Rao bound. Our theoretical analysis and assertions are supported by extensive experimental evaluation.},
+  location = {London, UK},
+ author = {Nan Hua and Ashwin Lall and Baochun Li and Jun Xu},
+ booktitle = {Proc. of ACM SIGMETRICS/IFIP Performance},
+ doi = {10.1145/2254756.2254773},
+ file = {Hua et al. - 2012 - Towards Optimal Error-estimating Codes Through the.pdf},
+ isbn = {978-1-4503-1097-0},
+ keywords = {error estimating coding, Fisher information},
+ pages = {125--136},
+ month = jun,
+ publisher = {ACM},
+ series = {{SIGMETRICS} '12},
+ title = {Towards Optimal Error-estimating Codes Through the Lens of Fisher Information Analysis},
+ url = {http://doi.acm.org/10.1145/2254756.2254773},
+ urldate = {2019-01-15},
+ year = {2012}
+}
+
+@inproceedings{hua_simpler_2012,
+abstract={We study error estimating codes with the goal of establishing better bounds for the theoretical and empirical overhead of such schemes. We explore the idea of using sketch data structures for this problem, and show that the tug-of-war sketch gives an asymptotically optimal solution. The optimality of our algorithms are proved using communication complexity lower bound techniques. We then propose a novel enhancement of the tug-of-war sketch that greatly reduces the communication overhead for realistic error rates. Our theoretical analysis and assertions are supported by extensive experimental evaluation.},
+ author = {Nan Hua and Ashwin Lall and Baochun Li and Jun Xu},
+ booktitle = {Proc. of IEEE INFOCOM},
+ location={Orlando, FL, USA},
+ month=mar,
+ doi = {10.1109/INFCOM.2012.6195624},
+ editor = {Greenberg, Albert G. and Sohraby, Kazem},
+ isbn = {978-1-4673-0773-4},
+ pages = {235--243},
+ publisher = {IEEE},
+ title = {A simpler and better design of error estimating coding},
+ file      = {Nan Hua et al. - 2012 - A simpler and better design of error estimating co.pdf},
+ year = {2012}
+}
+
+@inproceedings{sarma_representative_2011,
+abstract={The study of skylines and their variants has received considerable attention in recent years. Skylines are essentially sets of most interesting (undominated) tuples in a database. However, since the skyline is often very large, much research effort has been devoted to identifying a smaller subset of (say k) “representative skyline” points. Several different definitions of representative skylines have been considered. Most of these formulations are intuitive in that they try to achieve some kind of clustering “spread” over the entire skyline, with k points. In this work, we take a more principled approach in defining the representative skyline objective. One of our main contributions is to formulate the problem of displaying k representative skyline points such that the probability that a random user would click on one of them is maximized. Two major research questions arise naturally from this formulation. First, how does one mathematically model the likelihood with which a user is interested in and will "click" on a certain tuple? Second, how does one negotiate the absence of the knowledge of an explicit set of target users; in particular what do we mean by "a random user"? To answer the first question, we model users based on a novel formulation of threshold preferences which we will motivate further in the paper. To answer the second question, we assume a probability distribution of users instead of a fixed set of users. While this makes the problem harder, it lends more mathematical structures that can be exploited as well, as one can now work with probabilities of thresholds and handle cumulative density functions. On the theoretical front, our objective is NP-hard. For the case of a finite set of users with known thresholds, we present a simple greedy algorithm that attains an approximation ratio of (1 - 1/e) of the optimal. For the case of user distributions, we show that a careful yet similar greedy algorithm achieves the same approximation ratio. Unfortunately, it turns out that this algorithm is rather involved and computationally expensive. So we present a threshold sampling based algorithm that is more computationally affordable and, for any fixed ∈ >; 0, has an approximation ratio of (1 - 1/e - ∈). We perform experiments on both real and synthetic data to show that our algorithm significantly outperforms previously proposed approaches.}, 
+ author = {Atish Das Sarma and Ashwin Lall and Danupon Nanongkai and Richard J. Lipton and Jun Xu},
+ booktitle = {Proc. of IEEE ICDE},
+  location={Hannover, Germany},
+ month=apr,
+ doi = {10.1109/ICDE.2011.5767873},
+ editor = {Abiteboul, Serge and Böhm, Klemens and Koch, Christoph and Tan, Kian-Lee},
+ file = {Sarma et al. - 2011 - Representative skylines using threshold-based pref.pdf},
+ isbn = {978-1-4244-8958-9},
+ pages = {387--398},
+ publisher = {IEEE Computer Society},
+ title = {Representative skylines using threshold-based preference distributions},
+ year = {2011}
+}
+
+@inproceedings{hua_just_in_time_2010,
+abstract={Continuous  monitoring  of  human  physiology  and  behaviorin  natural  environments  via  unobtrusively  wearable  wire-less sensors is witnessing rapid adoption in both consumerhealthcare and in scientific studies, since those portable andlong-running devices can provide critical information for di-agnosis and early prevention of disease, as well as invaluabledata for scientific studies.  Due to the requirement of contin-uous monitoring, these sensors, all operating on small wear-able  batteries,  require  frequent  recharging.   Lowering  thisrecharging burden is essential for their widespread adoption.  In this paper we explore mechanisms for significantly en-hancing  the  lifetime  of  these  wearable  sensors  at  the  costof a small loss in their sensing accuracies.  We propose twoideas that build upon our observation that collecting burstsof samples over short periods of time is sufficient to capturethe most interesting and informative part of the signal.  Inthe first part of this paper, we propose a general methodol-ogy for reconstructing bandlimited signals accurately fromsuch short bursts of samples.  While this reconstruction taskis in nature an ill-conditioned problem, we show that the in-sertion of an analog “modulated pre-filter” hardware modulebefore the ADC can almost surely alleviate this conditioningproblem.  In the second part of this paper, we describejust-in-time sampling, which by sampling in short bursts at the“right” times, can accurately track R-wave peaks in ECG sig-nals.  Using simulations on publicly available traces as wellas self-collected data, we show the efficacy of this technique},
+ author = {Nan Hua and Ashwin Lall and Mustafa al’Absi and Emre Ertin and Santosh Kumar and Justin Romberg and Shikhar Suri and Jun Xu},
+ doi = {10.1145/1921081.1921089},
+ file = {Hua et al. - 2010 - Just-in-time sampling and pre-filtering for wearab.pdf},
+ isbn = {978-1-60558-989-3},
+ month = oct,
+ location={San Diego, CA, USA},
+ pages = {54--63},
+ publisher = {ACM},
+ booktitle={Proc. of ACM Wireless Health},
+  location={San Diego, CA, USA},
+ shorttitle = {Just-in-time sampling and pre-filtering for wearable physiological sensors},
+ title = {Just-in-time sampling and pre-filtering for wearable physiological sensors: going from days to weeks of operation on a single charge},
+ url = {http://dl.acm.org/citation.cfm?id=1921081.1921089},
+ urldate = {2019-01-15},
+ year = {2010}
+}
+
+
+@inproceedings{qiu_listen_2010,
+abstract={Social media sites such as Twitter continue to grow at a fast pace. People of all generations use social media to exchange messages and share experiences of their life in a timely fashion. Most of these sites make their data available. An intriguing question is can we exploit this real-time and massive data-flow to improve business in a measurable way. In this paper, we are particularly interested in tweets (Twitter messages) that are relevant to mobile network performance. We compare tweets with a more traditional source of user experience, i.e., customer care tickets, and correlate both of them with a list of major network incidents. From our study, we have the following observations. First, Twitter users and users who call customer service tend to report different types of performance issues. Second, we observe that tweets typically appear more rapidly in response to network problems than customer tickets. They also appear to respond to a wider range of network issues. Third, significant spikes in the number of tweets appear to indicate short term performance impairments which are not reported in our current list of major network incidents. These observations together indicate that Twitter is an attractive, complementary source for monitoring service performance and its impact on user experience.},
+ author = {Tongqing Qiu and Junlan Feng and Zihui Ge and Jia Wang and Jun Xu and Jennifer Yates},
+ booktitle = {Proc. of ACM SIGCOMM Internet Measurement Conference},
+ doi = {10.1145/1879141.1879178},
+  location={Melbourne, Australia},
+ month=nov,
+ editor = {Allman, Mark},
+ file = {Qiu et al. - 2010 - Listen to me if you can tracking user experience .pdf},
+ isbn = {978-1-4503-0483-2},
+ pages = {288--293},
+ publisher = {ACM},
+ note={short paper},
+ shorttitle = {Listen to me if you can},
+ title = {Listen to me if you can: tracking user experience of mobile network on social media},
+ year = {2010}
+}
+
+
+@inproceedings{qiu_what_2010,
+ abstract = {Router syslogs are messages that a router logs to describe a wide range of events observed by it. They are considered one of the most valuable data sources for monitoring network health and for trou- bleshooting network faults and performance anomalies. However, router syslog messages are essentially free-form text with only a minimal structure, and their formats vary among different vendors and router OSes. Furthermore, since router syslogs are aimed for tracking and debugging router software/hardware problems, they are often too low-level from network service management perspectives. Due to their sheer volume (e.g., millions per day in a large ISP network), detailed router syslog messages are typically examined only when required by an on-going troubleshooting investigation or when given a narrow time range and a specific router under suspicion. Automated systems based on router syslogs on the other hand tend to focus on a subset of the mission critical messages (e.g., relating to network fault) to avoid dealing with the full diversity and complexity of syslog messages. In this project, we design a Sys-logDigest system that can automatically transform and compress such low-level minimally-structured syslog messages into meaningful and prioritized high-level network events, using powerful data mining techniques tailored to our problem domain. These events are three orders of magnitude fewer in number and have much better usability than raw syslog messages. We demonstrate that they provide critical input to network troubleshooting, and net- work health monitoring and visualization.},
+ location = {Melbourne, Australia},
+ author = {Tongqing Qiu and Zihui Ge and Dan Pei and Jia Wang and Jun Xu},
+ booktitle = {Proc. of ACM SIGCOMM Internet Measurement Conference},
+ doi = {10.1145/1879141.1879202},
+ file = {Qiu et al. - 2010 - What Happened in My Network Mining Network Events.pdf},
+ isbn = {978-1-4503-0483-2},
+ keywords = {syslog, troubleshooting},
+ pages = {472--484},
+ publisher = {ACM},
+ series = {{IMC} '10},
+ shorttitle = {What Happened in My Network},
+ title = {What Happened in My Network: Mining Network Events from Router Syslogs},
+ url = {http://doi.acm.org/10.1145/1879141.1879202},
+ urldate = {2019-01-15},
+ year = {2010}
+}
+
+@inproceedings{qiu_towerdefense_2010,
+ abstract = {IP prefix hijacking is one of the top security threats targeting today's Internet routing protocol. Several schemes have been proposed to either detect or mitigate prefix hijacking events. However, none of these approaches is adopted and deployed on a large-scale on the Internet for reasons such as scalability, economical practicality, or unrealistic assumptions about the collaborations among ISPs. Thus there are no actionable and deployable solutions for dealing with prefix hijacking. In this paper, we study key issues related to deploying and operating an IP prefix hijacking detection and mitigation system. Our contributions include (i) deployment strategies for hijacking detection and mitigation system (named as TowerDefense): a practical service model for prefix hijacking protection and effective algorithms for selecting agent locations for detecting and mitigating prefix hijacking attacks; and (ii) large scale experiments on PlanetLab and extensive analysis on the performance of TowerDefense.},
+ author = {Tongqing Qiu and Lusheng Ji and Dan Pei and Jia Wang and Jun Xu},
+ booktitle = {Proc. of IEEE International Conference on Network Protocols (ICNP)},
+  location={Kyoto, Japan},
+ doi = {10.1109/ICNP.2010.5762762},
+ file = {Qiu et al. - 2010 - TowerDefense Deployment strategies for battling a.pdf},
+ keywords = {IP networks, routing protocols, Topology, Internet, Routing protocols, deployment strategies, Greedy algorithms, Internet routing protocol, IP prefix hijacking, Mirrors, Poles and towers, telecommunication security, TowerDefense},
+ month = oct,
+ pages = {134--143},
+ shorttitle = {TowerDefense},
+ title = {TowerDefense: Deployment strategies for battling against IP prefix hijacking},
+ year = {2010}
+}
+
+@InProceedings{Nanongkai_regret_2010,
+  author    = {Danupon Nanongkai and Atish Das Sarma and Ashwin Lall and Richard J. Lipton and Jun Xu},
+  title     = {Regret-minimizing Representative Databases},
+  booktitle = {Proc. of 36th International Conference on Very Large Databases (VLDB)},
+  year      = {2010},
+  pages     = {1114--1124},
+  month     = sep,
+  publisher = {VLDB Endowment},
+  abstract  = {We propose the k-representative regret minimization query (k-regret) as an operation to support multi-criteria decision making. Like top-k, the k-regret query assumes that users have some utility or scoring functions; however, it never asks the users to provide such functions. Like skyline, it filters out a set of interesting points from a potentially large database based on the users' criteria; however, it never overwhelms the users by outputting too many tuples.
+
+In particular, for any number k and any class of utility functions, the k-regret query outputs k tuples from the database and tries to minimize the maximum regret ratio. This captures how disappointed a user could be had she seen k representative tuples instead of the whole database. We focus on the class of linear utility functions, which is widely applicable.
+
+The first challenge of this approach is that it is not clear if the maximum regret ratio would be small, or even bounded. We answer this question affirmatively. Theoretically, we prove that the maximum regret ratio can be bounded and this bound is independent of the database size. Moreover, our extensive experiments on real and synthetic datasets suggest that in practice the maximum regret ratio is reasonably small. Additionally, algorithms developed in this paper are practical as they run in linear time in the size of the database and the experiments show that their running time is small when they run on top of the skyline operation which means that these algorithm could be integrated into current database systems.},
+  acmid     = {1920980},
+  doi       = {10.14778/1920841.1920980},
+  file      = {Nanongkai et al. - 2010 - Regret-minimizing Representative Databases.pdf},
+  issn      = {2150-8097},
+  location  = {Singapore},
+  numpages  = {11},
+  url       = {http://dx.doi.org/10.14778/1920841.1920980},
+}
+
+@inproceedings{wang_design_2010,
+abstract={Many network processing applications require wire-speed access to large data structures or a large amount of flow-level data, but the capacity of SRAMs is woefully inadequate in many cases. In this paper, we analyze a robust pipelined memory architecture that can emulate an ideal SRAM by guaranteeing with very high probability that the output sequence produced by the pipelined memory architecture is the same as the one produced by an ideal SRAM under the same sequence of memory read and write operations, except time-shifted by a fixed pipeline delay of ¿. The design is based on the interleaving of DRAM banks together with the use of a reservation table that serves in part as a data cache. In contrast to prior interleaved memory solutions, our design is robust even under adversarial memory access patterns, which we demonstrate through a rigorous worst-case theoretical analysis using a combination of convex ordering and large deviation theory.}, 
+ author = {Hao Wang and Haiquan (Chuck) Zhao and Bill Lin and Jun Xu},
+ booktitle = {Proc. of IEEE Infocom},
+ month=mar,
+  location={San Diego, CA, USA},
+ doi = {10.1109/INFCOM.2010.5461971},
+ file = {Wang et al. - 2010 - Design and Analysis of a Robust Pipelined Memory S.pdf},
+ isbn = {978-1-4244-5838-7},
+ pages = {1541--1549},
+ publisher = {IEEE},
+ title = {Design and Analysis of a Robust Pipelined Memory System},
+ year = {2010}
+}
+
+
+@inproceedings{zhao_global_2010,
+abstract={In today's Internet applications or sensor networks we often encounter large amounts of data spread over many physically distributed nodes. The sheer volume of the data and bandwidth constraints make it impractical to send all the data to one central node for query processing. Finding distributed icebergs-elements that may have low frequency at individual nodes but high aggregate frequency-is a problem that arises commonly in practice. In this paper we present a novel algorithm with two notable properties. First, its accuracy guarantee and communication cost are independent of the way in which element counts (for both icebergs and non-icebergs) are split amongst the nodes. Second, it works even when each distributed data set is a stream (i.e., one pass data access only). Our algorithm builds upon sketches constructed for the estimation of the second frequency moment (F<sub>2</sub>) of data streams. The intuition of our idea is that when there are global icebergs in the union of these data streams the F<sub>2</sub> of the union becomes very large. This quantity can be estimated due to the summable nature of F<sub>2</sub> sketches. Our key innovation here is to establish tight theoretical guarantees of our algorithm, under certain reasonable assumptions, using an interesting combination of convex ordering theory and large deviation techniques.}, 
+ author = {Haiquan (Chuck) Zhao and Ashwin Lall and Mitsunori Ogihara and Jun Xu},
+ booktitle = {Proc. of IEEE International Conference on Data Engineering (ICDE)},
+ month=mar,
+  location={Long Beach, California, USA},
+ doi = {10.1109/ICDE.2010.5447825},
+ file = {Zhao et al. - 2010 - Global iceberg detection over distributed data str.pdf},
+ isbn = {978-1-4244-5444-0},
+ pages = {557--568},
+ publisher = {IEEE Computer Society},
+ title = {Global iceberg detection over distributed data streams},
+ year = {2010}
+}
+
+@inproceedings{qiu_modeling_2009,
+abstract={Internet Protocol Television (IPTV) has emerged as a new delivery method for TV. In contrast with native broadcast in traditional cable and satellite TV system, video streams in IPTV are encoded in IP packets and distributed using IP unicast and multicast. This new architecture has been strategically embraced by ISPs across the globe, recognizing the opportunity for new services and its potential toward a more interactive style of TV watching experience in the future. Since user activities such as channel switches in IPTV impose workload beyond local TV or set-top box (different from broadcast TV systems), it becomes essential to characterize and model the aggregate user activities in an IPTV network to support various system design and performance evaluation functions such as network capacity planning. In this work, we perform an in-depth study on several intrinsic characteristics of IPTV user activities by analyzing the real data collected from an operational nation-wide IPTV system. We further generalize the findings and develop a series of models for capturing both the probability distribution and time-dynamics of user activities. We then combine theses models to design an IPTV user activity workload generation tool called SIMUL WATCH, which takes a small number of input parameters and generates synthetic workload traces that mimic a set of real users watching IPTV. We validate all the models and the prototype of SIMUL WATCH using the real traces. In particular, we show that SIMUL WATCH can estimate the unicast and multicast traffic accurately, proving itself as a useful tool in driving the performance study in IPTV systems.},
+ author = {Tongqing Qiu and Zihui Ge and Seungjoon Lee and Jia Wang and Jun Xu and Qi Zhao},
+ booktitle = {Proc. of ACM Internet Measurement Conference (IMC)},
+  location={Chicago, Illinois, USA},
+ month=nov,
+ doi = {10.1145/1644893.1644945},
+ editor = {Feldmann, Anja and Mathy, Laurent},
+ file = {Qiu et al. - 2009 - Modeling user activities in a large IPTV system.pdf},
+ isbn = {978-1-60558-771-4},
+ pages = {430--441},
+ publisher = {ACM},
+ title = {Modeling user activities in a large IPTV system},
+ year = {2009}
+}
+
+@inproceedings{zhao_design_2009,
+abstract={The problem of maintaining efficiently a large number (say millions) of statistics counters that need to be updated at very high speeds (e.g. 40 Gb/s) has received considerable research attention in recent years. This problem arises in a variety of router management and data streaming applications where large arrays of counters are used to track various network statistics and implement various counting sketches. It proves too costly to store such large counter arrays entirely in SRAM while DRAM is viewed as too slow for providing wirespeed updates at such high speeds.
+
+In this paper, we propose a DRAM-based counter architecture that can effectively maintain wirespeed updates to large counter arrays. The proposed approach is based on the observation that modern commodity DRAM architectures, driven by aggressive performance roadmaps for consumer applications (e.g. video games), have advanced architecture features that can be exploited to make a DRAM-based solution practical. In particular, we propose a randomized DRAM architecture that can harness the performance of modern commodity DRAM offerings by interleaving counter updates to multiple memory banks. The proposed architecture makes use of a simple randomization scheme, a small cache, and small request queues to statistically guarantee a near-perfect load-balancing of counter updates to the DRAM banks. The statistical guarantee of the proposed scheme is proven using a novel combination of convex ordering and large deviation theory. Our proposed counter scheme can support arbitrary increments and decrements at wirespeed, and it can support different number representations, including both integer and floating point number representations.},
+ author = {Haiquan (Chuck) Zhao and Hao Wang and Bill Lin and Jun (Jim) Xu},
+ booktitle = {Proc. of ACM/IEEE Symposium on Architectures for Networking and Communications Systems (ANCS)},
+ doi = {10.1145/1882486.1882512},
+  location={Princeton, New Jersey, USA},
+ month=oct,
+ file = {Zhao et al. - 2009 - Design and performance analysis of a DRAM-based st.pdf},
+ isbn = {978-1-60558-630-4},
+ pages = {84--93},
+ publisher = {ACM},
+ title = {Design and performance analysis of a DRAM-based statistics counter array architecture},
+ year = {2009}
+}
+
+
+@inproceedings{sarma_randomized_2009,
+abstract={We consider external algorithms for skyline computation without pre-processing. Our goal is to develop an algorithm with a good worst case guarantee while performing well on average. Due to the nature of disks, it is desirable that such algorithms access the input as a stream (even if in multiple passes). Using the tools of randomness, proved to be useful in many applications, we present an efficient multi-pass streaming algorithm, RAND, for skyline computation. As far as we are aware, RAND is the first randomized skyline algorithm in the literature.
+
+RAND is near-optimal for the streaming model, which we prove via a simple lower bound. Additionally, our algorithm is distributable and can handle partially ordered domains on each attribute. Finally, we demonstrate the robustness of RAND via extensive experiments on both real and synthetic datasets. RAND is comparable to the existing algorithms in average case and additionally tolerant to simple modifications of the data, while other algorithms degrade considerably with such variation.},
+ author = {Atish Das Sarma and Ashwin Lall and Danupon Nanongkai and Jun Xu},
+ doi = {10.14778/1687627.1687638},
+ file = {Sarma et al. - 2009 - Randomized Multi-pass Streaming Skyline Algorithms.pdf},
+booktitle = {Proc. of 35th International Conference on Very Large Databases (VLDB)},
+ number = {1},
+ pages = {85--96},
+ month=aug,
+  location={Lyon, France},
+ title = {Randomized Multi-pass Streaming Skyline Algorithms},
+ url = {http://www.vldb.org/pvldb/2/vldb09-385.pdf},
+ urldate = {2019-01-14},
+ volume = {2},
+ year = {2009}
+}
+
+
+@inproceedings{qiu_locating_2009,
+abstract={Prefix hijacking is one of the top known threats on today's Internet. A number of measurement based solutions have been proposed to detect prefix hijacking events. In this paper we take these solutions one step further by addressing the problem of locating the attacker in each of the detected hijacking event. Being able to locate the attacker is critical for conducting necessary mitigation mechanisms at the earliest possible time to limit the impact of the attack, successfully stopping the attack and restoring the service.
+
+We propose a robust scheme named LOCK, for LOCating the prefix hijacKer ASes based on distributed Internet measurements. LOCK locates each attacker AS by actively monitoring paths (either in the control-plane or in the data-plane) to the victim prefix from a small number of carefully selected monitors distributed on the Internet. Moreover, LOCK is robust against various countermeasures that the hijackers may employ. This is achieved by taking advantage of two observations: that the hijacker cannot manipulate AS path before the path reaches the hijacker, and that the paths to victim prefix "converge" around the hijacker AS. We have deployed LOCK on a number of PlanetLab nodes and conducted several large scale measurements and experiments to evaluate the performance. Our results show that LOCK is able to pinpoint the prefix hijacker AS with an accuracy up to 94.3%.},
+ author = {Tongqing Qiu and Lusheng Ji and Dan Pei and Jia Wang and Jun Xu and Hitesh Ballani},
+ booktitle = {Proc. of USENIX Security Symposium},
+  location={Montreal, Canada},
+ month=aug,
+ editor = {Monrose, Fabian},
+ file = {Qiu et al. - 2009 - Locating Prefix Hijackers using LOCK.pdf},
+ isbn = {978-1-931971-69-0},
+ pages = {135--150},
+ publisher = {USENIX Association},
+ title = {Locating Prefix Hijackers using LOCK},
+ url = {http://www.usenix.org/events/sec09/tech/full_papers/qiu.pdf},
+ urldate = {2019-01-14},
+ year = {2009}
+}
+
+
+@inproceedings{qiu_modeling_2009a,
+ abstract = {Understanding the channel popularity or content popularity is an important step in the workload characterization for modern information distribution systems (e.g., World Wide Web, peer-to-peer file-sharing systems, video-on-demand systems). In this paper, we focus on analyzing the channel popularity in the context of Internet Protocol Television (IPTV). In particular, we aim at capturing two important aspects of channel popularity - the distribution and temporal dynamics of the channel popularity. We conduct in-depth analysis on channel popularity on a large collection of user channel access data from a nation-wide commercial IPTV network. Based on the findings in our analysis, we choose a stochastic model that finds good matches in all attributes of interest with respect to the channel popularity. Furthermore, we propose a method to identify subsets of user population with inherently different channel interest. By tracking the change of population mixtures among different user classes, we extend our model to a multi-class population model, which enables us to capture the moderate diurnal popularity patterns exhibited in some channels. We also validate our channel popularity model using real user channel access data from commercial IPTV network.},
+  location = {Seattle, Washington, USA},
+ author = {Tongqing Qiu and Zihui Ge and Seungjoon Lee and Jia Wang and Qi Zhao and Jun Xu},
+ booktitle = {Proc. of ACM Sigmetrics/IFIP Performance},
+ doi = {10.1145/1555349.1555381},
+ file = {Qiu et al. - 2009 - Modeling Channel Popularity Dynamics in a Large IP.pdf},
+ isbn = {978-1-60558-511-6},
+ keywords = {network measurement, channel popularity, IPTV, modeling},
+ pages = {275--286},
+ publisher = {ACM},
+ series = {{SIGMETRICS} '09},
+ title = {Modeling Channel Popularity Dynamics in a Large IPTV System},
+ url = {http://doi.acm.org/10.1145/1555349.1555381},
+ urldate = {2019-01-15},
+ year = {2009},
+ month=jun,
+}
+
+
+@article{lin_randomized_2009,
+abstract={We extend a previously proposed randomized interleaved DRAM architecture [1] that can maintain wirespeed updates (say 40 Gb/s) to a large array (say millions) of counters. It works by interleaving updates to randomly distributed counters across multiple memory banks. Though unlikely, an adversary can conceivably overload a memory bank by triggering frequent updates to the same counter. In this work, we show this "attack" can be mitigated through caching pending updates, which can catch repeated updates to the same counter within a sliding time window. While this architecture of combining randomization with caching is simple and straightforward, the primary contribution of this work is to rigorously prove that it can handle with overwhelming probability all adversarial update patterns, using a combination of tail bound techniques, convex ordering theory, and queueing analysis.},
+ author = {Bill Lin and Jun Xu and Nan Hua and Hao Wang and Haiquan Zhao},
+ doi = {10.1145/1639562.1639582},
+ file = {Lin et al. - 2009 - A randomized interleaved DRAM architecture for the.pdf},
+ journal = {Proc. of ACM Sigmetrics/IFIP Performance},
+ number = {2},
+ pages = {53--54},
+ title = {A randomized interleaved DRAM architecture for the maintenance of exact statistics counters},
+ volume = {37},
+   location = {Seattle, Washington, USA},
+ year = {2009},
+ month=jun,
+}
+
+
+@inproceedings{lall_efficient_2009,
+ abstract = {It has been well recognized that identifying very large flows (i.e., elephants) in a network traffic stream is important for a variety of network applications ranging from traffic engineering to anomaly detection. However, we found that many of these applications have an increasing need to monitor not only the few largest flows (say top 20), but also all of the medium-sized flows (say top 20,000). Unfortunately, existing techniques for identifying elephant flows at high link speeds are not suitable and cannot be trivially extended for identifying the medium-sized flows. In this work, we propose a hybrid SRAM/DRAM algorithm for monitoring all elephant and medium-sized flows with strong accuracy guarantees. We employ a synopsis data structure (sketch) in SRAM to filter out small flows and preferentially sample medium and large flows to a flow table in DRAM. Our key contribution is to show how to maximize the use of SRAM and DRAM available to us by using a SRAM/DRAM hybrid data structure that can achieve more than an order of magnitude higher SRAM efficiency than previous methods. We design a quantization scheme that allows our algorithm to "read just enough" from the sketch at SRAM speed, without sacrificing much estimation accuracy. We provide analytical guarantees on the accuracy of the estimation and validate these by means of trace-driven evaluation using real- world packet traces..},
+ author = {Ashwin Lall and Mitsunori Ogihara and Jun Xu},
+ booktitle = {Proc. IEEE INFOCOM Mini-Conference},
+ doi = {10.1109/INFCOM.2009.5062217},
+ file = {Lall et al. - 2009 - An Efficient Algorithm for Measuring Medium- to La.pdf},
+ keywords = {telecommunication traffic, Telecommunication traffic, telecommunication network routing, Data structures, Bandwidth, Estimation error, Quality of service, Random access memory, Sampling methods, Monitoring, DRAM chips, Probability, SRAM chips, DRAM algorithm, medium-to large-sized flow, Mice, network traffic, SRAM algorithm, synopsis data structure},
+ month = apr,
+ pages = {2711--2715},
+  location={Rio de Janeiro, Brazil},
+ title = {An Efficient Algorithm for Measuring Medium- to Large-Sized Flows in Network Traffic},
+ year = {2009}
+}
+
+
+@inproceedings{hua_rank-indexed_2008,
+ abstract = {Bloom filter and its variants have found widespread use in many networking applications. For these applications, minimizing storage cost is paramount as these filters often need to be implemented using scarce and costly (on-chip) SRAM. Besides supporting membership queries, Bloom filters have been generalized to support deletions and the encoding of information. Although a standard Bloom filter construction has proven to be extremely space-efficient, it is unnecessarily costly when generalized. Alternative constructions based on storing fingerprints in hash tables have been proposed that offer the same functionality as some Bloom filter variants, but using less space. In this paper, we propose a new fingerprint hash table construction called Rank-Indexed Hashing that can achieve very compact representations. A rank-indexed hashing construction that offers the same functionality as a counting Bloom filter can be achieved with a factor of three or more in space savings even for a false positive probability of just 1\%. Even for a basic Bloom filter function that only supports membership queries, a rank-indexed hashing construction requires less space for a false positive probability as high as 0.1\%, which is significant since a standard Bloom filter construction is widely regarded as extremely space-efficient for approximate membership problems.},
+ author = {Nan Hua and Haiquan Zhao and Bill Lin and Jun Xu},
+ booktitle = {Proc. of IEEE International Conference on Network Protocols (ICNP)},
+ doi = {10.1109/ICNP.2008.4697026},
+ file = {Hua et al. - 2008 - Rank-indexed hashing A compact construction of Bl.pdf},
+ keywords = {Computer science, Data structures, Costs, probability, Random access memory, random processes, Encoding, SRAM, Counting circuits, Application software, Bloom filter variant, data representation, data structures, database indexing, false positive probability, fingerprint hash table construction, Fingerprint recognition, information encoding, Information filtering, Information filters, membership query, rank-indexed hashing, space-efficient randomized data structure},
+ month = oct,
+ pages = {73--82},
+ shorttitle = {Rank-indexed hashing},
+  location={Orlando, Florida, USA},
+ title = {Rank-indexed hashing: A compact construction of Bloom filters and variants},
+ year = {2008}
+}
+
+
+@inproceedings{qiu_packet_2008,
+ abstract = {Due to recent large-scale deployments of delay and loss-sensitive applications, there are increasingly stringent demands on the monitoring of service level agreement metrics. Although many end-to-end monitoring methods have been proposed, they are mainly based on active probing and thus inject measurement traffic into the network. In this paper, we propose a new scheme for monitoring service level agreement metrics, in particular, delay distribution. Our scheme is passive and therefore will not cause perturbation to real traffic. Using realistic delay and traffic demands, we show that our scheme achieves high accuracy and can detect burst events that will be missed by probing based methods.},
+  location = {Madrid, Spain},
+ author = {Tongqing Qiu and Jian Ni and Hao Wang and Nan Hua and Yang Yang and Jun Xu},
+ booktitle = {Proc. of ACM CoNEXT},
+ doi = {10.1145/1544012.1544015},
+ file = {Qiu et al. - 2008 - Packet Doppler Network Monitoring Using Packet Sh.pdf},
+ isbn = {978-1-60558-210-8},
+ pages = {3:1--3:12},
+ publisher = {ACM},
+ series = {{CoNEXT} '08},
+ shorttitle = {Packet Doppler},
+ title = {Packet Doppler: Network Monitoring Using Packet Shift Detection},
+ url = {http://doi.acm.org/10.1145/1544012.1544015},
+ urldate = {2019-01-15},
+ year = {2008}
+}
+
+
+@inproceedings{Hua_brick_2008,
+abstract={In this paper, we present an exact active statistics counter architecture called BRICK (Bucketized Rank Indexed Counters) that can efficiently store per-flow variable-width statistics counters entirely in SRAM while supporting both fast updates and lookups (e.g., 40 Gb/s line rates). BRICK exploits statistical multiplexing by randomly bundling counters into small fixed-size buckets and supports dynamic sizing of counters by employing an innovative indexing scheme called rank-indexing. Experiments with Internet traces show that our solution can indeed maintain large arrays of exact active statistics counters with moderate amounts of SRAM.},
+ author = {Hua, Nan and Lin, Bill and Xu, Jun (Jim) and Zhao, Haiquan (Chuck)},
+ title = {BRICK: A Novel Exact Active Statistics Counter Architecture},
+ booktitle = {Proc. of ACM/IEEE Symposium on Architectures for Networking and Communications Systems (ANCS)},
+ series = {ANCS '08},
+ year = {2008},
+ isbn = {978-1-60558-346-4},
+ location = {San Jose, California, USA},
+ pages = {89--98},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1477942.1477956},
+ doi = {10.1145/1477942.1477956},
+ acmid = {1477956},
+ publisher = {ACM},
+ month=nov,
+ address = {New York, NY, USA},
+ keywords = {router, statistics counter},
+} 
+
+
+@inproceedings{hamilton_aces_2008,
+ abstract = {Clock synchronization across a network is essential for a large number of applications ranging from wired network measurements to data fusion in sensor networks. Earlier techniques are either limited to undesirable accuracy or rely on specific hardware characteristics that may not be available for certain systems. In this work, we examine the clock synchronization problem in resource-constrained networks such as wireless sensor networks where nodes have limited energy and bandwidth, and also lack the high accuracy oscillators or programmable network interfaces some previous protocols depend on. This paper derives a general model for clock offset and skew and demonstrates its applicability. We design efficient algorithms based on this model to achieve high synchronization accuracy given limited resources. These algorithms apply the Kalman filter to track the clock offset and skew, and adaptively adjust the synchronization interval so that the desired error bounds are achieved. We demonstrate the performance advantages of our schemes through extensive simulations obeying real-world constraints.},
+ address = {New York, NY, USA},
+ author = {Benjamin Hamilton and Xiaoli Ma and Qi Zhao and Jun Xu},
+ booktitle = {Proc. of the ACM International Conference on Mobile Computing and Networking (Mobicom)},
+ doi = {10.1145/1409944.1409963},
+ file = {Hamilton et al. - 2008 - ACES Adaptive Clock Estimation and Synchronizatio.pdf},
+ isbn = {978-1-60558-096-8},
+ location={San Francisco, CA, USA},
+ keywords = {clock offset, clock skew, clock synchronization, Kalman filter, resource-constrained network},
+ pages = {152--162},
+ publisher = {ACM},
+ series = {{MobiCom} '08},
+ shorttitle = {ACES},
+ title = {ACES: Adaptive Clock Estimation and Synchronization Using Kalman Filtering},
+ url = {http://doi.acm.org/10.1145/1409944.1409963},
+ month=sept,
+ urldate = {2019-01-15},
+ year = {2008}
+}
+
+
+@inproceedings{zhao_data_2007,
+abstract={Entropy has recently gained considerable significance as an important metric for network measurement. Previous research has shown its utility in clustering traffic and detecting traffic anomalies. While measuring the entropy of the traffic observed at a single point has already been studied, an interesting open problem is to measure the entropy of the traffic between every origin-destination pair. In this paper, we propose the first solution to this challenging problem. Our sketch builds upon and extends the Lp sketch of Indyk with significant additional innovations. We present calculations showing that our data streaming algorithm is feasible for high link speeds using commodity CPU/memory at a reasonable cost. Our algorithm is shown to be very accurate in practice via simulations, using traffic traces collected at a tier-1 ISP backbone link.},
+ author = {Haiquan Zhao and Ashwin Lall and Mitsunori Ogihara and Olivier Spatscheck and Jia Wang and Jun Xu},
+ booktitle = {Proc. ACM Internet Measurement Conference},
+ location={San Diego, California, USA},
+ month=oct,
+ doi = {10.1145/1298306.1298345},
+ editor = {Dovrolis, Constantine and Roughan, Matthew},
+ file = {hentropy-imc07.pdf},
+ isbn = {978-1-59593-908-1},
+ pages = {279--290},
+ publisher = {ACM},
+ title = {A data streaming algorithm for estimating entropies of od flows},
+ year = {2007}
+}
+
+@InProceedings{huang_diagnosing_2007,
+  author    = {Yiyi Huang and Nick Feamster and Anukool Lakhina and Jun Xu},
+  title     = {Diagnosing network disruptions with network-wide analysis},
+  booktitle = {Proc. of ACM Sigmetrics},
+  year      = {2007},
+  month     = jun,
+  abstract  = {To maintain high availability in the face of changing network conditions, network operators must quickly detect, identify, and react to events that cause network disruptions. One way to accomplish this goal is to monitor routing dynamics, by analyzing routing update streams collected from routers. Existing monitoring approaches typically treat streams of routing updates from different routers as independent signals, and report only the "loud" events (i.e., events that involve large volume of routing messages). In this paper, we examine BGP routing data from all routers in the Abilene backbone for six months and correlate them with a catalog of all known disruptions to its nodes and links. We find that many important events are not loud enough to be detected from a single stream. Instead, they become detectable only when multiple BGP update streams are simultaneously examined. This is because routing updates exhibit network-wide dependencies.
+
+This paper proposes using network-wide analysis of routing information to diagnose (i.e., detect and identify) network disruptions. To detect network disruptions, we apply a multivariate analysis technique on dynamic routing information, (i.e., update traffic from all the Abilene routers) and find that this technique can detect every reported disruption to nodes and links within the network with a low rate of false alarms. To identify the type of disruption, we jointly analyze both the network-wide static configuration and details in the dynamic routing updates; we find that our method can correctly explain the scenario that caused the disruption. Although much work remains to make network-wide analysis of routing data operationally practical, our results illustrate the importance and potential of such an approach.},
+  doi       = {10.1145/1254882.1254890},
+  file      = {metrics160.pdf},
+  issn      = {0163-5999},
+  location  = {San Diego, CA, USA},
+  url       = {http://dl.acm.org/citation.cfm?id=1254882.1254890},
+}
+
+
+@inproceedings{zhao_finding_2006,
+abstract={Finding icebergs–items whose frequency of occurrence is above a certain threshold–is an important problem with a wide range of applications. Most of the existing work focuses on iceberg queries at a single node. However, in many real-life applications, data sets are distributed across a large number of nodes. Two naïve approaches might be considered. In the first, each node ships its entire data set to a central server, and the central server uses single-node algorithms to find icebergs. But it may incur prohibitive communication overhead. In the second, each node submits local icebergs, and the central server combines local icebergs to find global icebergs. But it may fail because in many important applications, globally frequent items may not be frequent at any node. In this work, we propose two novel schemes that provide accurate and efficient solutions to this problem: a sampling-based scheme and a counting-sketch-based scheme. In particular, the latter scheme incurs a communication cost at least an order of magnitude smaller than the naïve scheme of shipping all data, yet is able to achieve very high accuracy. Through rigorous theoretical and experimental analysis we establish the statistical properties of our proposed algorithms, including their accuracy bounds.},
+ author = {Qi Zhao and Mitsunori Ogihara and Haixun Wang and Jun Xu},
+ booktitle = {Proc. of ACM Symposium on Principles of Database Systems (PODS)},
+ location={Chicago, Illinois, USA},
+ doi = {10.1145/1142351.1142394},
+ editor = {Vansummeren, Stijn},
+ file = {Pods06.pdf},
+ isbn = {978-1-59593-318-8},
+ pages = {298--307},
+ publisher = {ACM},
+ title = {Finding global icebergs over distributed data sets},
+ year = {2006}
+}
+
+
+@inproceedings{zhao_design_2006,
+ abstract = {The problem of how to efficiently maintain a large number (say millions) of statistics counters that need to be incremented at very high speed has received considerable research attention recently. This problem arises in a variety of router management algorithms and data streaming algorithms, where a large array of counters is used to track various network statistics and to implement various counting sketches respectively. While fitting these counters entirely in SRAM meets the access speed requirement, a large amount of SRAM may be needed with a typical counter size of 32 or 64 bits, and hence the high cost. Solutions proposed in recent works have used hybrid architectures where small counters in SRAM are incremented at high speed, and occasionally written back ("flushed") to larger counters in DRAM. Previous solutions have used complex schedulers with tree-like or heap data structures to pick which counters in SRAM are about to overflow, and flush them to the corresponding DRAM counters.In this work, we present a novel hybrid SRAM/DRAM counter architecture that consumes much less SRAM and has a much simpler design of the scheduler than previous approaches. We show, in fact, that our design is optimal in the sense that for a given speed difference between SRAM and DRAM, our design uses the theoretically minimum number of bits per counter in SRAM. Our design uses a small write-back buffer (in SRAM) that stores indices of the overflowed counters (to be flushed to DRAM) and an extremely simple randomized algorithm to statistically guarantee that SRAM counters do not overflow in bursts large enough to fill up the write-back buffer even in the worst case. The statistical guarantee of the algorithm is proven using a combination of worst case analysis for characterizing the worst case counter increment sequence and a new tail bound theorem for bounding the probability of filling up the write-back buffer. Experiments with real Internet traffic traces show that the buffer size required in practice is significantly smaller than needed in the worst case.},
+ address = {New York, NY, USA},
+ author = {Qi Zhao and Jun Xu and Zhen Liu},
+ booktitle = {Proc. of ACM SIGMETRICS/IFIP Performance},
+ location={Saint Malo, Franc},
+ doi = {10.1145/1140277.1140314},
+ file = {Sigm06_counter.pdf},
+ isbn = {978-1-59593-319-5},
+ keywords = {data streaming, router, statistics counter},
+ pages = {323--334},
+ publisher = {ACM},
+ series = {{SIGMETRICS} '06/{Performance} '06},
+ title = {Design of a Novel Statistics Counter Architecture with Optimal Space and Time Efficiency},
+ url = {http://doi.acm.org/10.1145/1140277.1140314},
+ urldate = {2019-01-15},
+ year = {2006},
+ month=jun,
+}
+
+@inproceedings{zhao_robust_2006,
+ abstract = {Estimation of traffic matrices, which provide critical input for network capacity planning and traffic engineering, has recently been recognized as an important research problem. Most of the previous approaches infer traffic matrix from either SNMP link loads or sampled NetFlow records. In this work, we design novel inference techniques that, by statistically correlating SNMP link loads and sampled NetFlow records, allow for much more accurate estimation of traffic matrices than obtainable from either information source alone, even when sampled NetFlow records are available at only a subset of ingress. Our techniques are practically important and useful since both SNMP and NetFlow are now widely supported by vendors and deployed in most of the operational IP networks. More importantly, this research leads us to a new insight that SNMP link loads and sampled NetFlow records can serve as "error correction codes" to each other. This insight helps us to solve a challenging open problem in traffic matrix estimation, "How to deal with dirty data (SNMP and NetFlow measurement errors due to hardware/software/transmission problems)?" We design techniques that, by comparing notes between the above two information sources, identify and remove dirty data, and therefore allow for accurate estimation of the traffic matrices with the cleaned dat.We conducted experiments on real measurement data obtained from a large tier-1 ISP backbone network. We show that, when full deployment of NetFlow is not available, our algorithm can improve estimation accuracy significantly even with a small fraction of NetFlow data. More importantly, we show that dirty data can contaminate a traffic matrix, and identifying and removing them can reduce errors in traffic matrix estimation by up to an order of magnitude. Routing changes is another a key factor that affects estimation accuracy. We show that using them as the a priori, the traffic matrices can be estimated much more accurately than those omitting the routing change. To the best of our knowledge, this work is the first to offer a comprehensive solution which fully takes advantage of using multiple readily available data sources. Our results provide valuable insights on the effectiveness of combining flow measurement and link load measurement.},
+ address = {New York, NY, USA},
+ author = {Qi Zhao and Zihui Ge and Jia Wang and Jun Xu},
+ booktitle = {Proc. of ACM SIGMETRICS/IFIP Performance},
+ doi = {10.1145/1140277.1140294},
+ location={Saint Malo, France},
+ month=jun,
+ file = {Sigm06_flow.pdf},
+ isbn = {978-1-59593-319-5},
+ keywords = {network measurement, statistical inference, traffic matrix},
+ pages = {133--144},
+ publisher = {ACM},
+ series = {{SIGMETRICS} '06/{Performance} '06},
+ shorttitle = {Robust Traffic Matrix Estimation with Imperfect Information},
+ title = {Robust Traffic Matrix Estimation with Imperfect Information: Making Use of Multiple Data Sources},
+ url = {http://doi.acm.org/10.1145/1140277.1140294},
+ urldate = {2019-01-15},
+ year = {2006}
+}
+
+@inproceedings{lall_data_2006,
+abstract={Using entropy of traffic distributions has been shown to aid a wide variety of network monitoring applications such as anomaly detection, clustering to reveal interesting patterns, and traffic classification. However, realizing this potential benefit in practice requires accurate algorithms that can operate on high-speed links, with low CPU and memory requirements. In this paper, we investigate the problem of estimating the entropy in a streaming computation model. We give lower bounds for this problem, showing that neither approximation nor randomization alone will let us compute the entropy efficiently. We present two algorithms for randomly approximating the entropy in a time and space efficient manner, applicable for use on very high speed (greater than OC-48) links. The first algorithm for entropy estimation is inspired by the structural similarity with the seminal work of Alon et al. for estimating frequency moments, and we provide strong theoretical guarantees on the error and resource usage. Our second algorithm utilizes the observation that the performance of the streaming algorithm can be enhanced by separating the high-frequency items (or elephants) from the low-frequency items (or mice). We evaluate our algorithms on traffic traces from different deployment scenarios.},
+ author = {Ashwin Lall and Vyas Sekar and Mitsunori Ogihara and Jun Xu and Hui Zhang},
+  booktitle = {Proc. of ACM SIGMETRICS/IFIP Performance},
+ doi = {10.1145/1140277.1140295},
+ location={Saint Malo, France},
+ file = {Sigm06_entropy.pdf},
+ isbn = {978-1-59593-319-5},
+ pages = {145--156},
+ publisher = {ACM},
+ title = {Data streaming algorithms for estimating entropy of network traffic},
+ year = {2006},
+ month=jun,
+}
+
+
+@inproceedings{kumar_sketch_2006,
+ author = {Abhishek Kumar and Jun Xu},
+ booktitle = {Proc. of IEEE Infocom},
+ month=apr,
+ location={Barcelona, Catalunya, Spain},
+ doi = {10.1109/INFOCOM.2006.326},
+ file = {guided.pdf},
+ isbn = {978-1-4244-0221-2},
+ publisher = {IEEE},
+ title = {Sketch Guided Sampling - Using On-Line Estimates of Flow Size for Adaptive Data Collection},
+ year = {2006}
+}
+
+@inproceedings{zhao_joint_2005,
+ abstract = {Detecting the sources or destinations that have communicated with a large number of distinct destinations or sources during a small time interval is an important problem in network measurement and security. Previous detection approaches are not able to deliver the desired accuracy at high link speeds (10 to 40 Gbps). In this work, we propose two novel algorithms that provide accurate and efficient solutions to this problem. Their designs are based on the insight that sampling and data streaming are often suitable for capturing different and complementary regions of the information spectrum, and a close collaboration between them is an excellent way to recover the complete information. Our first solution builds on the standard hash-based flow sampling algorithm. Its main innovation is that the sampled traffic is further filtered by a data streaming module which allows for much higher sampling rate and hence much higher accuracy. Our second solution is more sophisticated but offers higher accuracy. It combines the power of data streaming in efficiently estimating quantities associated with a given identity, and the power of sampling in collecting a list of candidate identities. The performance of both solutions are evaluated using both mathematical analysis and trace-driven experiments on real-world Internet traffic.},
+ location = {Berkeley, CA, USA},
+ author = {Qi Zhao and Abhishek Kumar and Jun Xu},
+ booktitle = {Proc. of USENIX/ACM Internet Measurement Conference (IMC)},
+ file = {imc05.pdf},
+ pages = {7--7},
+ publisher = {USENIX Association},
+ series = {{IMC} '05},
+ title = {Joint Data Streaming and Sampling Techniques for Detection of Super Sources and Destinations},
+ url = {http://dl.acm.org/citation.cfm?id=1251086.1251093},
+ urldate = {2019-01-15},
+ year = {2005}
+}
+
+
+@inproceedings{kumar_data_2005,
+ abstract = {Statistical information about the flow sizes in the traffic passing through a network link helps a network operator to characterize network resource usage, infer traffic demands, detect traffic anomalies, and improve network performance through traffic engineering. Previous work on estimating the flow size distribution for the complete population of flows has produced techniques that either make inferences from sampled network traffic, or use data streaming approaches. In this work, we identify and solve a more challenging problem of estimating the size distribution and other statistical information about arbitrary subpopulations of flows. Inferring subpopulation flow statistics is more challenging than the complete population counterpart, since subpopulations of interest are often specified a posteriori (i.e., after the data collection is done), making it impossible for the data collection module to "plan in advance".Our solution consists of a novel mechanism that combines data streaming with traditional packet sampling to provide highly accurate estimates of subpopulation flow statistics. The algorithm employs two data collection modules operating in parallel --- a NetFlow-like packet sampler and a streaming data structure made up of an array of counters. Combining the data collected by these two modules, our estimation algorithm uses a statistical estimation procedure that correlates and decodes the outputs (observations) from both data collection modules to obtain flow statistics for any arbitrary subpopulation. Evaluations of this algorithm on real-world Internet traffic traces demonstrate its high measurement accuracy.},
+ address = {New York, NY, USA},
+ author = {Abhishek Kumar and Min-Ho Sung and Jun Xu and Ellen Zegura},
+ booktitle = {Proc. of ACM SIGMETRIC},
+ location={Banff, Canada},
+ month=jun,
+ doi = {10.1145/1064212.1064221},
+ file = {f88-kumar.pdf},
+ isbn = {978-1-59593-022-4},
+ keywords = {data streaming, traffic analysis, statistical inference, EM algorithm, flow statistics},
+ pages = {61--72},
+ publisher = {ACM},
+ series = {{SIGMETRICS} '05},
+ title = {A Data Streaming Algorithm for Estimating Subpopulation Flow Size Distribution},
+ url = {http://doi.acm.org/10.1145/1064212.1064221},
+ urldate = {2019-01-15},
+ year = {2005}
+}
+
+
+@inproceedings{zhao_data_2005,
+ abstract = {The traffic volume between origin/destination (OD) pairs in a network, known as traffic matrix, is essential for efficient network provisioning and traffic engineering. Existing approaches of estimating the traffic matrix, based on statistical inference and/or packet sampling, usually cannot achieve very high estimation accuracy. In this work, we take a brand new approach in attacking this problem. We propose a novel data streaming algorithm that can process traffic stream at very high speed (e.g., 40 Gbps) and produce traffic digests that are orders of magnitude smaller than the traffic stream. By correlating the digests collected at any OD pair using Bayesian statistics, the volume of traffic flowing between the OD pair can be accurately determined. We also establish principles and techniques for optimally combining this streaming method with sampling, when sampling is necessary due to stringent resource constraints. In addition, we propose another data streaming algorithm that estimates flow matrix, a finer-grained characterization than traffic matrix. Flow matrix is concerned with not only the total traffic between an OD pair (traffic matrix), but also how it splits into flows of various sizes. Through rigorous theoretical analysis and extensive synthetic experiments on real Internet traffic, we demonstrate that these two algorithms can produce very accurate estimation of traffic matrix and flow matrix respectively.},
+ address = {New York, NY, USA},
+ author = {Qi Zhao and Abhishek Kumar and Jia Wang and Jun Xu},
+ booktitle = {Proc. of ACM SIGMETRICS},
+ location={Banff, Canada},
+ month=jun,
+ doi = {10.1145/1064212.1064258},
+ file = {hf89-zhao.pdf},
+ isbn = {978-1-59593-022-4},
+ keywords = {data streaming, network measurement, statistical inference, traffic matrix, sampling},
+ pages = {350--361},
+ publisher = {ACM},
+ series = {{SIGMETRICS} '05},
+ title = {Data Streaming Algorithms for Accurate and Efficient Measurement of Traffic and Flow Matrices},
+ url = {http://doi.acm.org/10.1145/1064212.1064258},
+ urldate = {2019-01-15},
+ year = {2005}
+}
+
+@inproceedings{kumar_efficient_2005,
+ author = {Abhishek Kumar and Jun Xu and Ellen Zegura.},
+ booktitle = {Proc. of IEEE Infocom},
+ month=mar,
+ location={Miami, FL, USA},
+ doi = {10.1109/INFCOM.2005.1498343},
+ file = {sqr.pdf},
+ isbn = {978-0-7803-8968-7},
+ pages = {1162--1173},
+ publisher = {IEEE},
+ title = {Efficient and scalable query routing for unstructured peer-to-peer networks},
+ year = {2005}
+}
+
+
+
+@inproceedings{kumar_data_2004,
+ abstract = {Knowing the distribution of the sizes of traffic flows passing through a network link helps a network operator to characterize network resource usage, infer traffic demands, detect traffic anomalies, and accommodate new traffic demands through better traffic engineering. Previous work on estimating the flow size distribution has been focused on making inferences from sampled network traffic. Its accuracy is limited by the (typically) low sampling rate required to make the sampling operation affordable. In this paper we present a novel data streaming algorithm to provide much more accurate estimates of flow distribution, using a "lossy data structure" which consists of an array of counters fitted well into SRAM. For each incoming packet, our algorithm only needs to increment one underlying counter, making the algorithm fast enough even for 40 Gbps (OC-768) links. The data structure is lossy in the sense that sizes of multiple flows may collide into the same counter. Our algorithm uses Bayesian statistical methods such as Expectation Maximization to infer the most likely flow size distribution that results in the observed counter values after collision. Evaluations of this algorithm on large Internet traces obtained from several sources (including a tier-1 ISP) demonstrate that it has very high measurement accuracy (within 2\%). Our algorithm not only dramatically improves the accuracy of flow distribution measurement, but also contributes to the field of data streaming by formalizing an existing methodology and applying it to the context of estimating the flow-distribution.},
+ address = {New York, NY, USA},
+ author = {Abhishek Kumar and Min-Ho Sung and Jun Xu and Jia Wang},
+ booktitle = {Proc. of ACM Sigmetrics/IFIP Performance},
+ doi = {10.1145/1005686.1005709},
+ file = {SIGMETRICS04.pdf},
+ isbn = {978-1-58113-873-3},
+ keywords = {data streaming, traffic analysis, network measurement, statistical inference},
+ pages = {177--188},
+ publisher = {ACM},
+ award={Best Student Paper Award},
+ series = {{SIGMETRICS} '04/{Performance} '04},
+ title = {Data Streaming Algorithms for Efficient and Accurate Estimation of Flow Size Distribution},
+ url = {http://doi.acm.org/10.1145/1005686.1005709},
+ urldate = {2019-01-15},
+ year = {2004},
+ location={NYC, NY},
+ month=jun,
+}
+
+
+@inproceedings{li_large-scale_2004,
+abstract={Tracing attack packets to their sources, known as IP traceback, is an important step to counter distributed denial-of-service (DDoS) attacks.  In this paper, we propose a novel packet logging based (i.e., hash-based) traceback scheme that requires an order of magnitude smaller processing and storage cost than the hash-based scheme proposed by Snoeren et al., thereby being able to scalable to much higher link speed (e.g., OC-768).  The baseline idea of our approach is to sample and log a small percentage (e.g., 3.3\%) of packets. The challenge of this low sampling rate is that much more sophisticated techniques need to be used for traceback.  Our solution is to construct the attack tree using the correlation between the attack packets sampled by neighboring routers.  The scheme using naive independent random sampling does not perform well due to the low correlation between the packets sampled by neighboring routers.  We invent a sampling scheme that improves this correlation and the overall efficiency significantly. Another major contribution of this work is that we introduce a novel information-theoretic framework for our traceback scheme to answer important questions on system parameter tuning and the fundamental trade-off between the resource used for traceback and the traceback accuracy.  Simulation results based on real-world network topologies (e.g. Skitter) match very well with results from the information-theoretic analysis.  The simulation results also demonstrate that our traceback scheme can achieve high accuracy, and scale very well to a large number of attackers (e.g., 5000+).},
+ author = {Jun Li and Min-Ho Sung and Jun Xu and Li Li},
+ booktitle = {Proc. of IEEE Symposium on Security and Privacy},
+ month=may,
+ location={Oakland, CA, USA},
+ doi = {10.1109/SECPRI.2004.1301319},
+ file = {Li et al. - 2004 - Large-Scale IP Traceback in High-Speed Internet P.pdf},
+ isbn = {978-0-7695-2136-7},
+ pages = {115--129},
+ publisher = {IEEE Computer Society},
+ shorttitle = {Large-Scale IP Traceback in High-Speed Internet},
+ title = {IEEESP04.pdf},
+ year = {2004}
+}
+
+@inproceedings{zhao_computational_2004,
+ abstract = {Packet scheduling is an important mechanism to provide QoS guarantees in data networks. A scheduling algorithm generally consists of two functions: one estimates how the GPS (general processor sharing) clock progresses with respect to the real time; the other decides the order of serving packets based on an estimation of their GPS start/finish times. In this work, we answer important open questions concerning the computational complexity of performing the first function. We systematically study the complexity of computing the GPS virtual start/finish times of the packets, which has long been believed to be /spl Omega/(n) per packet but has never been either proved or refuted. We also answer several other related questions such as "whether the complexity can be lower if the only thing that needs to be computed is the relative order of the GPS finish times of the packets rather than their exact values?".},
+ author = {Qi Zhao and Jun Xu},
+ booktitle = {Proc. of IEEE Infocom 2004},
+ doi = {10.1109/INFCOM.2004.1354660},
+ file = {gps_track.pdf},
+ keywords = {packet switching, Scheduling algorithm, scheduling, Computer networks, Processor scheduling, Delay, Intelligent networks, packet scheduling, quality of service, computational complexity, Computational complexity, scheduling algorithm, data communication, Clocks, Educational institutions, Channel allocation, Global Positioning System, data network, general processor sharing, GPS clock, QoS guarantees},
+ month = mar,
+ location={Hong Kong, China},
+ pages = {2383--2392 vol.4},
+ title = {On the computational complexity of maintaining GPS clock in packet scheduling},
+ volume = {4},
+ year = {2004}
+}
+
+
+@inproceedings{kumar_space-code_2004,
+abstract={Per-flow traffic measurement is critical for usage accounting, traffic engineering, and anomaly detection.  Previous methodologies are either based on random sampling (e.g., Cisco's NetFlow), which is inaccurate, or only account for the ``elephants''.  We introduce a novel technique for measuring per-flow traffic approximately, for all flows regardless of their sizes, at very high-speed (say, OC768).  The core of this technique is a novel data structure called Space Code Bloom Filter (SCBF).  A SCBF is an approximate representation of a {\it multiset}; each element in this multiset is a traffic flow and its multiplicity is the number of packets in the flow.  The multiplicity of an element in the multiset represented by SCBF can be estimated through either of two mechanisms -- Maximum Likelihood Estimation (MLE) or Mean Value Estimation (MVE). Through parameter tuning, SCBF allows for graceful tradeoff between measurement accuracy and computational and storage complexity.  SCBF also contributes to the foundation of data streaming by introducing a new paradigm called blind streaming.  We evaluate the performance of SCBF through mathematical analysis and through experiments on packet traces gathered from a tier-1 ISP backbone.  Our results demonstrate that SCBF achieves reasonable measurement accuracy with very low storage and computational complexity.   
+},
+ author = {Abhishek Kumar and Jun Xu and Jia Wang and Olivier Spatscheck and Li Li},
+ booktitle = {Proc. of IEEE Infocom},
+ location={Hong Kong, China},
+ month=mar,
+ doi = {10.1109/INFCOM.2004.1354587},
+ file = {scbf.pdf},
+ isbn = {978-0-7803-8355-5},
+ pages = {1762--1773},
+ publisher = {IEEE},
+ title = {Space-Code Bloom Filter for Efficient Per-Flow Traffic Measurement},
+ year = {2004}
+}
+
+@INPROCEEDINGS{kuma_ulysses_2003, 
+author={A. Kumar and S. Merugu and Jun Xu and Xingxing Yu}, 
+booktitle={Proc. of IEEE International Conference on Network Protocols (ICNP)}, 
+location={Atlanta, GA, USA},
+month=oct,
+title={Ulysses: a robust, low-diameter, low-latency peer-to-peer network}, 
+year={2003}, 
+pages={258-267}, 
+abstract={A number of distributed hash table (DHT)-based protocols have been proposed to address the issue of scalability in peer-to-peer networks. In this paper, we present Ulysses, a peer-to-peer network based on the butterfly topology that achieves the theoretical lower bound of (log n)/(log log n)on network diameter when the average routing table size at nodes is no more than log n. Compared to existing DHT-based schemes with similar routing table size, Ulysses reduces the network diameter by a factor of log log n. which is 2-4 for typical configurations. This translates into the same amount of reduction on query latency and average traffic per link/node. In addition, Ulysses maintains the same level of robustness in terms of routing in the face of faults and recovering from graceful/ungraceful joins and departures, as provided by existing DHT-based schemes. The performance of the protocol has been evaluated using both analysis and simulation.}, 
+keywords={computer networks;protocols;network topology;telecommunication network routing;telecommunication traffic;peer-to-peer network;distributed hash table-based protocols;butterfly topology;Ulysses protocol;Robustness;Peer to peer computing;Routing;Protocols;Scalability;Network topology;Delay;Telecommunication traffic;Traffic control;Performance analysis}, 
+doi={10.1109/ICNP.2003.1249776}, 
+ISSN={1092-1648}, 
+month={Nov},}
+
+
+
+
+
+@inproceedings{jun_robust_2005,
+ author = {Jun, Seung and Ahamad, Mustaque and Xu, Jun (Jim)},
+ booktitle = {25th International Conference on Distributed Computing Systems (ICDCS 2005), 6-10 June 2005, Columbus, OH, USA},
+ doi = {10.1109/ICDCS.2005.70},
+ file = {Jun et al. - 2005 - Robust Information Dissemination in Uncooperative .pdf},
+ isbn = {978-0-7695-2331-6},
+ pages = {293--302},
+ publisher = {IEEE Computer Society},
+ title = {Robust Information Dissemination in Uncooperative Environments},
+ year = {2005}
+}
+
+
+@inproceedings{Kumar_space_code_2003,
+abstract={Per-flow traffic measurement is critical for usage accounting, traffic engineering, and anomaly detection. Previous methodologies are either based on random sampling (e.g., Cisco's NetFlow), which is inaccurate, or only account for the "elephants". Our paper introduces a novel technique for measuring per-flow traffic approximately, for all flows regardless of their sizes, at very high-speed (say, OC192+). The core of this technique is a novel data structure called Space Code Bloom Filter (SCBF). A SCBF is an approximate representation of a multiset; each element in this multiset is a traffic flow and its multiplicity is the number of packets in the flow. SCBF employs a Maximum Likelihood Estimation (MLE) method to measure the multiplicity of an element in the multiset. Through parameter tuning, SCBF allows for graceful tradeoff between measurement accuracy and computational and storage complexity. SCBF also contributes to the foundation of data streaming by introducing a new paradigm called blind streaming. We evaluated the performance of SCBF on packet traces gathered from a tier-1 ISP backbone and through mathematical analysis. Our preliminary results demonstrate that SCBF achieves reasonable measurement accuracy with very low storage and computational complexity. },
+ author = {Abhishek Kumar and Jun Xu and Li Li and Jia Wang},
+ title = {Space-code Bloom Filter for Efficient Traffic Flow Measurement (Extended Abstract)},
+ booktitle = {Proc. of ACM Internet Measurement Conference},
+ series = {IMC '03},
+ year = {2003},
+ isbn = {1-58113-773-7},
+ location = {Miami Beach, FL, USA},
+ file={imc03.pdf},
+ pages = {167--172},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/948205.948226},
+ doi = {10.1145/948205.948226},
+ acmid = {948226},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {bloom filter, data structures, network measurement, statistical inference, traffic analysis},
+} 
+{xu_fundamental_2004, 
+author={Jun Xu}, 
+booktitle={Proc. of IEEE INFOCOM 2003}, 
+title={On the fundamental tradeoffs between routing table size and network diameter in peer-to-peer networks}, 
+year={2003}, 
+volume={3}, 
+location={San Francisco, CA, USA},
+month=mar,
+file={JSAC03.pdf}
+pages={2177-2187 vol.3}, 
+abstract={We study a fundamental tradeoff issue in designing distributed hash table (DHT) in peer-to-peer networks: the size of the routing table v.s. the network diameter. It was observed by Ratnasamy et al. that existing DHT schemes either (a) have a routing table of size /spl Oscr/(log/sub 2/n) and network diameter of /spl Omega/(log/sub 2/n), or (b) have a routing table of size d and network diameter of /spl Omega/(n/sup 1/d/). They asked whether this represents the best asymptotic "state-efficiency" tradeoffs. Our first major result is to show that there are straightforward routing algorithms, which achieve better asymptotic tradeoffs. However, such algorithms all cause severe congestion on certain network nodes, which is undesirable in a P2P network. We then rigorously define the notion of "congestion" and conjecture that the above tradeoffs are asymptotically optimal for a congestion-free network. In studying this conjecture, we have thoroughly clarified the role that "congestion-free" plays in this "state-efficiency" tradeoff. Our second major result is to prove that the aforementioned tradeoffs are asymptotically optimal for uniform algorithms. Furthermore, for uniform algorithms, we find that the routing table size of /spl Omega/(log/sub 2/n) is a magic threshold point that separates two different "state-efficiency" regions. Our third and final result is to study the exact (instead of asymptotic) optimal tradeoffs for uniform algorithms. We propose a new routing algorithm that reduces the routing table size and the network diameter of Chord both by 21.4% without introducing any other protocol overhead, based on a novel number-theoretical technique.}, 
+keywords={Internet;telecommunication network routing;telecommunication congestion control;distributed hash table;DHT;network routing algorithms;asymptotic tradeoffs;routing table size;network diameter;peer-to-peer networks;congestion-free network;magic threshold point;state-efficiency regions;uniform algorithms;number-theoretical technique;Intelligent networks;Peer to peer computing;Costs;Educational institutions;Computer networks;Distributed computing;Routing protocols;Scalability;Floods;Data structures}, 
+doi={10.1109/INFCOM.2003.1209238}, 
+ISSN={0743-166X}, 
+month={March},}
+
+
+
+@article{xu_sustaining_2003,
+ abstract = {The recent tide of Distributed Denial of Service (DDoS) attacks against high-profile web sites demonstrate how devastating DDoS attacks are and how defenseless the Internet is under such attacks. We design a practical DDoS defense system that can protect the availability of web services during severe DDoS attacks. The basic idea behind our system is to isolate and protect legitimate traffic from a huge volume of DDoS traffic when an attack occurs. Traffic that needs to be protected can be recognized and protected using efficient cryptographic techniques. Therefore, by provisioning adequate resource (e.g., bandwidth) to legitimate traffic separated by this process, we are able to provide adequate service to a large percentage of clients during DDoS attacks. The worst-case performance (effectiveness) of the system is evaluated based on a novel game theoretical framework, which characterizes the natural adversarial relationship between a DDoS adversary and the proposed system. We also conduct a simulation study to verify a key assumption used in the game-theoretical analysis and to demonstrate the system dynamics during an attack.},
+ author = {Jun Xu and Wooyong Lee},
+ doi = {10.1109/TC.2003.1176986},
+ file = {TCOMPUTERS03.pdf},
+ issn = {0018-9340},
+ journal = {IEEE Transactions on Computers},
+ keywords = {Analytical models, Web and internet services, Bandwidth, Internet, Availability, Computer crime, cryptography, cryptographic techniques, Cryptography, DDoS attacks, DDoS defense system, DDoS traffic, distributed denial-of-service attacks, game theory, Game theory, high-profile Web sites, Protection, resource provision, Tides, Web service availability, Web services, Web sites},
+ month = feb,
+ number = {2},
+ pages = {195--208},
+ title = {Sustaining availability of Web services under distributed denial of service attacks},
+ volume = {52},
+ year = {2003}
+}
+
+@InProceedings{xu_fundamental_2002,
+  author    = {Jun Xu and Richard J. Lipton},
+  title     = {On fundamental tradeoffs between delay bounds and computational complexity in packet scheduling algorithms},
+  booktitle = {Proc. of ACM SIGCOMM},
+  year      = {2002},
+  editor    = {Mathis, Matthew and Steenkiste, Peter and Balakrishnan, Hari and Paxson, Vern},
+  pages     = {279--292},
+  month     = aug,
+  publisher = {ACM},
+  abstract  = {In this work, we clarify, extend and solve a long-standing open problem concerning the computational complexity for packet scheduling algorithms to achieve tight end-to-end delay bounds.  We first focus on the difference between the time a packet finishes service in a scheduling algorithm and its virtual finish time under a GPS (General Processor Sharing) scheduler, called {\it GPS-relative delay}.  We prove that, under a slightly restrictive but reasonable computational model, the lower bound computational complexity of any scheduling algorithm that guarantees $O(1)$ GPS-relative delay bound is $\Omega(\log n)$.  We also discover that, surprisingly, the complexity lower bound remains the same even if the delay bound is relaxed to $O(n^a)$ for $0<a<1$.  This implies that the delay-complexity tradeoff curve is flat in the ``interval'' $[O(1)$, $O(n))$.  We later conditionally extend both complexity results (for $O(1)$ or $O(n^a)$ delay) to a much stronger computational model, the linear decision tree.  Finally, we show that the same complexity lower bounds are conditionally applicable to guaranteeing tight end-to-end delay bounds, if the delay bounds are provided through the Latency Rate (LR) framework.},
+  doi       = {10.1145/633025.633052},
+  file      = {SIGCOMM02-1.pdf},
+  isbn      = {978-1-58113-570-1},
+  location  = {Pittsburgh, PA, USA},
+}
+
+@inproceedings{Xu_design_2002,
+ author = {Jun Xu and Jinliang Fan and Mostafa Ammar and Sue B. Moon},
+ title = {On the Design and Performance of Prefix-Preserving IP Traffic Trace Anonymization},
+ booktitle = {Proc. of 10th IEEE International Conference on Network Protocols (ICNP)},
+ year = {2002},
+ location = {Paris, France},
+ pages = {280--289},
+ month=nov,
+ file={ICNP02A.pdf},
+ abstract={Real-world traffic traces are crucial for Internet research, but only a very small percentage of traces collected are made public.  One major reason why traffic trace owners hesitate to make the traces publicly available is the concern that confidential and private information may be inferred from the trace.  In this paper we focus on the problem of anonymizing IP addresses in a trace.  More specifically, we are interested in {\em prefix-preserving anonymization} in which the prefix relationship among IP addresses is preserved in the anonymized trace, making such a trace usable in situations where prefix relationships are important.  The goal of our work is two fold.  First, we develop a cryptography-based, prefix-preserving anonymization technique that is provably as secure as the existing well-known TCPdpriv scheme, and unlike TCPdpriv, provides consistent prefix-preservation in large scale distributed setting.  Second, we evaluate the security properties inherent in all prefix-preserving IP address anonymization schemes (including TCPdpriv).  Through the analysis of Internet backbone traffic traces, we investigate the effect of some types of attacks on the security of any prefix-preserving anonymization algorithm.  We also derive results for the optimum manner in which an attack should proceed, which provides a bound on the effectiveness of attacks in general.},
+ author = {Jun Xu and Richard J. Lipton},
+} 
+
+@INPROCEEDINGS{Sung_ip_2002, 
+author={Minho Sung and Jun Xu}, 
+booktitle={Proc. of IEEE International Conference on Network Protocols (ICNP)}, 
+title={IP traceback-based intelligent packet filtering: a novel technique for defending against Internet DDoS attacks}, 
+year={2002}, 
+location = {Paris, France},
+month=nov,
+file={ICNP02B.pdf},
+pages={302-311}, 
+abstract={Distributed denial of service (DDoS) is one of the most difficult security problems to address. While many existing techniques (e.g., IP traceback) focus on tracking the location of the attackers after-the-fact, little is done to mitigate the effect of an attack while it is raging on. We present a novel technique that can effectively filter out the majority of DDoS traffic, thus improving the overall throughput of the legitimate traffic. The proposed scheme leverages on and generalizes the IP traceback schemes to obtain the information concerning whether a network edge is on the attacking path of an attacker ("infected") or not ("clean"). We observe that while an attacker will have all the edges on its path marked as "infected", edges on the path of a legitimate client will mostly be "clean". By preferentially filtering out packets that are inscribed with the marks of "infected" edges, the proposed scheme removes most of the DDoS traffic while affecting legitimate traffic only slightly. Simulation results based on real-world network topologies (e.g., Skitter) all demonstrate that the proposed technique can improve the throughput of legitimate traffic by 3 to 7 times during DDoS attacks.}, 
+keywords={Internet;digital simulation;telecommunication traffic;telecommunication security;security of data;network topology;transport protocols;encoding;telecommunication network routing;IP traceback-based intelligent packet filtering;Internet DDoS attacks;distributed denial of service;security problem;DDoS traffic filtering;throughput;legitimate traffic;network edge;infected edges;simulation results;real-world network topologies;perimeter router model;enhanced probabilistic module;encoding;Information filtering;Information filters;Telecommunication traffic;Computer crime;Throughput;Traffic control;Web and internet services;Educational institutions;Distributed computing;Security}, 
+doi={10.1109/ICNP.2002.1181417}, 
+ISSN={1092-1648}, 
+month={Nov},}
+
+@INPROCEEDINGS{jun_unified_2002, 
+author={Jun Xu}, 
+booktitle={Proc. of IEEE 21st Symposium on Reliable Distributed Systems (SRDS)}, 
+title={A unified proof of minimum time complexity for reaching consensus and uniform consensus - an oracle-based approach}, 
+year={2002}, 
+location={Osaka, Japan},
+pages={102-108}, 
+abstract={In this paper, we offer new proofs to two lower bound results in distributed computing: a minimum of f+1 and f+2 rounds for reaching consensus and uniform consensus respectively when at most f fail-stop faults can happen. Here the computation model is synchronous message passing. Both proofs are based on a novel oracle argument. These two induction proofs are unified in the following sense: the induction steps are the same and only the initial step (f=0) needs to be proved separately. The techniques used in the proof offer new insights into the lower bound results in distributed computing.}, 
+keywords={computational complexity;message passing;fault tolerant computing;concurrency control;distributed computing;uniform consensus;synchronous message passing;oracle argument;lower bounds;fault tolerance;time complexity;consensus;induction proofs;Distributed computing;Message passing;Educational institutions;Computational modeling;Fault tolerance;Context;Delay systems;Algorithm design and analysis;Computer crashes;Mobile computing}, 
+doi={10.1109/RELDIS.2002.1180178}, 
+ISSN={1060-9857}, 
+file={SRDS02.pdf},
+month={Oct},}
+
+@Comment{jabref-meta: databaseType:bibtex;}

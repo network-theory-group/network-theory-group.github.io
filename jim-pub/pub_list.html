@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="html5">
   <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-    <title>Network Theory Group Publications</title>
+    <title>Selected Publications</title>
 
     <script
       src="https://code.jquery.com/jquery-1.12.4.min.js"
@@ -13,66 +13,32 @@
       src="js/bibtex_js.js"
       charset="utf-8"
     ></script>
-    <bibtex src="bibs/ntg_pub_v1.bib"></bibtex>
+    <bibtex src="bibs/jim_pub.bib"></bibtex>
 
     <!-- CSS -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
     />
-    <link
-            rel="stylesheet"
-            href="css/stricky-footer-navbar.css"
-    />
+    <link rel="stylesheet" href="css/stricky-footer-navbar.css" />
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div style="text-align: center;">
-          <h1>Network Theory Group Publications (Selected)</h1>
-        </div>
+        <div style="text-align: center;"><h1>Selected Publications</h1><span><a href="pub_list_year.html">[Group By Year]</a><a href="pub_list_topics.html">[Group By Topic]</a></span> </div>
         <hr />
-        <!-- <div class="alert alert-info" role="alert">
-          Unfortunately, because of possible copyright issues, the FullText PDF
-          links (links on the paper title) only work for internal users. Public
-          users may be able to access the FullText PDFs via "[available]" link.
-        </div> -->
 
         <div id="bibtex_errors"></div>
 
-        <!-- <div class="bibtex_topics"></div>
-
-        <div class="bibtex_structure">
-          <div class="sections tag">
-            <div class="section EEC">
-              <h2>Error Estimating Codes (EEC)</h2>
-              <hr />
-              <div class="sort year" extra="ASC number">
-                <div class="templates"></div>
-              </div>
-            </div>
-            <div class="section lecture">
-              <h2>Lectures Related to EEC</h2>
-              <hr />
-              <div class="sort year" extra="ASC number">
-                <div class="templates"></div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <!--<h2>Error Estimating Code (EEC)</h2>-->
-        <!--<hr />-->
         <div id="bibtex_display">
           <div class="if bibtex_template" style="display: none;">
-            <!-- <div class="bibtex_template"> -->
             <ul>
               <li>
                 <span class="if file">
                   <a
                     class="bibtexVar"
                     target="_blank"
-                    href="https://github.com/network-theory-group/paper-pool/blob/master/jim_selected/+FILE+"
+                    href="https://www.cc.gatech.edu/home/jx/reprints/+FILE+"
                     extra="FILE"
                   >
                     <span
@@ -83,6 +49,9 @@
                   </a>
                 </span>
                 <span class="if title nolink">
+                  <span class="title"></span>,
+                </span>
+                <span class="if !file">
                   <span class="title"></span>,
                 </span>
                 <div class="if author"><span class="author"></span></div>
@@ -128,6 +97,19 @@
                       >[available]</a
                     >
                   </span>
+                  <span class="if abstract">
+                    <a
+                      class="bibtexVar"
+                      role="button"
+                      data-toggle="collapse"
+                      href="#abs+BIBTEXKEY+"
+                      aria-expanded="false"
+                      aria-controls="abs+BIBTEXKEY+"
+                      extra="BIBTEXKEY"
+                    >
+                      [abstract]
+                    </a>
+                  </span>
                   <a
                     class="bibtexVar"
                     role="button"
@@ -139,6 +121,15 @@
                   >
                     [bib]
                   </a>
+                </div>
+                <div
+                  class="bibtexVar collapse"
+                  id="abs+BIBTEXKEY+"
+                  extra="BIBTEXKEY"
+                >
+                  <div class="well">
+                    <span class="abstract noread"></span>
+                  </div>
                 </div>
                 <div
                   class="bibtexVar collapse"
@@ -160,14 +151,15 @@
       </div>
     </div>
 
-
-<!-- footer -->
-    <footer class="footer" >
+    <!-- footer -->
+    <footer class="footer">
       <div class="container">
-        <p class="text-muted">This reading list site was created using
+        <p class="text-muted">
+          This reading list site was created using
           <a href="https://github.com/pcooksey/bibtex-js" target="_blank"
-          >bibtex-js</a
-          >.</p>
+            >bibtex-js</a
+          >.
+        </p>
       </div>
     </footer>
 
@@ -184,22 +176,9 @@
           refresh = false;
         }
       }, 500);
-      /*
-      // monitor template for changes and add template to dom
-      $("#bibtex_template_input").keyup(function() {
-        $(".bibtex_template").html($("#bibtex_template_input").val());
-        refresh = true;
-      });
-      $(".bibtex_template").html($("#bibtex_template_input").val());
-      
-      // monitor bibtex for changes and redraw
-      $("#bibtex_input").keyup(function() {
-        refresh = true;
-      });
-      */
+
     </script>
-    <!-- Latest compiled and minified JavaScript -->
+    <!-- JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
-
 </html>
