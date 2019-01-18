@@ -33,20 +33,21 @@ def bibtex_reformat(bibtex_filename):
     with codecs.open(bibtex_filename, encoding='utf-8') as bibtex_file:
         parser = BibTexParser(common_strings=True, interpolate_strings=False)
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
-        for i, entry in enumerate(bib_database.entries):
-            for key in entry:
-                if key.find('title') != -1:
-                    bib_database.entries[i][key] = title_reformat(entry[key])
-                elif key == 'file':
-                    bib_database.entries[i][key] = file_extract(entry[key])
-        bib_database.entries.sort(key=lambda entry:
-                                  entry['year'], reverse=True)
-        writer = BibTexWriter()
-        with codecs.open('processed_' + bibtex_filename, mode='w', encoding='utf-8') as processed_bibtex_file:
-            for entry in bib_database.entries:
-                db = BibDatabase()
-                db.entries = [entry]
-                processed_bibtex_file.write(writer.write(db))
+        # for i, entry in enumerate(bib_database.entries):
+        #     for key in entry:
+        #         if key.find('title') != -1:
+        #             bib_database.entries[i][key] = title_reformat(entry[key])
+        #         elif key == 'file':
+        #             bib_database.entries[i][key] = file_extract(entry[key])
+        print(bib_database.entries)
+        # bib_database.entries.sort(key=lambda entry:
+        #                           entry['year'], reverse=True)
+        # writer = BibTexWriter()
+        # with codecs.open('processed_' + bibtex_filename, mode='w', encoding='utf-8') as processed_bibtex_file:
+        #     for entry in bib_database.entries:
+        #         db = BibDatabase()
+        #         db.entries = [entry]
+        #         processed_bibtex_file.write(writer.write(db))
 
 
 if __name__ == "__main__":

@@ -224,17 +224,4 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   url       = {http://doi.acm.org/10.1145/509907.509965},
 }
 
-@Misc{noauthor_acoustic_2018,
-  title     = {Acoustic fingerprint},
-  month     = nov,
-  year      = {2018},
-  note      = {Page Version ID: 870512438},
-  abstract  = {An acoustic fingerprint is a condensed digital summary, a fingerprint, deterministically generated from an audio signal, that can be used to identify an  audio sample or quickly locate similar items in an audio database.Practical uses of acoustic fingerprinting include identifying songs, melodies, tunes, or advertisements; sound effect library management; and video file identification. Media identification using acoustic fingerprints can be used to monitor the use of specific musical works and performances on radio broadcast, records, CDs, streaming media and peer-to-peer networks. This identification has been used in copyright compliance, licensing, and other monetization schemes.},
-  copyright = {Creative Commons Attribution-ShareAlike License},
-  journal   = {Wikipedia},
-  language  = {en},
-  url       = {https://en.wikipedia.org/w/index.php?title=Acoustic_fingerprint&oldid=870512438},
-  urldate   = {2019-01-18},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}
