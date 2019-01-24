@@ -74,6 +74,15 @@
               <div class="templates"></div>
             </div>
           </div>
+
+          <div class="section structure" id="STRUCTURE">
+            <h2>Useful Data Structures</h2>
+            <hr />
+            <div class="sort year" extra="ASC number">
+              <div class="templates"></div>
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -106,14 +115,25 @@
                   pages <span class="pages"></span>,</span>
                 <span class="if month"><span class="month"></span>,</span>
                 <span class="if year"><span class="year"></span>.</span>
-                <span class="if note"><span class="note"></span>.</span>
+                <span class="if label"><span class="label label-success"></span></span>
                 <span class="if available">
                   <a class="bibtexVar" target="_blank" href="+AVAILABLE+" extra="AVAILABLE">[available]</a>
+                </span>
+                <span class="if comment">
+                  <a class="bibtexVar" role="button" data-toggle="collapse" href="#comment+BIBTEXKEY+" aria-expanded="false"
+                  aria-controls="comment+BIBTEXKEY+" extra="BIBTEXKEY">
+                  [comments]
+                </a>
                 </span>
                 <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false"
                   aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
                   [bib]
                 </a>
+              </div>
+              <div class="bibtexVar collapse" id="comment+BIBTEXKEY+" extra="BIBTEXKEY">
+                <div class="well">
+                  <pre><span class="comment noread"></span></pre>
+                </div>
               </div>
               <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
                 <div class="well">
