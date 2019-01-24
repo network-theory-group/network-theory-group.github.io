@@ -10,6 +10,7 @@
   address   = {New York, NY, USA},
   publisher = {ACM},
   acmid     = {2254773},
+  label = {gEEC},
   available = {https://dl.acm.org/citation.cfm?id=2254773},
   doi       = {10.1145/2254756.2254773},
   file      = {EEC/Hua and Lall - Towards Optimal Error-Estimating Codes through the.pdf},
@@ -30,6 +31,7 @@
   address   = {Orlando, FL, USA},
   month     = mar,
   publisher = {IEEE},
+  label = {tug-of-war},
   abstract  = {We study error estimating codes with the goal of establishing better bounds for the theoretical and empirical overhead of such schemes. We explore the idea of using sketch data structures for this problem, and show that the tug-of-war sketch gives an asymptotically optimal solution. The optimality of our algorithms are proved using communication complexity lower bound techniques. We then propose a novel enhancement of the tug-of-war sketch that greatly reduces the communication overhead for realistic error rates. Our theoretical analysis and assertions are supported by extensive experimental evaluation.},
   available = {https://ieeexplore.ieee.org/document/6195624},
   doi       = {10.1109/INFCOM.2012.6195624},
@@ -56,6 +58,7 @@
   file       = {EEC/Zhang and Kumar - 2017 - mEEC A novel error estimation code with multi-dim.pdf},
   isbn       = {978-1-5090-5336-0},
   language   = {en},
+  label = {mEEC},
   shorttitle = {{mEEC}},
   tag        = {EEC},
   url        = {http://ieeexplore.ieee.org/document/8057134/},
@@ -72,6 +75,7 @@
   address   = {New York, NY, USA},
   publisher = {ACM},
   acmid     = {2591976},
+  label = {idEEC},
   available = {https://dl.acm.org/citation.cfm?id=2591976},
   doi       = {10.1145/2591971.2591976},
   file      = {EEC/Huang et al. - 2014 - Error estimating codes for insertion and deletion .pdf},
@@ -174,6 +178,10 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   isbn = {978-1-59593-654-7},
   file = {near-duplicates/Manku et al. - 2007 - Detecting near-duplicates for web crawling.pdf},
   tag = {near-duplicates-detection},
+  label = {near-duplicates},
+  comment = {This paper applies Charikar’s fingerprinting technique (simHash) to detect near-duplicates for web crawling. 
+     It presents an algorithmic technique for identifying existing f-bit fingerprints that differ from a given fingerprint in 
+     at most k bit-positions, for small k.},
   location = {Banff, Alberta, Canada},
   pages = {141--150},
   numpages = {10},
@@ -197,6 +205,7 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   acmid      = {348768},
   address    = {Orlando, FL, USA},
   doi        = {10.1006/jcss.1999.1690},
+  label = {minHash},
   file       = {Hash/Broder et al. - 2000 - Min-Wise Independent Permutations.pdf},
   issue_date = {June 2000},
   numpages   = {30},
@@ -212,6 +221,7 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   year      = {2002},
   series    = {STOC '02},
   pages     = {380--388},
+  label = {simHash},
   address   = {New York, NY, USA},
   publisher = {ACM},
   acmid     = {509965},
@@ -257,7 +267,7 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   keywords   = {Levenshtein distance, edit distance, online string matching, text searching allowing errors},
   numpages   = {58},
   publisher  = {ACM},
-  tag        = {app_string_match},
+  tag        = {app-string-match},
   url        = {http://doi.acm.org/10.1145/375360.375365},
 }
 
@@ -277,6 +287,7 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   tag      = {app_string_match},
   url      = {http://www.sciencedirect.com/science/article/pii/S0019995885800462},
 }
+
 @Article{Bentley_MultidimensionalBinarySearch_1975,
   author     = {Bentley, Jon Louis},
   title      = {Multidimensional Binary Search Trees Used for Associative Searching},
@@ -290,7 +301,8 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   acmid      = {361007},
   address    = {New York, NY, USA},
   doi        = {10.1145/361002.361007},
-  file       = {ds/Bentley - 1975 - Multidimensional Binary Search Trees Used for Asso.pdf},
+  label = {k-d tree},
+  file       = {data_structure/Bentley - 1975 - Multidimensional Binary Search Trees Used for Asso.pdf},
   issue_date = {Sept. 1975},
   keywords   = {associative retrieval, attribute, binary search trees, binary tree insertion, information retrieval system, intersection queries, key, nearest neighbor queries, partial match queries},
   numpages   = {9},
@@ -308,6 +320,12 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   series    = {NIPS'12},
   pages     = {108--116},
   address   = {USA},
+  label = { SB-LSH },
+  file = {LSH/Ji et al. - Super-Bit Locality-Sensitive Hashing.pdf},
+  tag = {data-structure},
+  comment = {Add an orthogonalization step before inner product step for simHash. More precisely, it 
+  orthogonalizes K random Gaussian vectors before using them to generate the fingerprint. It decreases 
+  the variance of the Haming distance estimator.},
   publisher = {Curran Associates Inc.},
   acmid     = {2999147},
   location  = {Lake Tahoe, Nevada},
@@ -324,6 +342,10 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   volume    = {18},
   series    = {Leibniz International Proceedings in Informatics (LIPIcs)},
   pages     = {48--57},
+  label = {k-d tree },
+  file = {data_structure/Vempala - 2012 - Randomly-oriented k-d Trees Adapt to Intrinsic Dim.pdf},
+  tag = {data-structure},
+  comment = {Suggested by Prof. Santosh S. Vempala},
   address   = {Dagstuhl, Germany},
   publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
   annote    = {Keywords: Data structures, Nearest Neighbors, Intrinsic Dimension, k-d Tree},
@@ -342,6 +364,10 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   series    = {STOC '08},
   pages     = {537--546},
   address   = {New York, NY, USA},
+  label = {Random Projection Tree},
+  file = {data_structure/Dasgupta and Freund - 2008 - Random projection trees and low dimensional manifo.pdf},
+  tag = {data-structure},
+  comment = {Suggested by Prof. Santosh S. Vempala},
   publisher = {ACM},
   acmid     = {1374452},
   doi       = {10.1145/1374376.1374452},
@@ -352,4 +378,4 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   url       = {http://doi.acm.org/10.1145/1374376.1374452},
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
+
