@@ -479,12 +479,15 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
 @article{liu_investigation_nodate,
-	title = {An {Investigation} of {Practical} {Approximate} {Nearest} {Neighbor} {Algorithms}},
+	title = {An Investigation of Practical Approximate Nearest Neighbor Algorithms},
 	abstract = {This paper concerns approximate nearest neighbor searching algorithms, which have become increasingly important, especially in high dimensional perception areas such as computer vision, with dozens of publications in recent years. Much of this enthusiasm is due to a successful new approximate nearest neighbor approach called Locality Sensitive Hashing (LSH). In this paper we ask the question: can earlier spatial data structure approaches to exact nearest neighbor, such as metric trees, be altered to provide approximate answers to proximity queries and if so, how? We introduce a new kind of metric tree that allows overlap: certain datapoints may appear in both the children of a parent. We also introduce new approximate k-NN search algorithms on this structure. We show why these structures should be able to exploit the same randomprojection-based approximations that LSH enjoys, but with a simpler algorithm and perhaps with greater efﬁciency. We then provide a detailed empirical evaluation on ﬁve large, high dimensional datasets which show up to 31-fold accelerations over LSH. This result holds true throughout the spectrum of approximation levels.},
 	language = {en},
 	author = {Liu, Ting and Moore, Andrew W and Gray, Alexander and Yang, Ke},
 	pages = {8},
-	file = {Liu et al. - An Investigation of Practical Approximate Nearest .pdf:files/2282/Liu et al. - An Investigation of Practical Approximate Nearest .pdf:application/pdf}
+	file = {ann/Liu et al. - An Investigation of Practical Approximate Nearest .pdf},
+  tag = {ann},
+  label = {Approximate Nearest Neighbour},
+  comment = {https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @inproceedings{beygelzimer_cover_2006,
@@ -501,11 +504,14 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
 	author = {Beygelzimer, Alina and Kakade, Sham and Langford, John},
 	year = {2006},
 	pages = {97--104},
-	file = {Beygelzimer et al. - 2006 - Cover trees for nearest neighbor.pdf:files/2283/Beygelzimer et al. - 2006 - Cover trees for nearest neighbor.pdf:application/pdf}
+	file = {ann/Beygelzimer et al. - 2006 - Cover trees for nearest neighbor.pdf},
+  tag = {ann},
+  label = {Approximate Nearest Neighbour},
+  comment = {https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @article{muja_scalable_2014,
-	title = {Scalable {Nearest} {Neighbor} {Algorithms} for {High} {Dimensional} {Data}},
+	title = {Scalable Nearest Neighbor Algorithms for High Dimensional Data},
 	volume = {36},
 	issn = {0162-8828, 2160-9292},
 	url = {http://ieeexplore.ieee.org/document/6809191/},
@@ -519,7 +525,10 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
 	month = nov,
 	year = {2014},
 	pages = {2227--2240},
-	file = {Muja and Lowe - 2014 - Scalable Nearest Neighbor Algorithms for High Dime.pdf:files/2285/Muja and Lowe - 2014 - Scalable Nearest Neighbor Algorithms for High Dime.pdf:application/pdf}
+	file = {ann/Muja and Lowe - 2014 - Scalable Nearest Neighbor Algorithms for High Dime.pdf},
+    tag = {ann},
+  label = {Approximate Nearest Neighbour},
+  comment = {https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @inproceedings{kulis_kernelized_2009,
@@ -537,37 +546,49 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
 	month = sep,
 	year = {2009},
 	pages = {2130--2137},
-	file = {Kulis and Grauman - 2009 - Kernelized locality-sensitive hashing for scalable.pdf:files/2286/Kulis and Grauman - 2009 - Kernelized locality-sensitive hashing for scalable.pdf:application/pdf}
+	file = {ann/Kulis and Grauman - 2009 - Kernelized locality-sensitive hashing for scalable.pdf},
+    tag = {lsh},
+  label = {locality-sensitive hashing},
+  comment = {https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @article{forssen_visual_nodate,
-	title = {Visual {Object} {Recognition}},
+	title = {Visual Object Recognition},
 	language = {en},
 	author = {Forssén, Per-Erik},
 	pages = {38},
-	file = {Forssén - Visual Object Recognition.pdf:files/2287/Forssén - Visual Object Recognition.pdf:application/pdf}
+	file = {ann/Forssén - Visual Object Recognition.pdf},
+      tag = {ann},
+  label = {Approximate Nearest Neighbour},
+  comment = { the slides from https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @article{lv_multi-probe_nodate,
-	title = {Multi-{Probe} {LSH}: {Efﬁcient} {Indexing} for {High}-{Dimensional} {Similarity} {Search}},
+	title = {Multi-Probe LSH: Efﬁcient Indexing for High-Dimensional Similarity Search},
 	abstract = {Similarity indices for high-dimensional data are very desirable for building content-based search systems for featurerich data such as audio, images, videos, and other sensor data. Recently, locality sensitive hashing (LSH) and its variations have been proposed as indexing techniques for approximate similarity search. A signiﬁcant drawback of these approaches is the requirement for a large number of hash tables in order to achieve good search quality. This paper proposes a new indexing scheme called multi-probe LSH that overcomes this drawback. Multi-probe LSH is built on the well-known LSH technique, but it intelligently probes multiple buckets that are likely to contain query results in a hash table. Our method is inspired by and improves upon recent theoretical work on entropy-based LSH designed to reduce the space requirement of the basic LSH method. We have implemented the multi-probe LSH method and evaluated the implementation with two diﬀerent high-dimensional datasets. Our evaluation shows that the multi-probe LSH method substantially improves upon previously proposed methods in both space and time eﬃciency. To achieve the same search quality, multi-probe LSH has a similar timeeﬃciency as the basic LSH method while reducing the number of hash tables by an order of magnitude. In comparison with the entropy-based LSH method, to achieve the same search quality, multi-probe LSH uses less query time and 5 to 8 times fewer number of hash tables.},
 	language = {en},
 	author = {Lv, Qin and Josephson, William and Wang, Zhe and Charikar, Moses and Li, Kai},
 	pages = {12},
-	file = {Lv et al. - Multi-Probe LSH Efﬁcient Indexing for High-Dimens.pdf:files/2288/Lv et al. - Multi-Probe LSH Efﬁcient Indexing for High-Dimens.pdf:application/pdf}
+	file = {ann/Lv et al. - Multi-Probe LSH Efﬁcient Indexing for High-Dimens.pdf},
+        tag = {lsh},
+  label = {Locality-Sensitive Hashing},
+  comment = {https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @article{andoni_near-optimal_nodate,
-	title = {Near-{Optimal} {Hashing} {Algorithms} for {Approximate} {Nearest} {Neighbor} in {High} {Dimensions}},
+	title = {Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in High Dimensions},
 	language = {en},
 	author = {Andoni, Alexandr and Indyk, Piotr},
 	pages = {6},
-	file = {Andoni and Indyk - Near-Optimal Hashing Algorithms for Approximate Ne.pdf:files/2289/Andoni and Indyk - Near-Optimal Hashing Algorithms for Approximate Ne.pdf:application/pdf}
+	file = {ann/Andoni and Indyk - Near-Optimal Hashing Algorithms for Approximate Ne.pdf},
+  tag = {ann},
+  label = {Approximate Nearest Neighbour},
+  comment = {https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @inproceedings{bawa_lsh_2005,
 	address = {Chiba, Japan},
-	title = {{LSH} forest: self-tuning indexes for similarity search},
+	title = {LSH forest: self-tuning indexes for similarity search},
 	isbn = {978-1-59593-046-0},
 	shorttitle = {{LSH} forest},
 	url = {http://portal.acm.org/citation.cfm?doid=1060745.1060840},
@@ -580,11 +601,14 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
 	author = {Bawa, Mayank and Condie, Tyson and Ganesan, Prasanna},
 	year = {2005},
 	pages = {651},
-	file = {Bawa et al. - 2005 - LSH forest self-tuning indexes for similarity sea.pdf:files/2290/Bawa et al. - 2005 - LSH forest self-tuning indexes for similarity sea.pdf:application/pdf}
+	file = {ann/Bawa et al. - 2005 - LSH forest self-tuning indexes for similarity sea.pdf},
+        tag = {lsh},
+  label = {Locality-Sensitive Hashing},
+  comment = { https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @article{freidman_algorithm_1977,
-	title = {An {Algorithm} for {Finding} {Best} {Matches} in {Logarithmic} {Expected} {Time}},
+	title = {An Algorithm for Finding Best Matches in Logarithmic Expected Time},
 	volume = {3},
 	issn = {00983500},
 	url = {http://portal.acm.org/citation.cfm?doid=355744.355745},
@@ -598,13 +622,16 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
 	month = sep,
 	year = {1977},
 	pages = {209--226},
-	file = {Freidman et al. - 1977 - An Algorithm for Finding Best Matches in Logarithm.pdf:files/2291/Freidman et al. - 1977 - An Algorithm for Finding Best Matches in Logarithm.pdf:application/pdf}
+	file = {ann/Freidman et al. - 1977 - An Algorithm for Finding Best Matches in Logarithm.pdf},
+  tag = {ann},
+  label = {Nearest Neighbour},
+  comment = {https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @inproceedings{weiss_spectral_2008,
 	address = {USA},
 	series = {{NIPS}'08},
-	title = {Spectral {Hashing}},
+	title = {Spectral Hashing},
 	isbn = {978-1-60560-949-2},
 	url = {http://dl.acm.org/citation.cfm?id=2981780.2981999},
 	abstract = {Semantic hashing[1] seeks compact binary codes of data-points so that the Hamming distance between codewords correlates with semantic similarity. In this paper, we show that the problem of finding a best code for a given dataset is closely related to the problem of graph partitioning and can be shown to be NP hard. By relaxing the original problem, we obtain a spectral method whose solutions are simply a subset of thresholded eigenvectors of the graph Laplacian. By utilizing recent results on convergence of graph Laplacian eigenvectors to the Laplace-Beltrami eigenfunctions of manifolds, we show how to efficiently calculate the code of a novel data-point. Taken together, both learning the code and applying it to a novel point are extremely simple. Our experiments show that our codes outperform the state-of-the art.},
@@ -614,11 +641,14 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
 	author = {Weiss, Yair and Torralba, Antonio and Fergus, Rob},
 	year = {2008},
 	pages = {1753--1760},
-	file = {Weiss et al. - 2008 - Spectral Hashing.pdf:files/2292/Weiss et al. - 2008 - Spectral Hashing.pdf:application/pdf}
+	file = {ann/Weiss et al. - 2008 - Spectral Hashing.pdf},
+  tag = {hashing},
+  label = {Spectral Hashing},
+  comment = {https://www.cvl.isy.liu.se/education/graduate/VOR14/Lecture6.pdf}, 
 }
 
 @misc{muja_fast_2019,
-	title = {Fast {Library} for {Approximate} {Nearest} {Neighbors}},
+	title = {Fast Library for Approximate Nearest Neighbors},
 	copyright = {View license},
 	url = {https://github.com/mariusmuja/flann},
 	urldate = {2019-01-25},
@@ -626,5 +656,8 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
 	month = jan,
 	year = {2019},
 	note = {original-date: 2011-03-28T18:45:55Z},
-	file = {flann_manual-1.8.4.pdf:files/2284/flann_manual-1.8.4.pdf:application/pdf}
+	file = {ann/flann_manual-1.8.4.pdf},
+   tag = {hashing},
+  label = {Open Source Library for Approximate Nearest Neighbors},
+  comment = {<a href="https://github.com/mariusmuja/flann" target="_blank">FLANN</a>},  
 }
