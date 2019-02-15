@@ -1,0 +1,2282 @@
+ENTRYTYPE: inproceedings
+ID: Hua2012
+acmid: '2254773'
+address: New York, NY, USA
+author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+available: https://dl.acm.org/citation.cfm?id=2254773
+booktitle: Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE Joint International
+  Conference on Measurement and Modeling of Computer Systems
+doi: 10.1145/2254756.2254773
+file: EEC/Hua and Lall - Towards Optimal Error-Estimating Codes through the.pdf
+isbn: 978-1-4503-1097-0
+keywords: Fisher information, error estimating coding
+location: London, England, UK
+numpages: '12'
+pages: 125--136
+publisher: ACM
+series: SIGMETRICS '12
+tag: EEC
+title: '{Towards Optimal Error-estimating Codes Through the Lens of Fisher Information
+  Analysis}'
+url: http://doi.acm.org/10.1145/2254756.2254773
+year: '2012'
+
+
+&id001
+ENTRYTYPE: inproceedings
+ID: Hua2012a
+abstract: We study error estimating codes with the goal of establishing better bounds
+  for the theoretical and empirical overhead of such schemes. We explore the idea
+  of using sketch data structures for this problem, and show that the tug-of-war sketch
+  gives an asymptotically optimal solution. The optimality of our algorithms are proved
+  using communication complexity lower bound techniques. We then propose a novel enhancement
+  of the tug-of-war sketch that greatly reduces the communication overhead for realistic
+  error rates. Our theoretical analysis and assertions are supported by extensive
+  experimental evaluation.
+address: Orlando, FL, USA
+author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+available: https://ieeexplore.ieee.org/document/6195624
+booktitle: Proceedings of the IEEE INFOCOM
+doi: 10.1109/INFCOM.2012.6195624
+file: EEC/Nan Hua et al. - 2012 - A simpler and better design of error estimating
+  co.pdf
+isbn: 978-1-4673-0775-8 978-1-4673-0773-4 978-1-4673-0774-1
+language: en
+month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+  expr:
+  - !!python/object:bibtexparser.bibdatabase.BibDataString
+    _bibdatabase: &id002 !!python/object:bibtexparser.bibdatabase.BibDatabase
+      _entries_dict: {}
+      comments:
+      - '% Encoding: UTF-8'
+      entries:
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012
+        acmid: '2254773'
+        address: New York, NY, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://dl.acm.org/citation.cfm?id=2254773
+        booktitle: Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE Joint International
+          Conference on Measurement and Modeling of Computer Systems
+        doi: 10.1145/2254756.2254773
+        file: EEC/Hua and Lall - Towards Optimal Error-Estimating Codes through the.pdf
+        isbn: 978-1-4503-1097-0
+        keywords: Fisher information, error estimating coding
+        location: London, England, UK
+        numpages: '12'
+        pages: 125--136
+        publisher: ACM
+        series: SIGMETRICS '12
+        tag: EEC
+        title: '{Towards Optimal Error-estimating Codes Through the Lens of Fisher
+          Information Analysis}'
+        url: http://doi.acm.org/10.1145/2254756.2254773
+        year: '2012'
+      - *id001
+      - ENTRYTYPE: inproceedings
+        ID: Zhang2017
+        abstract: Error estimation code estimates the bit error ratio in the data
+          bits, and is very useful in many applications, such as estimating the number
+          of errors in a packet transmitted over a wireless link. In this paper, we
+          propose a novel error estimation code, mEEC, that outperforms the existing
+          code by more than 10\%-20\% depending on the packet sizes, as well as being
+          more unbiased. mEEC is mainly based on the idea of grouping multiple blocks
+          of sampled data bits into a super-block, thus creating a multi-dimensional
+          feature, then compressing features into a single number, called the color,
+          as the coded bits. Through an intelligent coloring scheme, the blocks in
+          a super-block share the cost of covering low probability cases, which allows
+          the decoder to recover the actual feature values from the color value even
+          in the presence of error. mEEC also adopts a lightweight redistribution
+          step, which is guided by the solution of an optimization problem and further
+          reduces the estimation errors and bias. We also show that mEEC can be implemented
+          within reasonable table storage size and low time complexity.
+        address: Atlanta, GA, USA
+        author: Zhang, Zhenghao and Kumar, Piyush
+        available: https://ieeexplore.ieee.org/document/8057134
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFOCOM.2017.8057134
+        file: EEC/Zhang and Kumar - 2017 - mEEC A novel error estimation code with
+          multi-dim.pdf
+        isbn: 978-1-5090-5336-0
+        language: en
+        month: May
+        pages: 1--9
+        publisher: IEEE
+        shorttitle: '{mEEC}'
+        tag: EEC
+        title: '{mEEC: A Novel Error Estimation Code with Multi-dimensional Feature}'
+        url: http://ieeexplore.ieee.org/document/8057134/
+        urldate: '2019-01-07'
+        year: '2017'
+      - ENTRYTYPE: inproceedings
+        ID: Huang2014
+        acmid: '2591976'
+        address: New York, NY, USA
+        author: Huang, Jiwei and Yang, Sen and Lall, Ashwin and Romberg, Justin and
+          Xu, Jun and Lin, Chuang
+        available: https://dl.acm.org/citation.cfm?id=2591976
+        booktitle: The 2014 ACM International Conference on Measurement and Modeling
+          of Computer Systems
+        doi: 10.1145/2591971.2591976
+        file: EEC/Huang et al. - 2014 - Error estimating codes for insertion and deletion
+          .pdf
+        isbn: 978-1-4503-2789-3
+        keywords: deletion channel, error estimating coding, insertion channel
+        location: Austin, Texas, USA
+        numpages: '13'
+        pages: 381--393
+        publisher: ACM
+        series: SIGMETRICS '14
+        tag: EEC
+        title: '{Error Estimating Codes for Insertion and Deletion Channels}'
+        url: http://doi.acm.org/10.1145/2591971.2591976
+        year: '2014'
+      - ENTRYTYPE: misc
+        ID: Candes2010
+        author: Emmanuel Cand`es
+        available: https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf
+        file: "Lecture/Cand\xE8s - 2010 - Information Theory of Data Matrices   Recovery\
+          \ fr.pdf"
+        howpublished: \url{https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf}
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id002
+            name: aug
+        pages: '150'
+        tag: Lecture
+        title: '{Information Theory of Data Matrices: Recovery from Incomplete and
+          Corrupted Entries}'
+        type: Lecture
+        year: '2010'
+      - ENTRYTYPE: misc
+        ID: Kellis2005
+        author: Manolis Kellis
+        available: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf
+        file: "Lecture/Manolis Kellis - 2005 - MIT 6.096 \u2013 Algorithms for Computational\
+          \ Biology L.pdf"
+        howpublished: \url{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf}
+        pages: '124'
+        tag: Lecture
+        title: "{MIT 6.096 \u2013 Algorithms for Computational Biology Lecture 5:\
+          \ Sequence Alignment and Dynamic Programming}"
+        type: Lecture
+        year: '2005'
+      - ENTRYTYPE: book
+        ID: Woodruff2014
+        acmid: '2693652'
+        address: Hanover, MA, USA
+        author: Woodruff, David P.
+        available: https://researcher.watson.ibm.com/researcher/files/us-dpwoodru/wNow.pdf
+        doi: 10.1561/0400000060
+        file: Book/Woodruff - 2014 - Sketching As a Tool for Numerical Linear Algebra.pdf
+        issn: 1551-305X
+        issue_date: October 2014
+        journal: Found. Trends Theor. Comput. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id002
+            name: oct
+        number: 1\&\#8211;2
+        numpages: '157'
+        pages: 1--157
+        publisher: Now Publishers Inc.
+        tag: Book
+        title: Sketching As a Tool for Numerical Linear Algebra
+        url: http://dx.doi.org/10.1561/0400000060
+        volume: '10'
+        year: '2014'
+      - ENTRYTYPE: book
+        ID: hastie_elements_2009
+        abstract: "During the past decade there has been an explosion in computation\
+          \ and information technology. With it have come vast amounts of data in\
+          \ a variety of fields such as medicine, biology, finance, and marketing.\
+          \ The challenge of understanding these data has led to the development of\
+          \ new tools in the field of statistics, and spawned new areas such as data\
+          \ mining, machine learning, and bioinformatics. Many of these tools have\
+          \ common underpinnings but are often expressed with different terminology.\
+          \ This book describes the important ideas in these areas in a common conceptual\
+          \ framework. While the approach is statistical, the emphasis is on concepts\
+          \ rather than mathematics. Many examples are given, with a liberal use of\
+          \ color graphics. It is\_a valuable resource for statisticians and anyone\
+          \ interested in data mining in science or industry. The book's coverage\
+          \ is broad, from supervised learning (prediction) to unsupervised learning.\
+          \ The many topics include neural networks, support vector machines, classification\
+          \ trees and boosting---the first comprehensive treatment of this topic in\
+          \ any book.This major new edition features many topics not covered in the\
+          \ original, including graphical models, random forests, ensemble methods,\
+          \ least angle regression \\& path algorithms for the lasso, non-negative\
+          \ matrix factorization, and spectral clustering. There is also a chapter\
+          \ on methods for ``wide'' data (p bigger than n), including multiple testing\
+          \ and false discovery rates."
+        author: Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome
+        available: https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics-ebook/dp/B00475AS2E
+        edition: 2 edition
+        file: Hastie et al. - 2009 - The Elements of Statistical Learning Data Mining,.pdf
+        language: English
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id002
+            name: aug
+        publisher: Springer
+        shorttitle: The Elements of Statistical Learning
+        tag: book
+        title: 'The Elements of Statistical Learning: Data Mining, Inference, and
+          Prediction'
+        year: '2009'
+      - ENTRYTYPE: article
+        ID: wang_lsh_survey_2014
+        archiveprefix: arXiv
+        author: 'Jingdong Wang and
+
+          Heng Tao Shen and
+
+          Jingkuan Song and
+
+          Jianqiu Ji'
+        bibsource: dblp computer science bibliography, https://dblp.org
+        biburl: https://dblp.org/rec/bib/journals/corr/WangSSJ14
+        eprint: '1408.2927'
+        file: LSH/Wang et al. - 2014 - Hashing for Similarity Search A Survey.pdf
+        journal: CoRR
+        tag: lsh
+        timestamp: Mon, 13 Aug 2018 16:49:05 +0200
+        title: 'Hashing for Similarity Search: {A} Survey'
+        url: http://arxiv.org/abs/1408.2927
+        volume: abs/1408.2927
+        year: '2014'
+      - ENTRYTYPE: inproceedings
+        ID: Manku_near_dup_2007
+        acmid: '1242592'
+        address: New York, NY, USA
+        author: Manku, Gurmeet Singh and Jain, Arvind and Das Sarma, Anish
+        booktitle: Proceedings of the 16th International Conference on World Wide
+          Web
+        doi: 10.1145/1242572.1242592
+        file: near-duplicates/Manku et al. - 2007 - Detecting near-duplicates for
+          web crawling.pdf
+        isbn: 978-1-59593-654-7
+        keywords: fingerprint, hamming distance, near-duplicate, search, similarity,
+          sketch, web crawl, web document
+        location: Banff, Alberta, Canada
+        numpages: '10'
+        pages: 141--150
+        publisher: ACM
+        series: WWW '07
+        tag: near-duplicates-detection
+        title: Detecting Near-duplicates for Web Crawling
+        url: http://doi.acm.org/10.1145/1242572.1242592
+        year: '2007'
+      - ENTRYTYPE: article
+        ID: Broder_MinWiseIndependent_2000
+        acmid: '348768'
+        address: Orlando, FL, USA
+        author: Broder, Andrei Z and Charikar, Moses and Frieze, Alan M and Mitzenmacher,
+          Michael
+        doi: 10.1006/jcss.1999.1690
+        file: Hash/Broder et al. - 2000 - Min-Wise Independent Permutations.pdf
+        issn: 0022-0000
+        issue_date: June 2000
+        journal: J. Comput. Syst. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id002
+            name: jun
+        number: '3'
+        numpages: '30'
+        pages: 630--659
+        publisher: Academic Press, Inc.
+        tag: minHash
+        title: Min-Wise Independent Permutations
+        url: http://dx.doi.org/10.1006/jcss.1999.1690
+        volume: '60'
+        year: '2000'
+      - ENTRYTYPE: inproceedings
+        ID: Charikar_SimilarityEstimationTechniques_2002
+        acmid: '509965'
+        address: New York, NY, USA
+        author: Charikar, Moses S.
+        booktitle: Proceedings of the Thiry-fourth Annual ACM Symposium on Theory
+          of Computing
+        doi: 10.1145/509907.509965
+        file: Hash/Charikar - 2002 - Similarity Estimation Techniques from Rounding
+          Alg.pdf
+        isbn: 1-58113-495-9
+        location: Montreal, Quebec, Canada
+        numpages: '9'
+        pages: 380--388
+        publisher: ACM
+        series: STOC '02
+        tag: simHash
+        title: Similarity Estimation Techniques from Rounding Algorithms
+        url: http://doi.acm.org/10.1145/509907.509965
+        year: '2002'
+      - ENTRYTYPE: misc
+        ID: noauthor_acoustic_2018
+        abstract: An acoustic fingerprint is a condensed digital summary, a fingerprint,
+          deterministically generated from an audio signal, that can be used to identify
+          an  audio sample or quickly locate similar items in an audio database.Practical
+          uses of acoustic fingerprinting include identifying songs, melodies, tunes,
+          or advertisements; sound effect library management; and video file identification.
+          Media identification using acoustic fingerprints can be used to monitor
+          the use of specific musical works and performances on radio broadcast, records,
+          CDs, streaming media and peer-to-peer networks. This identification has
+          been used in copyright compliance, licensing, and other monetization schemes.
+        copyright: Creative Commons Attribution-ShareAlike License
+        journal: Wikipedia
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id002
+            name: nov
+        note: 'Page Version ID: 870512438'
+        tag: fingerprint
+        title: Acoustic fingerprint
+        url: https://en.wikipedia.org/w/index.php?title=Acoustic_fingerprint&oldid=870512438
+        urldate: '2019-01-18'
+        year: '2018'
+      preambles: []
+      strings: !!python/object/apply:collections.OrderedDict
+      - - - jan
+          - January
+        - - feb
+          - February
+        - - mar
+          - March
+        - - apr
+          - April
+        - - may
+          - May
+        - - jun
+          - June
+        - - jul
+          - July
+        - - aug
+          - August
+        - - sep
+          - September
+        - - oct
+          - October
+        - - nov
+          - November
+        - - dec
+          - December
+    name: mar
+pages: 235--243
+publisher: IEEE
+tag: EEC
+title: '{A Simpler and Better Design of Error Estimating Coding}'
+url: http://ieeexplore.ieee.org/document/6195624/
+urldate: '2019-01-07'
+year: '2012'
+
+
+ENTRYTYPE: inproceedings
+ID: Zhang2017
+abstract: Error estimation code estimates the bit error ratio in the data bits, and
+  is very useful in many applications, such as estimating the number of errors in
+  a packet transmitted over a wireless link. In this paper, we propose a novel error
+  estimation code, mEEC, that outperforms the existing code by more than 10\%-20\%
+  depending on the packet sizes, as well as being more unbiased. mEEC is mainly based
+  on the idea of grouping multiple blocks of sampled data bits into a super-block,
+  thus creating a multi-dimensional feature, then compressing features into a single
+  number, called the color, as the coded bits. Through an intelligent coloring scheme,
+  the blocks in a super-block share the cost of covering low probability cases, which
+  allows the decoder to recover the actual feature values from the color value even
+  in the presence of error. mEEC also adopts a lightweight redistribution step, which
+  is guided by the solution of an optimization problem and further reduces the estimation
+  errors and bias. We also show that mEEC can be implemented within reasonable table
+  storage size and low time complexity.
+address: Atlanta, GA, USA
+author: Zhang, Zhenghao and Kumar, Piyush
+available: https://ieeexplore.ieee.org/document/8057134
+booktitle: Proceedings of the IEEE INFOCOM
+doi: 10.1109/INFOCOM.2017.8057134
+file: EEC/Zhang and Kumar - 2017 - mEEC A novel error estimation code with multi-dim.pdf
+isbn: 978-1-5090-5336-0
+language: en
+month: May
+pages: 1--9
+publisher: IEEE
+shorttitle: '{mEEC}'
+tag: EEC
+title: '{mEEC: A Novel Error Estimation Code with Multi-dimensional Feature}'
+url: http://ieeexplore.ieee.org/document/8057134/
+urldate: '2019-01-07'
+year: '2017'
+
+
+ENTRYTYPE: inproceedings
+ID: Huang2014
+acmid: '2591976'
+address: New York, NY, USA
+author: Huang, Jiwei and Yang, Sen and Lall, Ashwin and Romberg, Justin and Xu, Jun
+  and Lin, Chuang
+available: https://dl.acm.org/citation.cfm?id=2591976
+booktitle: The 2014 ACM International Conference on Measurement and Modeling of Computer
+  Systems
+doi: 10.1145/2591971.2591976
+file: EEC/Huang et al. - 2014 - Error estimating codes for insertion and deletion
+  .pdf
+isbn: 978-1-4503-2789-3
+keywords: deletion channel, error estimating coding, insertion channel
+location: Austin, Texas, USA
+numpages: '13'
+pages: 381--393
+publisher: ACM
+series: SIGMETRICS '14
+tag: EEC
+title: '{Error Estimating Codes for Insertion and Deletion Channels}'
+url: http://doi.acm.org/10.1145/2591971.2591976
+year: '2014'
+
+
+&id002
+ENTRYTYPE: misc
+ID: Candes2010
+author: Emmanuel Cand`es
+available: https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf
+file: "Lecture/Cand\xE8s - 2010 - Information Theory of Data Matrices   Recovery fr.pdf"
+howpublished: \url{https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf}
+month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+  expr:
+  - !!python/object:bibtexparser.bibdatabase.BibDataString
+    _bibdatabase: &id001 !!python/object:bibtexparser.bibdatabase.BibDatabase
+      _entries_dict: {}
+      comments:
+      - '% Encoding: UTF-8'
+      entries:
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012
+        acmid: '2254773'
+        address: New York, NY, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://dl.acm.org/citation.cfm?id=2254773
+        booktitle: Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE Joint International
+          Conference on Measurement and Modeling of Computer Systems
+        doi: 10.1145/2254756.2254773
+        file: EEC/Hua and Lall - Towards Optimal Error-Estimating Codes through the.pdf
+        isbn: 978-1-4503-1097-0
+        keywords: Fisher information, error estimating coding
+        location: London, England, UK
+        numpages: '12'
+        pages: 125--136
+        publisher: ACM
+        series: SIGMETRICS '12
+        tag: EEC
+        title: '{Towards Optimal Error-estimating Codes Through the Lens of Fisher
+          Information Analysis}'
+        url: http://doi.acm.org/10.1145/2254756.2254773
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012a
+        abstract: We study error estimating codes with the goal of establishing better
+          bounds for the theoretical and empirical overhead of such schemes. We explore
+          the idea of using sketch data structures for this problem, and show that
+          the tug-of-war sketch gives an asymptotically optimal solution. The optimality
+          of our algorithms are proved using communication complexity lower bound
+          techniques. We then propose a novel enhancement of the tug-of-war sketch
+          that greatly reduces the communication overhead for realistic error rates.
+          Our theoretical analysis and assertions are supported by extensive experimental
+          evaluation.
+        address: Orlando, FL, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://ieeexplore.ieee.org/document/6195624
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFCOM.2012.6195624
+        file: EEC/Nan Hua et al. - 2012 - A simpler and better design of error estimating
+          co.pdf
+        isbn: 978-1-4673-0775-8 978-1-4673-0773-4 978-1-4673-0774-1
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: mar
+        pages: 235--243
+        publisher: IEEE
+        tag: EEC
+        title: '{A Simpler and Better Design of Error Estimating Coding}'
+        url: http://ieeexplore.ieee.org/document/6195624/
+        urldate: '2019-01-07'
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Zhang2017
+        abstract: Error estimation code estimates the bit error ratio in the data
+          bits, and is very useful in many applications, such as estimating the number
+          of errors in a packet transmitted over a wireless link. In this paper, we
+          propose a novel error estimation code, mEEC, that outperforms the existing
+          code by more than 10\%-20\% depending on the packet sizes, as well as being
+          more unbiased. mEEC is mainly based on the idea of grouping multiple blocks
+          of sampled data bits into a super-block, thus creating a multi-dimensional
+          feature, then compressing features into a single number, called the color,
+          as the coded bits. Through an intelligent coloring scheme, the blocks in
+          a super-block share the cost of covering low probability cases, which allows
+          the decoder to recover the actual feature values from the color value even
+          in the presence of error. mEEC also adopts a lightweight redistribution
+          step, which is guided by the solution of an optimization problem and further
+          reduces the estimation errors and bias. We also show that mEEC can be implemented
+          within reasonable table storage size and low time complexity.
+        address: Atlanta, GA, USA
+        author: Zhang, Zhenghao and Kumar, Piyush
+        available: https://ieeexplore.ieee.org/document/8057134
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFOCOM.2017.8057134
+        file: EEC/Zhang and Kumar - 2017 - mEEC A novel error estimation code with
+          multi-dim.pdf
+        isbn: 978-1-5090-5336-0
+        language: en
+        month: May
+        pages: 1--9
+        publisher: IEEE
+        shorttitle: '{mEEC}'
+        tag: EEC
+        title: '{mEEC: A Novel Error Estimation Code with Multi-dimensional Feature}'
+        url: http://ieeexplore.ieee.org/document/8057134/
+        urldate: '2019-01-07'
+        year: '2017'
+      - ENTRYTYPE: inproceedings
+        ID: Huang2014
+        acmid: '2591976'
+        address: New York, NY, USA
+        author: Huang, Jiwei and Yang, Sen and Lall, Ashwin and Romberg, Justin and
+          Xu, Jun and Lin, Chuang
+        available: https://dl.acm.org/citation.cfm?id=2591976
+        booktitle: The 2014 ACM International Conference on Measurement and Modeling
+          of Computer Systems
+        doi: 10.1145/2591971.2591976
+        file: EEC/Huang et al. - 2014 - Error estimating codes for insertion and deletion
+          .pdf
+        isbn: 978-1-4503-2789-3
+        keywords: deletion channel, error estimating coding, insertion channel
+        location: Austin, Texas, USA
+        numpages: '13'
+        pages: 381--393
+        publisher: ACM
+        series: SIGMETRICS '14
+        tag: EEC
+        title: '{Error Estimating Codes for Insertion and Deletion Channels}'
+        url: http://doi.acm.org/10.1145/2591971.2591976
+        year: '2014'
+      - *id002
+      - ENTRYTYPE: misc
+        ID: Kellis2005
+        author: Manolis Kellis
+        available: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf
+        file: "Lecture/Manolis Kellis - 2005 - MIT 6.096 \u2013 Algorithms for Computational\
+          \ Biology L.pdf"
+        howpublished: \url{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf}
+        pages: '124'
+        tag: Lecture
+        title: "{MIT 6.096 \u2013 Algorithms for Computational Biology Lecture 5:\
+          \ Sequence Alignment and Dynamic Programming}"
+        type: Lecture
+        year: '2005'
+      - ENTRYTYPE: book
+        ID: Woodruff2014
+        acmid: '2693652'
+        address: Hanover, MA, USA
+        author: Woodruff, David P.
+        available: https://researcher.watson.ibm.com/researcher/files/us-dpwoodru/wNow.pdf
+        doi: 10.1561/0400000060
+        file: Book/Woodruff - 2014 - Sketching As a Tool for Numerical Linear Algebra.pdf
+        issn: 1551-305X
+        issue_date: October 2014
+        journal: Found. Trends Theor. Comput. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: oct
+        number: 1\&\#8211;2
+        numpages: '157'
+        pages: 1--157
+        publisher: Now Publishers Inc.
+        tag: Book
+        title: Sketching As a Tool for Numerical Linear Algebra
+        url: http://dx.doi.org/10.1561/0400000060
+        volume: '10'
+        year: '2014'
+      - ENTRYTYPE: book
+        ID: hastie_elements_2009
+        abstract: "During the past decade there has been an explosion in computation\
+          \ and information technology. With it have come vast amounts of data in\
+          \ a variety of fields such as medicine, biology, finance, and marketing.\
+          \ The challenge of understanding these data has led to the development of\
+          \ new tools in the field of statistics, and spawned new areas such as data\
+          \ mining, machine learning, and bioinformatics. Many of these tools have\
+          \ common underpinnings but are often expressed with different terminology.\
+          \ This book describes the important ideas in these areas in a common conceptual\
+          \ framework. While the approach is statistical, the emphasis is on concepts\
+          \ rather than mathematics. Many examples are given, with a liberal use of\
+          \ color graphics. It is\_a valuable resource for statisticians and anyone\
+          \ interested in data mining in science or industry. The book's coverage\
+          \ is broad, from supervised learning (prediction) to unsupervised learning.\
+          \ The many topics include neural networks, support vector machines, classification\
+          \ trees and boosting---the first comprehensive treatment of this topic in\
+          \ any book.This major new edition features many topics not covered in the\
+          \ original, including graphical models, random forests, ensemble methods,\
+          \ least angle regression \\& path algorithms for the lasso, non-negative\
+          \ matrix factorization, and spectral clustering. There is also a chapter\
+          \ on methods for ``wide'' data (p bigger than n), including multiple testing\
+          \ and false discovery rates."
+        author: Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome
+        available: https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics-ebook/dp/B00475AS2E
+        edition: 2 edition
+        file: Hastie et al. - 2009 - The Elements of Statistical Learning Data Mining,.pdf
+        language: English
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: aug
+        publisher: Springer
+        shorttitle: The Elements of Statistical Learning
+        tag: book
+        title: 'The Elements of Statistical Learning: Data Mining, Inference, and
+          Prediction'
+        year: '2009'
+      - ENTRYTYPE: article
+        ID: wang_lsh_survey_2014
+        archiveprefix: arXiv
+        author: 'Jingdong Wang and
+
+          Heng Tao Shen and
+
+          Jingkuan Song and
+
+          Jianqiu Ji'
+        bibsource: dblp computer science bibliography, https://dblp.org
+        biburl: https://dblp.org/rec/bib/journals/corr/WangSSJ14
+        eprint: '1408.2927'
+        file: LSH/Wang et al. - 2014 - Hashing for Similarity Search A Survey.pdf
+        journal: CoRR
+        tag: lsh
+        timestamp: Mon, 13 Aug 2018 16:49:05 +0200
+        title: 'Hashing for Similarity Search: {A} Survey'
+        url: http://arxiv.org/abs/1408.2927
+        volume: abs/1408.2927
+        year: '2014'
+      - ENTRYTYPE: inproceedings
+        ID: Manku_near_dup_2007
+        acmid: '1242592'
+        address: New York, NY, USA
+        author: Manku, Gurmeet Singh and Jain, Arvind and Das Sarma, Anish
+        booktitle: Proceedings of the 16th International Conference on World Wide
+          Web
+        doi: 10.1145/1242572.1242592
+        file: near-duplicates/Manku et al. - 2007 - Detecting near-duplicates for
+          web crawling.pdf
+        isbn: 978-1-59593-654-7
+        keywords: fingerprint, hamming distance, near-duplicate, search, similarity,
+          sketch, web crawl, web document
+        location: Banff, Alberta, Canada
+        numpages: '10'
+        pages: 141--150
+        publisher: ACM
+        series: WWW '07
+        tag: near-duplicates-detection
+        title: Detecting Near-duplicates for Web Crawling
+        url: http://doi.acm.org/10.1145/1242572.1242592
+        year: '2007'
+      - ENTRYTYPE: article
+        ID: Broder_MinWiseIndependent_2000
+        acmid: '348768'
+        address: Orlando, FL, USA
+        author: Broder, Andrei Z and Charikar, Moses and Frieze, Alan M and Mitzenmacher,
+          Michael
+        doi: 10.1006/jcss.1999.1690
+        file: Hash/Broder et al. - 2000 - Min-Wise Independent Permutations.pdf
+        issn: 0022-0000
+        issue_date: June 2000
+        journal: J. Comput. Syst. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: jun
+        number: '3'
+        numpages: '30'
+        pages: 630--659
+        publisher: Academic Press, Inc.
+        tag: minHash
+        title: Min-Wise Independent Permutations
+        url: http://dx.doi.org/10.1006/jcss.1999.1690
+        volume: '60'
+        year: '2000'
+      - ENTRYTYPE: inproceedings
+        ID: Charikar_SimilarityEstimationTechniques_2002
+        acmid: '509965'
+        address: New York, NY, USA
+        author: Charikar, Moses S.
+        booktitle: Proceedings of the Thiry-fourth Annual ACM Symposium on Theory
+          of Computing
+        doi: 10.1145/509907.509965
+        file: Hash/Charikar - 2002 - Similarity Estimation Techniques from Rounding
+          Alg.pdf
+        isbn: 1-58113-495-9
+        location: Montreal, Quebec, Canada
+        numpages: '9'
+        pages: 380--388
+        publisher: ACM
+        series: STOC '02
+        tag: simHash
+        title: Similarity Estimation Techniques from Rounding Algorithms
+        url: http://doi.acm.org/10.1145/509907.509965
+        year: '2002'
+      - ENTRYTYPE: misc
+        ID: noauthor_acoustic_2018
+        abstract: An acoustic fingerprint is a condensed digital summary, a fingerprint,
+          deterministically generated from an audio signal, that can be used to identify
+          an  audio sample or quickly locate similar items in an audio database.Practical
+          uses of acoustic fingerprinting include identifying songs, melodies, tunes,
+          or advertisements; sound effect library management; and video file identification.
+          Media identification using acoustic fingerprints can be used to monitor
+          the use of specific musical works and performances on radio broadcast, records,
+          CDs, streaming media and peer-to-peer networks. This identification has
+          been used in copyright compliance, licensing, and other monetization schemes.
+        copyright: Creative Commons Attribution-ShareAlike License
+        journal: Wikipedia
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: nov
+        note: 'Page Version ID: 870512438'
+        tag: fingerprint
+        title: Acoustic fingerprint
+        url: https://en.wikipedia.org/w/index.php?title=Acoustic_fingerprint&oldid=870512438
+        urldate: '2019-01-18'
+        year: '2018'
+      preambles: []
+      strings: !!python/object/apply:collections.OrderedDict
+      - - - jan
+          - January
+        - - feb
+          - February
+        - - mar
+          - March
+        - - apr
+          - April
+        - - may
+          - May
+        - - jun
+          - June
+        - - jul
+          - July
+        - - aug
+          - August
+        - - sep
+          - September
+        - - oct
+          - October
+        - - nov
+          - November
+        - - dec
+          - December
+    name: aug
+pages: '150'
+tag: Lecture
+title: '{Information Theory of Data Matrices: Recovery from Incomplete and Corrupted
+  Entries}'
+type: Lecture
+year: '2010'
+
+
+ENTRYTYPE: misc
+ID: Kellis2005
+author: Manolis Kellis
+available: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf
+file: "Lecture/Manolis Kellis - 2005 - MIT 6.096 \u2013 Algorithms for Computational\
+  \ Biology L.pdf"
+howpublished: \url{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf}
+pages: '124'
+tag: Lecture
+title: "{MIT 6.096 \u2013 Algorithms for Computational Biology Lecture 5: Sequence\
+  \ Alignment and Dynamic Programming}"
+type: Lecture
+year: '2005'
+
+
+&id002
+ENTRYTYPE: book
+ID: Woodruff2014
+acmid: '2693652'
+address: Hanover, MA, USA
+author: Woodruff, David P.
+available: https://researcher.watson.ibm.com/researcher/files/us-dpwoodru/wNow.pdf
+doi: 10.1561/0400000060
+file: Book/Woodruff - 2014 - Sketching As a Tool for Numerical Linear Algebra.pdf
+issn: 1551-305X
+issue_date: October 2014
+journal: Found. Trends Theor. Comput. Sci.
+month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+  expr:
+  - !!python/object:bibtexparser.bibdatabase.BibDataString
+    _bibdatabase: &id001 !!python/object:bibtexparser.bibdatabase.BibDatabase
+      _entries_dict: {}
+      comments:
+      - '% Encoding: UTF-8'
+      entries:
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012
+        acmid: '2254773'
+        address: New York, NY, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://dl.acm.org/citation.cfm?id=2254773
+        booktitle: Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE Joint International
+          Conference on Measurement and Modeling of Computer Systems
+        doi: 10.1145/2254756.2254773
+        file: EEC/Hua and Lall - Towards Optimal Error-Estimating Codes through the.pdf
+        isbn: 978-1-4503-1097-0
+        keywords: Fisher information, error estimating coding
+        location: London, England, UK
+        numpages: '12'
+        pages: 125--136
+        publisher: ACM
+        series: SIGMETRICS '12
+        tag: EEC
+        title: '{Towards Optimal Error-estimating Codes Through the Lens of Fisher
+          Information Analysis}'
+        url: http://doi.acm.org/10.1145/2254756.2254773
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012a
+        abstract: We study error estimating codes with the goal of establishing better
+          bounds for the theoretical and empirical overhead of such schemes. We explore
+          the idea of using sketch data structures for this problem, and show that
+          the tug-of-war sketch gives an asymptotically optimal solution. The optimality
+          of our algorithms are proved using communication complexity lower bound
+          techniques. We then propose a novel enhancement of the tug-of-war sketch
+          that greatly reduces the communication overhead for realistic error rates.
+          Our theoretical analysis and assertions are supported by extensive experimental
+          evaluation.
+        address: Orlando, FL, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://ieeexplore.ieee.org/document/6195624
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFCOM.2012.6195624
+        file: EEC/Nan Hua et al. - 2012 - A simpler and better design of error estimating
+          co.pdf
+        isbn: 978-1-4673-0775-8 978-1-4673-0773-4 978-1-4673-0774-1
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: mar
+        pages: 235--243
+        publisher: IEEE
+        tag: EEC
+        title: '{A Simpler and Better Design of Error Estimating Coding}'
+        url: http://ieeexplore.ieee.org/document/6195624/
+        urldate: '2019-01-07'
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Zhang2017
+        abstract: Error estimation code estimates the bit error ratio in the data
+          bits, and is very useful in many applications, such as estimating the number
+          of errors in a packet transmitted over a wireless link. In this paper, we
+          propose a novel error estimation code, mEEC, that outperforms the existing
+          code by more than 10\%-20\% depending on the packet sizes, as well as being
+          more unbiased. mEEC is mainly based on the idea of grouping multiple blocks
+          of sampled data bits into a super-block, thus creating a multi-dimensional
+          feature, then compressing features into a single number, called the color,
+          as the coded bits. Through an intelligent coloring scheme, the blocks in
+          a super-block share the cost of covering low probability cases, which allows
+          the decoder to recover the actual feature values from the color value even
+          in the presence of error. mEEC also adopts a lightweight redistribution
+          step, which is guided by the solution of an optimization problem and further
+          reduces the estimation errors and bias. We also show that mEEC can be implemented
+          within reasonable table storage size and low time complexity.
+        address: Atlanta, GA, USA
+        author: Zhang, Zhenghao and Kumar, Piyush
+        available: https://ieeexplore.ieee.org/document/8057134
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFOCOM.2017.8057134
+        file: EEC/Zhang and Kumar - 2017 - mEEC A novel error estimation code with
+          multi-dim.pdf
+        isbn: 978-1-5090-5336-0
+        language: en
+        month: May
+        pages: 1--9
+        publisher: IEEE
+        shorttitle: '{mEEC}'
+        tag: EEC
+        title: '{mEEC: A Novel Error Estimation Code with Multi-dimensional Feature}'
+        url: http://ieeexplore.ieee.org/document/8057134/
+        urldate: '2019-01-07'
+        year: '2017'
+      - ENTRYTYPE: inproceedings
+        ID: Huang2014
+        acmid: '2591976'
+        address: New York, NY, USA
+        author: Huang, Jiwei and Yang, Sen and Lall, Ashwin and Romberg, Justin and
+          Xu, Jun and Lin, Chuang
+        available: https://dl.acm.org/citation.cfm?id=2591976
+        booktitle: The 2014 ACM International Conference on Measurement and Modeling
+          of Computer Systems
+        doi: 10.1145/2591971.2591976
+        file: EEC/Huang et al. - 2014 - Error estimating codes for insertion and deletion
+          .pdf
+        isbn: 978-1-4503-2789-3
+        keywords: deletion channel, error estimating coding, insertion channel
+        location: Austin, Texas, USA
+        numpages: '13'
+        pages: 381--393
+        publisher: ACM
+        series: SIGMETRICS '14
+        tag: EEC
+        title: '{Error Estimating Codes for Insertion and Deletion Channels}'
+        url: http://doi.acm.org/10.1145/2591971.2591976
+        year: '2014'
+      - ENTRYTYPE: misc
+        ID: Candes2010
+        author: Emmanuel Cand`es
+        available: https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf
+        file: "Lecture/Cand\xE8s - 2010 - Information Theory of Data Matrices   Recovery\
+          \ fr.pdf"
+        howpublished: \url{https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf}
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: aug
+        pages: '150'
+        tag: Lecture
+        title: '{Information Theory of Data Matrices: Recovery from Incomplete and
+          Corrupted Entries}'
+        type: Lecture
+        year: '2010'
+      - ENTRYTYPE: misc
+        ID: Kellis2005
+        author: Manolis Kellis
+        available: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf
+        file: "Lecture/Manolis Kellis - 2005 - MIT 6.096 \u2013 Algorithms for Computational\
+          \ Biology L.pdf"
+        howpublished: \url{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf}
+        pages: '124'
+        tag: Lecture
+        title: "{MIT 6.096 \u2013 Algorithms for Computational Biology Lecture 5:\
+          \ Sequence Alignment and Dynamic Programming}"
+        type: Lecture
+        year: '2005'
+      - *id002
+      - ENTRYTYPE: book
+        ID: hastie_elements_2009
+        abstract: "During the past decade there has been an explosion in computation\
+          \ and information technology. With it have come vast amounts of data in\
+          \ a variety of fields such as medicine, biology, finance, and marketing.\
+          \ The challenge of understanding these data has led to the development of\
+          \ new tools in the field of statistics, and spawned new areas such as data\
+          \ mining, machine learning, and bioinformatics. Many of these tools have\
+          \ common underpinnings but are often expressed with different terminology.\
+          \ This book describes the important ideas in these areas in a common conceptual\
+          \ framework. While the approach is statistical, the emphasis is on concepts\
+          \ rather than mathematics. Many examples are given, with a liberal use of\
+          \ color graphics. It is\_a valuable resource for statisticians and anyone\
+          \ interested in data mining in science or industry. The book's coverage\
+          \ is broad, from supervised learning (prediction) to unsupervised learning.\
+          \ The many topics include neural networks, support vector machines, classification\
+          \ trees and boosting---the first comprehensive treatment of this topic in\
+          \ any book.This major new edition features many topics not covered in the\
+          \ original, including graphical models, random forests, ensemble methods,\
+          \ least angle regression \\& path algorithms for the lasso, non-negative\
+          \ matrix factorization, and spectral clustering. There is also a chapter\
+          \ on methods for ``wide'' data (p bigger than n), including multiple testing\
+          \ and false discovery rates."
+        author: Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome
+        available: https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics-ebook/dp/B00475AS2E
+        edition: 2 edition
+        file: Hastie et al. - 2009 - The Elements of Statistical Learning Data Mining,.pdf
+        language: English
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: aug
+        publisher: Springer
+        shorttitle: The Elements of Statistical Learning
+        tag: book
+        title: 'The Elements of Statistical Learning: Data Mining, Inference, and
+          Prediction'
+        year: '2009'
+      - ENTRYTYPE: article
+        ID: wang_lsh_survey_2014
+        archiveprefix: arXiv
+        author: 'Jingdong Wang and
+
+          Heng Tao Shen and
+
+          Jingkuan Song and
+
+          Jianqiu Ji'
+        bibsource: dblp computer science bibliography, https://dblp.org
+        biburl: https://dblp.org/rec/bib/journals/corr/WangSSJ14
+        eprint: '1408.2927'
+        file: LSH/Wang et al. - 2014 - Hashing for Similarity Search A Survey.pdf
+        journal: CoRR
+        tag: lsh
+        timestamp: Mon, 13 Aug 2018 16:49:05 +0200
+        title: 'Hashing for Similarity Search: {A} Survey'
+        url: http://arxiv.org/abs/1408.2927
+        volume: abs/1408.2927
+        year: '2014'
+      - ENTRYTYPE: inproceedings
+        ID: Manku_near_dup_2007
+        acmid: '1242592'
+        address: New York, NY, USA
+        author: Manku, Gurmeet Singh and Jain, Arvind and Das Sarma, Anish
+        booktitle: Proceedings of the 16th International Conference on World Wide
+          Web
+        doi: 10.1145/1242572.1242592
+        file: near-duplicates/Manku et al. - 2007 - Detecting near-duplicates for
+          web crawling.pdf
+        isbn: 978-1-59593-654-7
+        keywords: fingerprint, hamming distance, near-duplicate, search, similarity,
+          sketch, web crawl, web document
+        location: Banff, Alberta, Canada
+        numpages: '10'
+        pages: 141--150
+        publisher: ACM
+        series: WWW '07
+        tag: near-duplicates-detection
+        title: Detecting Near-duplicates for Web Crawling
+        url: http://doi.acm.org/10.1145/1242572.1242592
+        year: '2007'
+      - ENTRYTYPE: article
+        ID: Broder_MinWiseIndependent_2000
+        acmid: '348768'
+        address: Orlando, FL, USA
+        author: Broder, Andrei Z and Charikar, Moses and Frieze, Alan M and Mitzenmacher,
+          Michael
+        doi: 10.1006/jcss.1999.1690
+        file: Hash/Broder et al. - 2000 - Min-Wise Independent Permutations.pdf
+        issn: 0022-0000
+        issue_date: June 2000
+        journal: J. Comput. Syst. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: jun
+        number: '3'
+        numpages: '30'
+        pages: 630--659
+        publisher: Academic Press, Inc.
+        tag: minHash
+        title: Min-Wise Independent Permutations
+        url: http://dx.doi.org/10.1006/jcss.1999.1690
+        volume: '60'
+        year: '2000'
+      - ENTRYTYPE: inproceedings
+        ID: Charikar_SimilarityEstimationTechniques_2002
+        acmid: '509965'
+        address: New York, NY, USA
+        author: Charikar, Moses S.
+        booktitle: Proceedings of the Thiry-fourth Annual ACM Symposium on Theory
+          of Computing
+        doi: 10.1145/509907.509965
+        file: Hash/Charikar - 2002 - Similarity Estimation Techniques from Rounding
+          Alg.pdf
+        isbn: 1-58113-495-9
+        location: Montreal, Quebec, Canada
+        numpages: '9'
+        pages: 380--388
+        publisher: ACM
+        series: STOC '02
+        tag: simHash
+        title: Similarity Estimation Techniques from Rounding Algorithms
+        url: http://doi.acm.org/10.1145/509907.509965
+        year: '2002'
+      - ENTRYTYPE: misc
+        ID: noauthor_acoustic_2018
+        abstract: An acoustic fingerprint is a condensed digital summary, a fingerprint,
+          deterministically generated from an audio signal, that can be used to identify
+          an  audio sample or quickly locate similar items in an audio database.Practical
+          uses of acoustic fingerprinting include identifying songs, melodies, tunes,
+          or advertisements; sound effect library management; and video file identification.
+          Media identification using acoustic fingerprints can be used to monitor
+          the use of specific musical works and performances on radio broadcast, records,
+          CDs, streaming media and peer-to-peer networks. This identification has
+          been used in copyright compliance, licensing, and other monetization schemes.
+        copyright: Creative Commons Attribution-ShareAlike License
+        journal: Wikipedia
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: nov
+        note: 'Page Version ID: 870512438'
+        tag: fingerprint
+        title: Acoustic fingerprint
+        url: https://en.wikipedia.org/w/index.php?title=Acoustic_fingerprint&oldid=870512438
+        urldate: '2019-01-18'
+        year: '2018'
+      preambles: []
+      strings: !!python/object/apply:collections.OrderedDict
+      - - - jan
+          - January
+        - - feb
+          - February
+        - - mar
+          - March
+        - - apr
+          - April
+        - - may
+          - May
+        - - jun
+          - June
+        - - jul
+          - July
+        - - aug
+          - August
+        - - sep
+          - September
+        - - oct
+          - October
+        - - nov
+          - November
+        - - dec
+          - December
+    name: oct
+number: 1\&\#8211;2
+numpages: '157'
+pages: 1--157
+publisher: Now Publishers Inc.
+tag: Book
+title: Sketching As a Tool for Numerical Linear Algebra
+url: http://dx.doi.org/10.1561/0400000060
+volume: '10'
+year: '2014'
+
+
+&id002
+ENTRYTYPE: book
+ID: hastie_elements_2009
+abstract: "During the past decade there has been an explosion in computation and information\
+  \ technology. With it have come vast amounts of data in a variety of fields such\
+  \ as medicine, biology, finance, and marketing. The challenge of understanding these\
+  \ data has led to the development of new tools in the field of statistics, and spawned\
+  \ new areas such as data mining, machine learning, and bioinformatics. Many of these\
+  \ tools have common underpinnings but are often expressed with different terminology.\
+  \ This book describes the important ideas in these areas in a common conceptual\
+  \ framework. While the approach is statistical, the emphasis is on concepts rather\
+  \ than mathematics. Many examples are given, with a liberal use of color graphics.\
+  \ It is\_a valuable resource for statisticians and anyone interested in data mining\
+  \ in science or industry. The book's coverage is broad, from supervised learning\
+  \ (prediction) to unsupervised learning. The many topics include neural networks,\
+  \ support vector machines, classification trees and boosting---the first comprehensive\
+  \ treatment of this topic in any book.This major new edition features many topics\
+  \ not covered in the original, including graphical models, random forests, ensemble\
+  \ methods, least angle regression \\& path algorithms for the lasso, non-negative\
+  \ matrix factorization, and spectral clustering. There is also a chapter on methods\
+  \ for ``wide'' data (p bigger than n), including multiple testing and false discovery\
+  \ rates."
+author: Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome
+available: https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics-ebook/dp/B00475AS2E
+edition: 2 edition
+file: Hastie et al. - 2009 - The Elements of Statistical Learning Data Mining,.pdf
+language: English
+month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+  expr:
+  - !!python/object:bibtexparser.bibdatabase.BibDataString
+    _bibdatabase: &id001 !!python/object:bibtexparser.bibdatabase.BibDatabase
+      _entries_dict: {}
+      comments:
+      - '% Encoding: UTF-8'
+      entries:
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012
+        acmid: '2254773'
+        address: New York, NY, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://dl.acm.org/citation.cfm?id=2254773
+        booktitle: Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE Joint International
+          Conference on Measurement and Modeling of Computer Systems
+        doi: 10.1145/2254756.2254773
+        file: EEC/Hua and Lall - Towards Optimal Error-Estimating Codes through the.pdf
+        isbn: 978-1-4503-1097-0
+        keywords: Fisher information, error estimating coding
+        location: London, England, UK
+        numpages: '12'
+        pages: 125--136
+        publisher: ACM
+        series: SIGMETRICS '12
+        tag: EEC
+        title: '{Towards Optimal Error-estimating Codes Through the Lens of Fisher
+          Information Analysis}'
+        url: http://doi.acm.org/10.1145/2254756.2254773
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012a
+        abstract: We study error estimating codes with the goal of establishing better
+          bounds for the theoretical and empirical overhead of such schemes. We explore
+          the idea of using sketch data structures for this problem, and show that
+          the tug-of-war sketch gives an asymptotically optimal solution. The optimality
+          of our algorithms are proved using communication complexity lower bound
+          techniques. We then propose a novel enhancement of the tug-of-war sketch
+          that greatly reduces the communication overhead for realistic error rates.
+          Our theoretical analysis and assertions are supported by extensive experimental
+          evaluation.
+        address: Orlando, FL, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://ieeexplore.ieee.org/document/6195624
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFCOM.2012.6195624
+        file: EEC/Nan Hua et al. - 2012 - A simpler and better design of error estimating
+          co.pdf
+        isbn: 978-1-4673-0775-8 978-1-4673-0773-4 978-1-4673-0774-1
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: mar
+        pages: 235--243
+        publisher: IEEE
+        tag: EEC
+        title: '{A Simpler and Better Design of Error Estimating Coding}'
+        url: http://ieeexplore.ieee.org/document/6195624/
+        urldate: '2019-01-07'
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Zhang2017
+        abstract: Error estimation code estimates the bit error ratio in the data
+          bits, and is very useful in many applications, such as estimating the number
+          of errors in a packet transmitted over a wireless link. In this paper, we
+          propose a novel error estimation code, mEEC, that outperforms the existing
+          code by more than 10\%-20\% depending on the packet sizes, as well as being
+          more unbiased. mEEC is mainly based on the idea of grouping multiple blocks
+          of sampled data bits into a super-block, thus creating a multi-dimensional
+          feature, then compressing features into a single number, called the color,
+          as the coded bits. Through an intelligent coloring scheme, the blocks in
+          a super-block share the cost of covering low probability cases, which allows
+          the decoder to recover the actual feature values from the color value even
+          in the presence of error. mEEC also adopts a lightweight redistribution
+          step, which is guided by the solution of an optimization problem and further
+          reduces the estimation errors and bias. We also show that mEEC can be implemented
+          within reasonable table storage size and low time complexity.
+        address: Atlanta, GA, USA
+        author: Zhang, Zhenghao and Kumar, Piyush
+        available: https://ieeexplore.ieee.org/document/8057134
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFOCOM.2017.8057134
+        file: EEC/Zhang and Kumar - 2017 - mEEC A novel error estimation code with
+          multi-dim.pdf
+        isbn: 978-1-5090-5336-0
+        language: en
+        month: May
+        pages: 1--9
+        publisher: IEEE
+        shorttitle: '{mEEC}'
+        tag: EEC
+        title: '{mEEC: A Novel Error Estimation Code with Multi-dimensional Feature}'
+        url: http://ieeexplore.ieee.org/document/8057134/
+        urldate: '2019-01-07'
+        year: '2017'
+      - ENTRYTYPE: inproceedings
+        ID: Huang2014
+        acmid: '2591976'
+        address: New York, NY, USA
+        author: Huang, Jiwei and Yang, Sen and Lall, Ashwin and Romberg, Justin and
+          Xu, Jun and Lin, Chuang
+        available: https://dl.acm.org/citation.cfm?id=2591976
+        booktitle: The 2014 ACM International Conference on Measurement and Modeling
+          of Computer Systems
+        doi: 10.1145/2591971.2591976
+        file: EEC/Huang et al. - 2014 - Error estimating codes for insertion and deletion
+          .pdf
+        isbn: 978-1-4503-2789-3
+        keywords: deletion channel, error estimating coding, insertion channel
+        location: Austin, Texas, USA
+        numpages: '13'
+        pages: 381--393
+        publisher: ACM
+        series: SIGMETRICS '14
+        tag: EEC
+        title: '{Error Estimating Codes for Insertion and Deletion Channels}'
+        url: http://doi.acm.org/10.1145/2591971.2591976
+        year: '2014'
+      - ENTRYTYPE: misc
+        ID: Candes2010
+        author: Emmanuel Cand`es
+        available: https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf
+        file: "Lecture/Cand\xE8s - 2010 - Information Theory of Data Matrices   Recovery\
+          \ fr.pdf"
+        howpublished: \url{https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf}
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: aug
+        pages: '150'
+        tag: Lecture
+        title: '{Information Theory of Data Matrices: Recovery from Incomplete and
+          Corrupted Entries}'
+        type: Lecture
+        year: '2010'
+      - ENTRYTYPE: misc
+        ID: Kellis2005
+        author: Manolis Kellis
+        available: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf
+        file: "Lecture/Manolis Kellis - 2005 - MIT 6.096 \u2013 Algorithms for Computational\
+          \ Biology L.pdf"
+        howpublished: \url{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf}
+        pages: '124'
+        tag: Lecture
+        title: "{MIT 6.096 \u2013 Algorithms for Computational Biology Lecture 5:\
+          \ Sequence Alignment and Dynamic Programming}"
+        type: Lecture
+        year: '2005'
+      - ENTRYTYPE: book
+        ID: Woodruff2014
+        acmid: '2693652'
+        address: Hanover, MA, USA
+        author: Woodruff, David P.
+        available: https://researcher.watson.ibm.com/researcher/files/us-dpwoodru/wNow.pdf
+        doi: 10.1561/0400000060
+        file: Book/Woodruff - 2014 - Sketching As a Tool for Numerical Linear Algebra.pdf
+        issn: 1551-305X
+        issue_date: October 2014
+        journal: Found. Trends Theor. Comput. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: oct
+        number: 1\&\#8211;2
+        numpages: '157'
+        pages: 1--157
+        publisher: Now Publishers Inc.
+        tag: Book
+        title: Sketching As a Tool for Numerical Linear Algebra
+        url: http://dx.doi.org/10.1561/0400000060
+        volume: '10'
+        year: '2014'
+      - *id002
+      - ENTRYTYPE: article
+        ID: wang_lsh_survey_2014
+        archiveprefix: arXiv
+        author: 'Jingdong Wang and
+
+          Heng Tao Shen and
+
+          Jingkuan Song and
+
+          Jianqiu Ji'
+        bibsource: dblp computer science bibliography, https://dblp.org
+        biburl: https://dblp.org/rec/bib/journals/corr/WangSSJ14
+        eprint: '1408.2927'
+        file: LSH/Wang et al. - 2014 - Hashing for Similarity Search A Survey.pdf
+        journal: CoRR
+        tag: lsh
+        timestamp: Mon, 13 Aug 2018 16:49:05 +0200
+        title: 'Hashing for Similarity Search: {A} Survey'
+        url: http://arxiv.org/abs/1408.2927
+        volume: abs/1408.2927
+        year: '2014'
+      - ENTRYTYPE: inproceedings
+        ID: Manku_near_dup_2007
+        acmid: '1242592'
+        address: New York, NY, USA
+        author: Manku, Gurmeet Singh and Jain, Arvind and Das Sarma, Anish
+        booktitle: Proceedings of the 16th International Conference on World Wide
+          Web
+        doi: 10.1145/1242572.1242592
+        file: near-duplicates/Manku et al. - 2007 - Detecting near-duplicates for
+          web crawling.pdf
+        isbn: 978-1-59593-654-7
+        keywords: fingerprint, hamming distance, near-duplicate, search, similarity,
+          sketch, web crawl, web document
+        location: Banff, Alberta, Canada
+        numpages: '10'
+        pages: 141--150
+        publisher: ACM
+        series: WWW '07
+        tag: near-duplicates-detection
+        title: Detecting Near-duplicates for Web Crawling
+        url: http://doi.acm.org/10.1145/1242572.1242592
+        year: '2007'
+      - ENTRYTYPE: article
+        ID: Broder_MinWiseIndependent_2000
+        acmid: '348768'
+        address: Orlando, FL, USA
+        author: Broder, Andrei Z and Charikar, Moses and Frieze, Alan M and Mitzenmacher,
+          Michael
+        doi: 10.1006/jcss.1999.1690
+        file: Hash/Broder et al. - 2000 - Min-Wise Independent Permutations.pdf
+        issn: 0022-0000
+        issue_date: June 2000
+        journal: J. Comput. Syst. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: jun
+        number: '3'
+        numpages: '30'
+        pages: 630--659
+        publisher: Academic Press, Inc.
+        tag: minHash
+        title: Min-Wise Independent Permutations
+        url: http://dx.doi.org/10.1006/jcss.1999.1690
+        volume: '60'
+        year: '2000'
+      - ENTRYTYPE: inproceedings
+        ID: Charikar_SimilarityEstimationTechniques_2002
+        acmid: '509965'
+        address: New York, NY, USA
+        author: Charikar, Moses S.
+        booktitle: Proceedings of the Thiry-fourth Annual ACM Symposium on Theory
+          of Computing
+        doi: 10.1145/509907.509965
+        file: Hash/Charikar - 2002 - Similarity Estimation Techniques from Rounding
+          Alg.pdf
+        isbn: 1-58113-495-9
+        location: Montreal, Quebec, Canada
+        numpages: '9'
+        pages: 380--388
+        publisher: ACM
+        series: STOC '02
+        tag: simHash
+        title: Similarity Estimation Techniques from Rounding Algorithms
+        url: http://doi.acm.org/10.1145/509907.509965
+        year: '2002'
+      - ENTRYTYPE: misc
+        ID: noauthor_acoustic_2018
+        abstract: An acoustic fingerprint is a condensed digital summary, a fingerprint,
+          deterministically generated from an audio signal, that can be used to identify
+          an  audio sample or quickly locate similar items in an audio database.Practical
+          uses of acoustic fingerprinting include identifying songs, melodies, tunes,
+          or advertisements; sound effect library management; and video file identification.
+          Media identification using acoustic fingerprints can be used to monitor
+          the use of specific musical works and performances on radio broadcast, records,
+          CDs, streaming media and peer-to-peer networks. This identification has
+          been used in copyright compliance, licensing, and other monetization schemes.
+        copyright: Creative Commons Attribution-ShareAlike License
+        journal: Wikipedia
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: nov
+        note: 'Page Version ID: 870512438'
+        tag: fingerprint
+        title: Acoustic fingerprint
+        url: https://en.wikipedia.org/w/index.php?title=Acoustic_fingerprint&oldid=870512438
+        urldate: '2019-01-18'
+        year: '2018'
+      preambles: []
+      strings: !!python/object/apply:collections.OrderedDict
+      - - - jan
+          - January
+        - - feb
+          - February
+        - - mar
+          - March
+        - - apr
+          - April
+        - - may
+          - May
+        - - jun
+          - June
+        - - jul
+          - July
+        - - aug
+          - August
+        - - sep
+          - September
+        - - oct
+          - October
+        - - nov
+          - November
+        - - dec
+          - December
+    name: aug
+publisher: Springer
+shorttitle: The Elements of Statistical Learning
+tag: book
+title: 'The Elements of Statistical Learning: Data Mining, Inference, and Prediction'
+year: '2009'
+
+
+ENTRYTYPE: article
+ID: wang_lsh_survey_2014
+archiveprefix: arXiv
+author: 'Jingdong Wang and
+
+  Heng Tao Shen and
+
+  Jingkuan Song and
+
+  Jianqiu Ji'
+bibsource: dblp computer science bibliography, https://dblp.org
+biburl: https://dblp.org/rec/bib/journals/corr/WangSSJ14
+eprint: '1408.2927'
+file: LSH/Wang et al. - 2014 - Hashing for Similarity Search A Survey.pdf
+journal: CoRR
+tag: lsh
+timestamp: Mon, 13 Aug 2018 16:49:05 +0200
+title: 'Hashing for Similarity Search: {A} Survey'
+url: http://arxiv.org/abs/1408.2927
+volume: abs/1408.2927
+year: '2014'
+
+
+ENTRYTYPE: inproceedings
+ID: Manku_near_dup_2007
+acmid: '1242592'
+address: New York, NY, USA
+author: Manku, Gurmeet Singh and Jain, Arvind and Das Sarma, Anish
+booktitle: Proceedings of the 16th International Conference on World Wide Web
+doi: 10.1145/1242572.1242592
+file: near-duplicates/Manku et al. - 2007 - Detecting near-duplicates for web crawling.pdf
+isbn: 978-1-59593-654-7
+keywords: fingerprint, hamming distance, near-duplicate, search, similarity, sketch,
+  web crawl, web document
+location: Banff, Alberta, Canada
+numpages: '10'
+pages: 141--150
+publisher: ACM
+series: WWW '07
+tag: near-duplicates-detection
+title: Detecting Near-duplicates for Web Crawling
+url: http://doi.acm.org/10.1145/1242572.1242592
+year: '2007'
+
+
+&id002
+ENTRYTYPE: article
+ID: Broder_MinWiseIndependent_2000
+acmid: '348768'
+address: Orlando, FL, USA
+author: Broder, Andrei Z and Charikar, Moses and Frieze, Alan M and Mitzenmacher,
+  Michael
+doi: 10.1006/jcss.1999.1690
+file: Hash/Broder et al. - 2000 - Min-Wise Independent Permutations.pdf
+issn: 0022-0000
+issue_date: June 2000
+journal: J. Comput. Syst. Sci.
+month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+  expr:
+  - !!python/object:bibtexparser.bibdatabase.BibDataString
+    _bibdatabase: &id001 !!python/object:bibtexparser.bibdatabase.BibDatabase
+      _entries_dict: {}
+      comments:
+      - '% Encoding: UTF-8'
+      entries:
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012
+        acmid: '2254773'
+        address: New York, NY, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://dl.acm.org/citation.cfm?id=2254773
+        booktitle: Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE Joint International
+          Conference on Measurement and Modeling of Computer Systems
+        doi: 10.1145/2254756.2254773
+        file: EEC/Hua and Lall - Towards Optimal Error-Estimating Codes through the.pdf
+        isbn: 978-1-4503-1097-0
+        keywords: Fisher information, error estimating coding
+        location: London, England, UK
+        numpages: '12'
+        pages: 125--136
+        publisher: ACM
+        series: SIGMETRICS '12
+        tag: EEC
+        title: '{Towards Optimal Error-estimating Codes Through the Lens of Fisher
+          Information Analysis}'
+        url: http://doi.acm.org/10.1145/2254756.2254773
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012a
+        abstract: We study error estimating codes with the goal of establishing better
+          bounds for the theoretical and empirical overhead of such schemes. We explore
+          the idea of using sketch data structures for this problem, and show that
+          the tug-of-war sketch gives an asymptotically optimal solution. The optimality
+          of our algorithms are proved using communication complexity lower bound
+          techniques. We then propose a novel enhancement of the tug-of-war sketch
+          that greatly reduces the communication overhead for realistic error rates.
+          Our theoretical analysis and assertions are supported by extensive experimental
+          evaluation.
+        address: Orlando, FL, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://ieeexplore.ieee.org/document/6195624
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFCOM.2012.6195624
+        file: EEC/Nan Hua et al. - 2012 - A simpler and better design of error estimating
+          co.pdf
+        isbn: 978-1-4673-0775-8 978-1-4673-0773-4 978-1-4673-0774-1
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: mar
+        pages: 235--243
+        publisher: IEEE
+        tag: EEC
+        title: '{A Simpler and Better Design of Error Estimating Coding}'
+        url: http://ieeexplore.ieee.org/document/6195624/
+        urldate: '2019-01-07'
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Zhang2017
+        abstract: Error estimation code estimates the bit error ratio in the data
+          bits, and is very useful in many applications, such as estimating the number
+          of errors in a packet transmitted over a wireless link. In this paper, we
+          propose a novel error estimation code, mEEC, that outperforms the existing
+          code by more than 10\%-20\% depending on the packet sizes, as well as being
+          more unbiased. mEEC is mainly based on the idea of grouping multiple blocks
+          of sampled data bits into a super-block, thus creating a multi-dimensional
+          feature, then compressing features into a single number, called the color,
+          as the coded bits. Through an intelligent coloring scheme, the blocks in
+          a super-block share the cost of covering low probability cases, which allows
+          the decoder to recover the actual feature values from the color value even
+          in the presence of error. mEEC also adopts a lightweight redistribution
+          step, which is guided by the solution of an optimization problem and further
+          reduces the estimation errors and bias. We also show that mEEC can be implemented
+          within reasonable table storage size and low time complexity.
+        address: Atlanta, GA, USA
+        author: Zhang, Zhenghao and Kumar, Piyush
+        available: https://ieeexplore.ieee.org/document/8057134
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFOCOM.2017.8057134
+        file: EEC/Zhang and Kumar - 2017 - mEEC A novel error estimation code with
+          multi-dim.pdf
+        isbn: 978-1-5090-5336-0
+        language: en
+        month: May
+        pages: 1--9
+        publisher: IEEE
+        shorttitle: '{mEEC}'
+        tag: EEC
+        title: '{mEEC: A Novel Error Estimation Code with Multi-dimensional Feature}'
+        url: http://ieeexplore.ieee.org/document/8057134/
+        urldate: '2019-01-07'
+        year: '2017'
+      - ENTRYTYPE: inproceedings
+        ID: Huang2014
+        acmid: '2591976'
+        address: New York, NY, USA
+        author: Huang, Jiwei and Yang, Sen and Lall, Ashwin and Romberg, Justin and
+          Xu, Jun and Lin, Chuang
+        available: https://dl.acm.org/citation.cfm?id=2591976
+        booktitle: The 2014 ACM International Conference on Measurement and Modeling
+          of Computer Systems
+        doi: 10.1145/2591971.2591976
+        file: EEC/Huang et al. - 2014 - Error estimating codes for insertion and deletion
+          .pdf
+        isbn: 978-1-4503-2789-3
+        keywords: deletion channel, error estimating coding, insertion channel
+        location: Austin, Texas, USA
+        numpages: '13'
+        pages: 381--393
+        publisher: ACM
+        series: SIGMETRICS '14
+        tag: EEC
+        title: '{Error Estimating Codes for Insertion and Deletion Channels}'
+        url: http://doi.acm.org/10.1145/2591971.2591976
+        year: '2014'
+      - ENTRYTYPE: misc
+        ID: Candes2010
+        author: Emmanuel Cand`es
+        available: https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf
+        file: "Lecture/Cand\xE8s - 2010 - Information Theory of Data Matrices   Recovery\
+          \ fr.pdf"
+        howpublished: \url{https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf}
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: aug
+        pages: '150'
+        tag: Lecture
+        title: '{Information Theory of Data Matrices: Recovery from Incomplete and
+          Corrupted Entries}'
+        type: Lecture
+        year: '2010'
+      - ENTRYTYPE: misc
+        ID: Kellis2005
+        author: Manolis Kellis
+        available: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf
+        file: "Lecture/Manolis Kellis - 2005 - MIT 6.096 \u2013 Algorithms for Computational\
+          \ Biology L.pdf"
+        howpublished: \url{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf}
+        pages: '124'
+        tag: Lecture
+        title: "{MIT 6.096 \u2013 Algorithms for Computational Biology Lecture 5:\
+          \ Sequence Alignment and Dynamic Programming}"
+        type: Lecture
+        year: '2005'
+      - ENTRYTYPE: book
+        ID: Woodruff2014
+        acmid: '2693652'
+        address: Hanover, MA, USA
+        author: Woodruff, David P.
+        available: https://researcher.watson.ibm.com/researcher/files/us-dpwoodru/wNow.pdf
+        doi: 10.1561/0400000060
+        file: Book/Woodruff - 2014 - Sketching As a Tool for Numerical Linear Algebra.pdf
+        issn: 1551-305X
+        issue_date: October 2014
+        journal: Found. Trends Theor. Comput. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: oct
+        number: 1\&\#8211;2
+        numpages: '157'
+        pages: 1--157
+        publisher: Now Publishers Inc.
+        tag: Book
+        title: Sketching As a Tool for Numerical Linear Algebra
+        url: http://dx.doi.org/10.1561/0400000060
+        volume: '10'
+        year: '2014'
+      - ENTRYTYPE: book
+        ID: hastie_elements_2009
+        abstract: "During the past decade there has been an explosion in computation\
+          \ and information technology. With it have come vast amounts of data in\
+          \ a variety of fields such as medicine, biology, finance, and marketing.\
+          \ The challenge of understanding these data has led to the development of\
+          \ new tools in the field of statistics, and spawned new areas such as data\
+          \ mining, machine learning, and bioinformatics. Many of these tools have\
+          \ common underpinnings but are often expressed with different terminology.\
+          \ This book describes the important ideas in these areas in a common conceptual\
+          \ framework. While the approach is statistical, the emphasis is on concepts\
+          \ rather than mathematics. Many examples are given, with a liberal use of\
+          \ color graphics. It is\_a valuable resource for statisticians and anyone\
+          \ interested in data mining in science or industry. The book's coverage\
+          \ is broad, from supervised learning (prediction) to unsupervised learning.\
+          \ The many topics include neural networks, support vector machines, classification\
+          \ trees and boosting---the first comprehensive treatment of this topic in\
+          \ any book.This major new edition features many topics not covered in the\
+          \ original, including graphical models, random forests, ensemble methods,\
+          \ least angle regression \\& path algorithms for the lasso, non-negative\
+          \ matrix factorization, and spectral clustering. There is also a chapter\
+          \ on methods for ``wide'' data (p bigger than n), including multiple testing\
+          \ and false discovery rates."
+        author: Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome
+        available: https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics-ebook/dp/B00475AS2E
+        edition: 2 edition
+        file: Hastie et al. - 2009 - The Elements of Statistical Learning Data Mining,.pdf
+        language: English
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: aug
+        publisher: Springer
+        shorttitle: The Elements of Statistical Learning
+        tag: book
+        title: 'The Elements of Statistical Learning: Data Mining, Inference, and
+          Prediction'
+        year: '2009'
+      - ENTRYTYPE: article
+        ID: wang_lsh_survey_2014
+        archiveprefix: arXiv
+        author: 'Jingdong Wang and
+
+          Heng Tao Shen and
+
+          Jingkuan Song and
+
+          Jianqiu Ji'
+        bibsource: dblp computer science bibliography, https://dblp.org
+        biburl: https://dblp.org/rec/bib/journals/corr/WangSSJ14
+        eprint: '1408.2927'
+        file: LSH/Wang et al. - 2014 - Hashing for Similarity Search A Survey.pdf
+        journal: CoRR
+        tag: lsh
+        timestamp: Mon, 13 Aug 2018 16:49:05 +0200
+        title: 'Hashing for Similarity Search: {A} Survey'
+        url: http://arxiv.org/abs/1408.2927
+        volume: abs/1408.2927
+        year: '2014'
+      - ENTRYTYPE: inproceedings
+        ID: Manku_near_dup_2007
+        acmid: '1242592'
+        address: New York, NY, USA
+        author: Manku, Gurmeet Singh and Jain, Arvind and Das Sarma, Anish
+        booktitle: Proceedings of the 16th International Conference on World Wide
+          Web
+        doi: 10.1145/1242572.1242592
+        file: near-duplicates/Manku et al. - 2007 - Detecting near-duplicates for
+          web crawling.pdf
+        isbn: 978-1-59593-654-7
+        keywords: fingerprint, hamming distance, near-duplicate, search, similarity,
+          sketch, web crawl, web document
+        location: Banff, Alberta, Canada
+        numpages: '10'
+        pages: 141--150
+        publisher: ACM
+        series: WWW '07
+        tag: near-duplicates-detection
+        title: Detecting Near-duplicates for Web Crawling
+        url: http://doi.acm.org/10.1145/1242572.1242592
+        year: '2007'
+      - *id002
+      - ENTRYTYPE: inproceedings
+        ID: Charikar_SimilarityEstimationTechniques_2002
+        acmid: '509965'
+        address: New York, NY, USA
+        author: Charikar, Moses S.
+        booktitle: Proceedings of the Thiry-fourth Annual ACM Symposium on Theory
+          of Computing
+        doi: 10.1145/509907.509965
+        file: Hash/Charikar - 2002 - Similarity Estimation Techniques from Rounding
+          Alg.pdf
+        isbn: 1-58113-495-9
+        location: Montreal, Quebec, Canada
+        numpages: '9'
+        pages: 380--388
+        publisher: ACM
+        series: STOC '02
+        tag: simHash
+        title: Similarity Estimation Techniques from Rounding Algorithms
+        url: http://doi.acm.org/10.1145/509907.509965
+        year: '2002'
+      - ENTRYTYPE: misc
+        ID: noauthor_acoustic_2018
+        abstract: An acoustic fingerprint is a condensed digital summary, a fingerprint,
+          deterministically generated from an audio signal, that can be used to identify
+          an  audio sample or quickly locate similar items in an audio database.Practical
+          uses of acoustic fingerprinting include identifying songs, melodies, tunes,
+          or advertisements; sound effect library management; and video file identification.
+          Media identification using acoustic fingerprints can be used to monitor
+          the use of specific musical works and performances on radio broadcast, records,
+          CDs, streaming media and peer-to-peer networks. This identification has
+          been used in copyright compliance, licensing, and other monetization schemes.
+        copyright: Creative Commons Attribution-ShareAlike License
+        journal: Wikipedia
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: nov
+        note: 'Page Version ID: 870512438'
+        tag: fingerprint
+        title: Acoustic fingerprint
+        url: https://en.wikipedia.org/w/index.php?title=Acoustic_fingerprint&oldid=870512438
+        urldate: '2019-01-18'
+        year: '2018'
+      preambles: []
+      strings: !!python/object/apply:collections.OrderedDict
+      - - - jan
+          - January
+        - - feb
+          - February
+        - - mar
+          - March
+        - - apr
+          - April
+        - - may
+          - May
+        - - jun
+          - June
+        - - jul
+          - July
+        - - aug
+          - August
+        - - sep
+          - September
+        - - oct
+          - October
+        - - nov
+          - November
+        - - dec
+          - December
+    name: jun
+number: '3'
+numpages: '30'
+pages: 630--659
+publisher: Academic Press, Inc.
+tag: minHash
+title: Min-Wise Independent Permutations
+url: http://dx.doi.org/10.1006/jcss.1999.1690
+volume: '60'
+year: '2000'
+
+
+ENTRYTYPE: inproceedings
+ID: Charikar_SimilarityEstimationTechniques_2002
+acmid: '509965'
+address: New York, NY, USA
+author: Charikar, Moses S.
+booktitle: Proceedings of the Thiry-fourth Annual ACM Symposium on Theory of Computing
+doi: 10.1145/509907.509965
+file: Hash/Charikar - 2002 - Similarity Estimation Techniques from Rounding Alg.pdf
+isbn: 1-58113-495-9
+location: Montreal, Quebec, Canada
+numpages: '9'
+pages: 380--388
+publisher: ACM
+series: STOC '02
+tag: simHash
+title: Similarity Estimation Techniques from Rounding Algorithms
+url: http://doi.acm.org/10.1145/509907.509965
+year: '2002'
+
+
+&id002
+ENTRYTYPE: misc
+ID: noauthor_acoustic_2018
+abstract: An acoustic fingerprint is a condensed digital summary, a fingerprint, deterministically
+  generated from an audio signal, that can be used to identify an  audio sample or
+  quickly locate similar items in an audio database.Practical uses of acoustic fingerprinting
+  include identifying songs, melodies, tunes, or advertisements; sound effect library
+  management; and video file identification. Media identification using acoustic fingerprints
+  can be used to monitor the use of specific musical works and performances on radio
+  broadcast, records, CDs, streaming media and peer-to-peer networks. This identification
+  has been used in copyright compliance, licensing, and other monetization schemes.
+copyright: Creative Commons Attribution-ShareAlike License
+journal: Wikipedia
+language: en
+month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+  expr:
+  - !!python/object:bibtexparser.bibdatabase.BibDataString
+    _bibdatabase: &id001 !!python/object:bibtexparser.bibdatabase.BibDatabase
+      _entries_dict: {}
+      comments:
+      - '% Encoding: UTF-8'
+      entries:
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012
+        acmid: '2254773'
+        address: New York, NY, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://dl.acm.org/citation.cfm?id=2254773
+        booktitle: Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE Joint International
+          Conference on Measurement and Modeling of Computer Systems
+        doi: 10.1145/2254756.2254773
+        file: EEC/Hua and Lall - Towards Optimal Error-Estimating Codes through the.pdf
+        isbn: 978-1-4503-1097-0
+        keywords: Fisher information, error estimating coding
+        location: London, England, UK
+        numpages: '12'
+        pages: 125--136
+        publisher: ACM
+        series: SIGMETRICS '12
+        tag: EEC
+        title: '{Towards Optimal Error-estimating Codes Through the Lens of Fisher
+          Information Analysis}'
+        url: http://doi.acm.org/10.1145/2254756.2254773
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Hua2012a
+        abstract: We study error estimating codes with the goal of establishing better
+          bounds for the theoretical and empirical overhead of such schemes. We explore
+          the idea of using sketch data structures for this problem, and show that
+          the tug-of-war sketch gives an asymptotically optimal solution. The optimality
+          of our algorithms are proved using communication complexity lower bound
+          techniques. We then propose a novel enhancement of the tug-of-war sketch
+          that greatly reduces the communication overhead for realistic error rates.
+          Our theoretical analysis and assertions are supported by extensive experimental
+          evaluation.
+        address: Orlando, FL, USA
+        author: Hua, Nan and Lall, Ashwin and Li, Baochun and Xu, Jun
+        available: https://ieeexplore.ieee.org/document/6195624
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFCOM.2012.6195624
+        file: EEC/Nan Hua et al. - 2012 - A simpler and better design of error estimating
+          co.pdf
+        isbn: 978-1-4673-0775-8 978-1-4673-0773-4 978-1-4673-0774-1
+        language: en
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: mar
+        pages: 235--243
+        publisher: IEEE
+        tag: EEC
+        title: '{A Simpler and Better Design of Error Estimating Coding}'
+        url: http://ieeexplore.ieee.org/document/6195624/
+        urldate: '2019-01-07'
+        year: '2012'
+      - ENTRYTYPE: inproceedings
+        ID: Zhang2017
+        abstract: Error estimation code estimates the bit error ratio in the data
+          bits, and is very useful in many applications, such as estimating the number
+          of errors in a packet transmitted over a wireless link. In this paper, we
+          propose a novel error estimation code, mEEC, that outperforms the existing
+          code by more than 10\%-20\% depending on the packet sizes, as well as being
+          more unbiased. mEEC is mainly based on the idea of grouping multiple blocks
+          of sampled data bits into a super-block, thus creating a multi-dimensional
+          feature, then compressing features into a single number, called the color,
+          as the coded bits. Through an intelligent coloring scheme, the blocks in
+          a super-block share the cost of covering low probability cases, which allows
+          the decoder to recover the actual feature values from the color value even
+          in the presence of error. mEEC also adopts a lightweight redistribution
+          step, which is guided by the solution of an optimization problem and further
+          reduces the estimation errors and bias. We also show that mEEC can be implemented
+          within reasonable table storage size and low time complexity.
+        address: Atlanta, GA, USA
+        author: Zhang, Zhenghao and Kumar, Piyush
+        available: https://ieeexplore.ieee.org/document/8057134
+        booktitle: Proceedings of the IEEE INFOCOM
+        doi: 10.1109/INFOCOM.2017.8057134
+        file: EEC/Zhang and Kumar - 2017 - mEEC A novel error estimation code with
+          multi-dim.pdf
+        isbn: 978-1-5090-5336-0
+        language: en
+        month: May
+        pages: 1--9
+        publisher: IEEE
+        shorttitle: '{mEEC}'
+        tag: EEC
+        title: '{mEEC: A Novel Error Estimation Code with Multi-dimensional Feature}'
+        url: http://ieeexplore.ieee.org/document/8057134/
+        urldate: '2019-01-07'
+        year: '2017'
+      - ENTRYTYPE: inproceedings
+        ID: Huang2014
+        acmid: '2591976'
+        address: New York, NY, USA
+        author: Huang, Jiwei and Yang, Sen and Lall, Ashwin and Romberg, Justin and
+          Xu, Jun and Lin, Chuang
+        available: https://dl.acm.org/citation.cfm?id=2591976
+        booktitle: The 2014 ACM International Conference on Measurement and Modeling
+          of Computer Systems
+        doi: 10.1145/2591971.2591976
+        file: EEC/Huang et al. - 2014 - Error estimating codes for insertion and deletion
+          .pdf
+        isbn: 978-1-4503-2789-3
+        keywords: deletion channel, error estimating coding, insertion channel
+        location: Austin, Texas, USA
+        numpages: '13'
+        pages: 381--393
+        publisher: ACM
+        series: SIGMETRICS '14
+        tag: EEC
+        title: '{Error Estimating Codes for Insertion and Deletion Channels}'
+        url: http://doi.acm.org/10.1145/2591971.2591976
+        year: '2014'
+      - ENTRYTYPE: misc
+        ID: Candes2010
+        author: Emmanuel Cand`es
+        available: https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf
+        file: "Lecture/Cand\xE8s - 2010 - Information Theory of Data Matrices   Recovery\
+          \ fr.pdf"
+        howpublished: \url{https://www.itsoc.org/conferences/schools/past-schools/na-school-2010/lecture-files/candes/Emmanuel-Candes-Lecture.pdf}
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: aug
+        pages: '150'
+        tag: Lecture
+        title: '{Information Theory of Data Matrices: Recovery from Incomplete and
+          Corrupted Entries}'
+        type: Lecture
+        year: '2010'
+      - ENTRYTYPE: misc
+        ID: Kellis2005
+        author: Manolis Kellis
+        available: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf
+        file: "Lecture/Manolis Kellis - 2005 - MIT 6.096 \u2013 Algorithms for Computational\
+          \ Biology L.pdf"
+        howpublished: \url{https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf}
+        pages: '124'
+        tag: Lecture
+        title: "{MIT 6.096 \u2013 Algorithms for Computational Biology Lecture 5:\
+          \ Sequence Alignment and Dynamic Programming}"
+        type: Lecture
+        year: '2005'
+      - ENTRYTYPE: book
+        ID: Woodruff2014
+        acmid: '2693652'
+        address: Hanover, MA, USA
+        author: Woodruff, David P.
+        available: https://researcher.watson.ibm.com/researcher/files/us-dpwoodru/wNow.pdf
+        doi: 10.1561/0400000060
+        file: Book/Woodruff - 2014 - Sketching As a Tool for Numerical Linear Algebra.pdf
+        issn: 1551-305X
+        issue_date: October 2014
+        journal: Found. Trends Theor. Comput. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: oct
+        number: 1\&\#8211;2
+        numpages: '157'
+        pages: 1--157
+        publisher: Now Publishers Inc.
+        tag: Book
+        title: Sketching As a Tool for Numerical Linear Algebra
+        url: http://dx.doi.org/10.1561/0400000060
+        volume: '10'
+        year: '2014'
+      - ENTRYTYPE: book
+        ID: hastie_elements_2009
+        abstract: "During the past decade there has been an explosion in computation\
+          \ and information technology. With it have come vast amounts of data in\
+          \ a variety of fields such as medicine, biology, finance, and marketing.\
+          \ The challenge of understanding these data has led to the development of\
+          \ new tools in the field of statistics, and spawned new areas such as data\
+          \ mining, machine learning, and bioinformatics. Many of these tools have\
+          \ common underpinnings but are often expressed with different terminology.\
+          \ This book describes the important ideas in these areas in a common conceptual\
+          \ framework. While the approach is statistical, the emphasis is on concepts\
+          \ rather than mathematics. Many examples are given, with a liberal use of\
+          \ color graphics. It is\_a valuable resource for statisticians and anyone\
+          \ interested in data mining in science or industry. The book's coverage\
+          \ is broad, from supervised learning (prediction) to unsupervised learning.\
+          \ The many topics include neural networks, support vector machines, classification\
+          \ trees and boosting---the first comprehensive treatment of this topic in\
+          \ any book.This major new edition features many topics not covered in the\
+          \ original, including graphical models, random forests, ensemble methods,\
+          \ least angle regression \\& path algorithms for the lasso, non-negative\
+          \ matrix factorization, and spectral clustering. There is also a chapter\
+          \ on methods for ``wide'' data (p bigger than n), including multiple testing\
+          \ and false discovery rates."
+        author: Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome
+        available: https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics-ebook/dp/B00475AS2E
+        edition: 2 edition
+        file: Hastie et al. - 2009 - The Elements of Statistical Learning Data Mining,.pdf
+        language: English
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: aug
+        publisher: Springer
+        shorttitle: The Elements of Statistical Learning
+        tag: book
+        title: 'The Elements of Statistical Learning: Data Mining, Inference, and
+          Prediction'
+        year: '2009'
+      - ENTRYTYPE: article
+        ID: wang_lsh_survey_2014
+        archiveprefix: arXiv
+        author: 'Jingdong Wang and
+
+          Heng Tao Shen and
+
+          Jingkuan Song and
+
+          Jianqiu Ji'
+        bibsource: dblp computer science bibliography, https://dblp.org
+        biburl: https://dblp.org/rec/bib/journals/corr/WangSSJ14
+        eprint: '1408.2927'
+        file: LSH/Wang et al. - 2014 - Hashing for Similarity Search A Survey.pdf
+        journal: CoRR
+        tag: lsh
+        timestamp: Mon, 13 Aug 2018 16:49:05 +0200
+        title: 'Hashing for Similarity Search: {A} Survey'
+        url: http://arxiv.org/abs/1408.2927
+        volume: abs/1408.2927
+        year: '2014'
+      - ENTRYTYPE: inproceedings
+        ID: Manku_near_dup_2007
+        acmid: '1242592'
+        address: New York, NY, USA
+        author: Manku, Gurmeet Singh and Jain, Arvind and Das Sarma, Anish
+        booktitle: Proceedings of the 16th International Conference on World Wide
+          Web
+        doi: 10.1145/1242572.1242592
+        file: near-duplicates/Manku et al. - 2007 - Detecting near-duplicates for
+          web crawling.pdf
+        isbn: 978-1-59593-654-7
+        keywords: fingerprint, hamming distance, near-duplicate, search, similarity,
+          sketch, web crawl, web document
+        location: Banff, Alberta, Canada
+        numpages: '10'
+        pages: 141--150
+        publisher: ACM
+        series: WWW '07
+        tag: near-duplicates-detection
+        title: Detecting Near-duplicates for Web Crawling
+        url: http://doi.acm.org/10.1145/1242572.1242592
+        year: '2007'
+      - ENTRYTYPE: article
+        ID: Broder_MinWiseIndependent_2000
+        acmid: '348768'
+        address: Orlando, FL, USA
+        author: Broder, Andrei Z and Charikar, Moses and Frieze, Alan M and Mitzenmacher,
+          Michael
+        doi: 10.1006/jcss.1999.1690
+        file: Hash/Broder et al. - 2000 - Min-Wise Independent Permutations.pdf
+        issn: 0022-0000
+        issue_date: June 2000
+        journal: J. Comput. Syst. Sci.
+        month: !!python/object:bibtexparser.bibdatabase.BibDataStringExpression
+          expr:
+          - !!python/object:bibtexparser.bibdatabase.BibDataString
+            _bibdatabase: *id001
+            name: jun
+        number: '3'
+        numpages: '30'
+        pages: 630--659
+        publisher: Academic Press, Inc.
+        tag: minHash
+        title: Min-Wise Independent Permutations
+        url: http://dx.doi.org/10.1006/jcss.1999.1690
+        volume: '60'
+        year: '2000'
+      - ENTRYTYPE: inproceedings
+        ID: Charikar_SimilarityEstimationTechniques_2002
+        acmid: '509965'
+        address: New York, NY, USA
+        author: Charikar, Moses S.
+        booktitle: Proceedings of the Thiry-fourth Annual ACM Symposium on Theory
+          of Computing
+        doi: 10.1145/509907.509965
+        file: Hash/Charikar - 2002 - Similarity Estimation Techniques from Rounding
+          Alg.pdf
+        isbn: 1-58113-495-9
+        location: Montreal, Quebec, Canada
+        numpages: '9'
+        pages: 380--388
+        publisher: ACM
+        series: STOC '02
+        tag: simHash
+        title: Similarity Estimation Techniques from Rounding Algorithms
+        url: http://doi.acm.org/10.1145/509907.509965
+        year: '2002'
+      - *id002
+      preambles: []
+      strings: !!python/object/apply:collections.OrderedDict
+      - - - jan
+          - January
+        - - feb
+          - February
+        - - mar
+          - March
+        - - apr
+          - April
+        - - may
+          - May
+        - - jun
+          - June
+        - - jul
+          - July
+        - - aug
+          - August
+        - - sep
+          - September
+        - - oct
+          - October
+        - - nov
+          - November
+        - - dec
+          - December
+    name: nov
+note: 'Page Version ID: 870512438'
+tag: fingerprint
+title: Acoustic fingerprint
+url: https://en.wikipedia.org/w/index.php?title=Acoustic_fingerprint&oldid=870512438
+urldate: '2019-01-18'
+year: '2018'
+
+

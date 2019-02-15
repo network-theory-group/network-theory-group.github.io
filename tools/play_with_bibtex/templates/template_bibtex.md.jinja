@@ -1,0 +1,15 @@
+# Paper List
+
+{% for entry in entries %}
+
+- {%- if entry.file -%}
+    [{{ entry.title }}](./{{ entry.file }})
+  {%- else -%}
+        {%- if entry.url -%}
+            [{{ entry.title }}]({{ entry.url }})
+        {%- else -%}
+            {{ entry.title }}
+        {%- endif -%}
+  {%- endif -%}
+
+{% endfor %}

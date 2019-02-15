@@ -30,7 +30,8 @@ This repository hosts the website for [Network Theory Group](https://network-the
   
   ## TODO
   
-  + Change the site to MVC style so that it is easier to maintain.
+  + [ ] Add navigation
+  + [X] Change the site to MVC style so that it is easier to maintain.
   
   
 
