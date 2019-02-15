@@ -724,14 +724,45 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   url           = {http://arxiv.org/abs/1807.09694},
 }
 
+<<<<<<< HEAD
 @Article{Mitzenmacher_BiffBloomFilter_2012,
   author        = {Michael Mitzenmacher and George Varghese},
   title         = {Biff (Bloom Filter) Codes : Fast Error Correction for Large Data Sets},
   journal       = {CoRR},
   year          = {2012},
   volume        = {abs/1208.0798},
+=======
+@InProceedings{Eppstein_WhatsDifference?Efficient_2011,
+  author    = {Eppstein, David and Goodrich, Michael T. and Uyeda, Frank and Varghese, George},
+  title     = {What's the Difference?: Efficient Set Reconciliation Without Prior Context},
+  booktitle = {Proceedings of the ACM SIGCOMM 2011 Conference},
+  year      = {2011},
+  series    = {SIGCOMM '11},
+  pages     = {218--229},
+  address   = {New York, NY, USA},
+  publisher = {ACM},
+  acmid     = {2018462},
+  available = {https://goo.gl/LS8acx},
+  doi       = {10.1145/2018436.2018462},
+  isbn      = {978-1-4503-0797-0},
+  keywords  = {difference digest, invertible bloom filter, set difference},
+  location  = {Toronto, Ontario, Canada},
+  numpages  = {12},
+  tag       = {set-diff},
+  url       = {http://doi.acm.org/10.1145/2018436.2018462},
+}
+
+@Article{Goodrich_InvertibleBloomLookup_2011,
+  author        = {Michael T. Goodrich and Michael Mitzenmacher},
+  title         = {Invertible Bloom Lookup Tables},
+  journal       = {CoRR},
+  year          = {2011},
+  volume        = {abs/1101.2245},
+>>>>>>> d72fd4809f6a4d2d4984f81d7cd8648e201df75f
   archiveprefix = {arXiv},
+  available     = {https://goo.gl/BrrHYT},
   bibsource     = {dblp computer science bibliography, https://dblp.org},
+<<<<<<< HEAD
   biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1208-0798},
   comment       = {Recommended by Prof. Jim},
   eprint        = {1208.0798},
@@ -755,6 +786,31 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   numpages  = {10},
   timestamp = {2019-02-14},
   url       = {http://dl.acm.org/citation.cfm?id=2791171.2791175},
+=======
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1101-2245},
+  eprint        = {1101.2245},
+  label         = {Set Reconciliation Tool},
+  tag           = {set-diff},
+  timestamp     = {Mon, 13 Aug 2018 16:48:09 +0200},
+  url           = {http://arxiv.org/abs/1101.2245},
+}
+
+@Article{Thorup_FastPowerfulHashing_2015,
+  author        = {Mikkel Thorup},
+  title         = {Fast and Powerful Hashing using Tabulation},
+  journal       = {CoRR},
+  year          = {2015},
+  volume        = {abs/1505.01523},
+  archiveprefix = {arXiv},
+  available     = {https://goo.gl/FH82Sk},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/Thorup15a},
+  eprint        = {1505.01523},
+  label         = {Tabulation},
+  tag           = {hash},
+  timestamp     = {Mon, 13 Aug 2018 16:48:49 +0200},
+  url           = {http://arxiv.org/abs/1505.01523},
+>>>>>>> d72fd4809f6a4d2d4984f81d7cd8648e201df75f
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -1,208 +1,221 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="html5">
 
 <head>
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
-  <!-- Avoid Caching, As this web will be updated very often -->
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
+    <!-- Avoid Caching, As this web will be updated very often -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
-  <title>Network Theory Group Readings</title>
+    <title>Network Theory Group Readings</title>
 
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/bibtex_js.js" charset="utf-8"></script>
-  <bibtex src="bibs/paper_pool.bib"></bibtex>
+    <!-- bibtex-js simplified version -->
+    <script src="javascript/bibtex_js.js" type="text/javascript" charset="utf-8"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/stricky-footer-navbar.css" />
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stricky-footer-navbar.css" />
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div style="text-align: center;">
-        <h1>Network Theory Group Reading Lists</h1>
-      </div>
-      <hr />
-      <div class="alert alert-info" role="alert">
-        Because of possible copyright issues, the FullText PDF links (links on
-        the paper title) only work for internal users. Public users may be
-        able to access the FullText PDFs via "[available]" link.
-      </div>
-
-      <div id="bibtex_errors"></div>
-
-      <div class="bibtex_topics"></div>
-
-      <div class="bibtex_structure">
-        <div class="sections tag">
-          <div class="section EEC" id="EEC">
-            <h2>Error Estimating Codes (EEC)</h2>
-            <hr />
-            <div class="sort year" extra="ASC number">
-              <div class="templates"></div>
-            </div>
-          </div>
-          <div class="section lsh|hash|fingerprint" id="LSH|HASH|FINGERPRINT">
-            <h2>Related Techniques</h2>
-            <hr />
-            <div class="sort year" extra="ASC number">
-              <div class="templates"></div>
-            </div>
-          </div>
-          <div class="section duplicates|match|backscatter|similarity|ann|diff" id="DUPLICATES|MATCH|BACKSCATTER|SIMILARITY|ANN|DIFF">
-            <h2>Potential Applications</h2>
-            <hr />
-            <div class="sort year" extra="ASC number">
-              <div class="templates"></div>
-            </div>
-          </div>
-          <div class="section lecture|book" id="LECTURE|BOOK">
-            <h2>Lectures/Books Related to EEC</h2>
-            <hr />
-            <div class="sort year" extra="ASC number">
-              <div class="templates"></div>
-            </div>
-          </div>
-          <div class="section streaming" id="STREAMING">
-            <h2>Data Streaming Algorithms</h2>
-            <hr />
-            <div class="sort year" extra="ASC number">
-              <div class="templates"></div>
-            </div>
-          </div>
-
-          <div class="section structure" id="STRUCTURE">
-            <h2>Useful Data Structures</h2>
-            <hr />
-            <div class="sort year" extra="ASC number">
-              <div class="templates"></div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!--<h2>Error Estimating Code (EEC)</h2>-->
-      <!--<hr />-->
-      <div id="bibtex_display">
-        <!--<div class="if bibtex_template" style="display: none;">-->
-        <div class="bibtex_template">
-          <ul>
-            <li>
-              <span class="if file">
-                <a class="bibtexVar" target="_blank" href="https://github.com/network-theory-group/paper-pool/blob/master/+FILE+"
-                  extra="FILE">
-                  <span style="text-decoration: underline;" class="title"></span>,
-                </a>
-              </span>
-              <span class="if !file"> <span class="title"></span>, </span>
-              <div class="if author"><span class="author"></span></div>
-              <div>
-                <span class="if journal"><em><span class="journal"></span></em>,</span>
-                <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
-                <span class="if editor"><span class="editor"></span> (editors),</span>
-                <span class="if publisher"><em><span class="publisher"></span></em>,</span>
-                <span class="if type"><em><span class="type"></span></em>,</span>
-                <span class="if institution"><span class="institution"></span>,</span>
-                <span class="if address"><span class="address"></span>,</span>
-                <span class="if volume"><span class="volume"></span>,</span>
-                <span class="if journal number">(<span class="number"></span>),</span>
-                <span class="if pages">
-                  pages <span class="pages"></span>,</span>
-                <span class="if month"><span class="month"></span>,</span>
-                <span class="if year"><span class="year"></span>.</span>
-                <span class="if label"><span class="label label-success"></span></span>
-                <span class="if available">
-                  <a class="bibtexVar" target="_blank" href="+AVAILABLE+" extra="AVAILABLE">[available]</a>
-                </span>
-                <span class="if comment">
-                  <a class="bibtexVar" role="button" data-toggle="collapse" href="#comment+BIBTEXKEY+" aria-expanded="false"
-                  aria-controls="comment+BIBTEXKEY+" extra="BIBTEXKEY">
-                  [comments]
-                </a>
-                </span>
-                <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false"
-                  aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                  [bib]
-                </a>
-              </div>
-              <div class="bibtexVar collapse" id="comment+BIBTEXKEY+" extra="BIBTEXKEY">
-                <div class="well">
-                  <pre><span class="comment noread"></span></pre>
-                </div>
-              </div>
-              <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                <div class="well">
-                  <pre><span class="bibtexraw noread"></span></pre>
-                </div>
-              </div>
-              <div style="display:none"><span class="bibtextype"></span></div>
-              <div style="display:none">
-                <span class="if topic"><span class="topic"></span></span>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- footer -->
-  <footer class="footer">
+<div style="float:right;">
+    <a href="https://github.com/network-theory-group/network-theory-group.github.io"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+</div>
     <div class="container">
-      <p class="text-muted">
-        This reading list site was created using
-        <a href="https://github.com/pcooksey/bibtex-js" target="_blank">bibtex-js</a>.
-      </p>
-    </div>
-  </footer>
+        <div id="app" class="row">
+            <div style="width: 100%; text-align: center;">
+                <h1>Network Theory Group Reading Lists</h1>
+                <hr />
+            </div>
 
-  <script type="text/javascript" charset="utf-8">
-    refresh = false;
-    window.setInterval(function () {
-      if (refresh) {
-        try {
-          $("#bibtex_errors").html("");
-          bibtex_js_draw();
-        } catch (err) {
-          $("#bibtex_errors").html(err.substring(0, 100) + "...");
-        }
-        refresh = false;
-      }
-    }, 500);
-    /*
-    // monitor template for changes and add template to dom
-    $("#bibtex_template_input").keyup(function() {
-      $(".bibtex_template").html($("#bibtex_template_input").val());
-      refresh = true;
-    });
-    $(".bibtex_template").html($("#bibtex_template_input").val());
-      
-    // monitor bibtex for changes and redraw
-    $("#bibtex_input").keyup(function() {
-      refresh = true;
-    });
-    */
-  </script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <div v-for='category in paper_categories' class="mx-auto" style="width: 98%;margin-top: 20pt">
+                <h2 :id="category.cat">{{ category.description }}</h2>
+                <hr />
+                <ul>
+                    <li v-for="entry in processed_bib_entries" v-if="new RegExp(category.cat).test(entry.TAG.toLowerCase())">
+                        <span v-if="entry.AVAILABLE">
+                            <a :href="entry.AVAILABLE" target="_blank">
+                                <span style="text-decoration: underline;" class="title">{{ entry.TITLE }}</span>,
+                            </a>
+                        </span>
+                        <span v-else-if="entry.FILE">
+                             <a :href="paper_pool + entry.FILE" target="_blank">
+                                <span style="text-decoration: underline;" class="title">{{ entry.TITLE }}</span>,
+                            </a>
+                        </span>
+                        <span v-else>
+                            <span style="text-decoration: underline;" class="title">{{ entry.TITLE }}</span>,
+                        </span>
+                        <div class="author">
+                            <span v-if="entry.AUTHOR">
+                                {{ entry.AUTHOR }}
+                            </span>
+                        </div>
+                        <div>
+                            <span v-if="entry.JOURNAL"><em><span class="journal">{{ entry.JOURNAL }}</span></em>,</span>
+                            <span v-else-if="entry.BOOKTITLE"><em><span class="journal">{{ entry.BOOKTITLE }}</span></em>,</span>
+                            <span v-if="entry.LOCATION"><span class="location">{{ entry.LOCATION }}</span>,</span>
+                            <span v-if="entry.VOLUME"><span class="volume">vol. {{ entry.VOLUME }}</span>,</span>
+                            <span v-if="entry.NUMBER"><span class="number">no. {{ entry.NUMBER }}</span>,</span>
+                            <span v-if="entry.PAGES"><span class="pages">pp. {{ entry.PAGES }}</span>,</span>
+                            <span v-if="entry.MONTH"><span class="month">{{ entry.MONTH }}</span>,</span>
+                            <span v-if="entry.YEAR"><span class="year">{{ entry.YEAR }}</span>.</span>
+                            <span v-else>.</span>
+                            <span v-if="entry.COMMENT">
+                                <a role="button" data-toggle="collapse" :href="'#' + entry.BIBTEXKEY + '-comment'" aria-expanded="false" :aria-controls="entry.BIBTEXKEY + '-comment'" >
+                                [comments]
+                                </a>
+                            </span>
+                            <a role="button" data-toggle="collapse" :href="'#' + entry.BIBTEXKEY + '-bib'" aria-expanded="false" :aria-controls="entry.BIBTEXKEY + '-bib'" >
+                                [bib]
+                            </a>
+                        </div>
+                        <div v-if="entry.KEYWORDS">
+                            <span v-for="keyword in entry.KEYWORDS" class="badge badge-success">{{ keyword }}</span>
+                        </div>
+                        <div v-else-if="entry.LABEL">
+                            <span v-for="keyword in entry.LABEL" class="badge badge-success">{{ keyword }}</span>
+                        </div>
+                        <div v-if="entry.COMMENT" :id="entry.BIBTEXKEY + '-comment'" class="collapse">
+                            <div class="well">
+                                <pre><span class="comment noread">{{ entry.COMMENT }}</span></pre>
+                            </div>
+                        </div>
+                        <div :id="entry.BIBTEXKEY + '-bib'" class="collapse">
+                            <div class="well well-lg">
+                                <pre><span class="bibtexraw noread">{{ entry.BIBTEXRAW }}</span></pre>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div> <!-- max-auto -->
+        </div> <!-- row -->
+    </div> <!-- container -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">
+                This reading list site was created using
+                <a href="https://github.com/pcooksey/bibtex-js" target="_blank">bibtex-js</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        let app = new Vue({
+            el: '#app',
+            data: {
+                bib_entries: [],
+                base_url: "",
+                paper_pool: "https://github.com/network-theory-group/paper-pool/blob/master/",
+                paper_categories: [
+                    {
+                        cat: 'eec',
+                        description: 'Error Estimating Codes (EEC)'
+                    },
+                    {
+                        cat: 'lecture|book',
+                        description: 'Lectures/Books Related to EEC'
+                    },
+                    {
+                        cat: 'diff',
+                        description: 'Set Difference'
+                    },
+                    {
+                        cat: 'lsh',
+                        description: 'Locality Sensitive Hashing'
+                    },
+                    {
+                        cat: 'hash|fingerprint|structure',
+                        description: 'Fingerprints/Data Structures for Nearest Neighbor Search'
+                    },
+                    {
+                        cat: 'ann',
+                        description: 'Approximate Nearest Neighbor (ANN)'
+                    },
+                    {
+                        cat: 'dup|similarity',
+                        description: 'Similarity and Near-Duplicate Detection'
+                    },
+                    {
+                        cat: 'match',
+                        description: '(Approximate) String Matching'
+                    }
+                ]
+            },
+            created: function () {
+                let self = this;
+                $.ajax({
+                    url: 'bibs/paper_pool.bib',
+                    method: 'GET',
+                    success: function (data) {
+                        let b = new BibtexParser();
+                        b.setInput(data);
+                        b.bibtex();
+                        self.bib_entries = b.getEntries();
+                    },
+                    error: function (error) {
+                        console.log(error);
+                    }
+                });
+            },
+            computed: {
+                // process data
+                processed_bib_entries: function() {
+                    let self = this;
+                    for (let i in self.bib_entries) {
+                        if (self.bib_entries.hasOwnProperty(i)) {
+                            if (!self.bib_entries[i].hasOwnProperty('AUTHOR')) continue;
+
+                            let authors = self.bib_entries[i]["AUTHOR"].split(' and ');
+                            if (typeof(authors) == "undefined") continue;
+                            let authors_str = '';
+                            for (let k = 0; k < authors.length; ++k) {
+                                if (authors[k].includes(',')) {
+                                    let names = authors[k].split(',');
+                                    authors_str += names[1] + ' ' + names[0];
+                                    if (k !== authors.length - 2) {
+                                        authors_str += ', ';
+                                    } else {
+                                        authors_str += ' and ';
+                                    }
+                                }
+                            }
+                            if(!authors_str.empty)self.bib_entries[i]["AUTHOR"] = authors_str;
+                            if(self.bib_entries[i].hasOwnProperty('TITLE')) {
+                                self.bib_entries[i]['TITLE'] = self.bib_entries[i]['TITLE'].replace(/{|}/g, '');// remove '{' and '}'
+                            }
+                            if(self.bib_entries[i].hasOwnProperty('KEYWORDS')) {
+                                self.bib_entries[i]['KEYWORDS'] = self.bib_entries[i]['KEYWORDS'].split(',');
+                            }
+                            if(self.bib_entries[i].hasOwnProperty('LABEL')) {
+                                self.bib_entries[i]['LABEL']  = self.bib_entries[i]['LABEL'].split(',');
+                            }
+                            if(self.bib_entries[i].hasOwnProperty('BOOKTITLE')) {
+                                self.bib_entries[i]['BOOKTITLE']  = self.bib_entries[i]['BOOKTITLE'].replace(/{|}/g, '');// remove '{' and '}'
+                            }
+                        }
+                    }
+                    return self.bib_entries;
+                }
+            }
+        });
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
-
-<!-- <footer class="navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="row">
-        <span
-          >This reading list site was created using
-          <a href="https://github.com/pcooksey/bibtex-js" target="_blank"
-            >bibtex-js</a
-          ></span
-        >
-      </div>
-    </div>
-  </footer> -->
 
 </html>

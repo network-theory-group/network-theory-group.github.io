@@ -29,6 +29,10 @@ B {
     margin: 10px 0;
 }
 
+.badge {
+    margin-right: 5pt;
+    margin-top: 5pt;
+}
 /*.footer > .container {*/
     /*padding-right: 15px;*/
     /*padding-left: 15px;*/
