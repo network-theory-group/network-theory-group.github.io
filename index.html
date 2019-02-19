@@ -155,6 +155,10 @@
                     {
                         cat: 'data-streaming-algorithms',
                         description: 'Useful Data Streaming Algorithms'
+                    },
+                    {
+                        cat: '*',
+                        description: 'Others'
                     }
                 ]
             },
@@ -208,6 +212,9 @@
                             }
                             if(self.bib_entries[i].hasOwnProperty('BOOKTITLE')) {
                                 self.bib_entries[i]['BOOKTITLE']  = self.bib_entries[i]['BOOKTITLE'].replace(/{|}/g, '');// remove '{' and '}'
+                            }
+                            if(!self.bib_entries[i].hasOwnProperty('TAG')) {
+                                self.bib_entries[i]['TAG']  = 'others';
                             }
                         }
                     }
