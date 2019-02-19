@@ -205,7 +205,7 @@
                                 self.bib_entries[i]['TITLE'] = self.bib_entries[i]['TITLE'].replace(/{|}/g, '');// remove '{' and '}'
                             }
                             if(self.bib_entries[i].hasOwnProperty('KEYWORDS')) {
-                                self.bib_entries[i]['KEYWORDS'] = self.bib_entries[i]['KEYWORDS'].split(',');
+                                self.bib_entries[i]['KEYWORDS'] = self.bib_entries[i]['KEYWORDS'].split(/[\,,;]/);
                             }
                             if(self.bib_entries[i].hasOwnProperty('LABEL')) {
                                 self.bib_entries[i]['LABEL']  = self.bib_entries[i]['LABEL'].split(',');
