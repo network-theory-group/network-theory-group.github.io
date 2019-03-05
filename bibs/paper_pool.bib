@@ -992,4 +992,91 @@ bibsource = {dblp computer science bibliography, https://dblp.org}
   url        = {https://doi.org/10.1137/S0097539799361701},
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
+% Encoding: UTF-8
+
+@Article{Faloutsos,
+  author   = {Faloutsos, Christos and Ranganathan, M and Manolopoulos, Yannis},
+  title    = {Fast {Subsequence} {Matching} in {Time}-{Series} {Databases}},
+  pages    = {11},
+  abstract = {We present an e cient indexing method to locate 1dimensional subsequences within a collection of sequences, such that the subsequences match a given (query) pattern within a speci ed tolerance. The idea is to map each data sequence into a small set of multidimensional rectangles in feature space. Then, these rectangles can be readily indexed using traditional spatial access methods, like the R*-tree 9]. In more detail, we use a sliding window over the data sequence and extract its features; the result is a trail in feature space. We propose an e cient and e ective algorithm to divide such trails into sub-trails, which are subsequently represented by their Minimum Bounding Rectangles (MBRs). We also examine queries of varying lengths, and we show how to handle each case e ciently. We implemented our method and carried out experiments on synthetic and real data (stock price movements). We compared the method to sequential scanning, which is the only obvious competitor. The results were excellent: our method accelerated the search time from 3 times up to 100 times.},
+  tag = {subsequence},
+  available = {https://bit.ly/2Uhseaq},
+  language = {en},
+}
+
+@Article{Toyoda2013,
+  author   = {Toyoda, Machiko and Sakurai, Yasushi and Ishikawa, Yoshiharu},
+  title    = {Pattern discovery in data streams under the time warping distance},
+  journal  = {The VLDB Journal},
+  year     = {2013},
+  volume   = {22},
+  number   = {3},
+  pages    = {295--318},
+  month    = jun,
+  issn     = {1066-8888, 0949-877X},
+  doi      = {10.1007/s00778-012-0289-3},
+  file     = {Toyoda et al. - 2013 - Pattern discovery in data streams under the time w.pdf:C\:\\Users\\Long Gong\\Dropbox\\research\\zotero-lib\\storage\\GA6LXXPS\\Toyoda et al. - 2013 - Pattern discovery in data streams under the time w.pdf:application/pdf},
+  language = {en},
+  url      = {http://link.springer.com/10.1007/s00778-012-0289-3},
+  urldate  = {2019-03-05},
+  tag = {subsequence},
+  available = {https://bit.ly/2EOQRpz},
+}
+
+@InProceedings{Kim2000,
+  author     = {Kim, Edward D. and Lam, Joyce M. W. and Han, Jiawei},
+  title      = {{AIM}: {Approximate} {Intelligent} {Matching} for {Time} {Series} {Data}},
+  booktitle  = {Data {Warehousing} and {Knowledge} {Discovery}},
+  year       = {2000},
+  editor     = {Kambayashi, Yahiko and Mohania, Mukesh and Tjoa, A. Min},
+  series     = {Lecture {Notes} in {Computer} {Science}},
+  pages      = {347--357},
+  publisher  = {Springer Berlin Heidelberg},
+  abstract   = {Time-series data mining presents many challenges due to the intrinsic large scale and high dimensionality of the data sets. Sub-sequence similarity matching has been an active research area driven by the need to analyse large data sets in the financial, biomedical and scientific databases. In this paper, we investigate an intelligent subsequence similarity matching of time series queries based on efficient graph traversal. We introduce a new problem, the approximate partial matching of a query sequence in a time series database. Our system can address such queries with high specificity and minimal time and space overhead. The performance bottleneck of the current methods were analysed and we show our method can improve the performance of the time series queries significantly. It is general and exible enough to find the best approximate match query without specifying a tolerance ε parameter.},
+  file       = {Kim et al. - 2000 - AIM Approximate Intelligent Matching for Time Ser.pdf:C\:\\Users\\Long Gong\\Dropbox\\research\\zotero-lib\\storage\\V77YHFE6\\Kim et al. - 2000 - AIM Approximate Intelligent Matching for Time Ser.pdf:application/pdf},
+  isbn       = {978-3-540-44466-4},
+  keywords   = {Input Query, Partial Match, Similarity Match, Spatial Index, Time Series Data},
+  language   = {en},
+  shorttitle = {{AIM}},
+  tag = {subsequence},
+  available = {https://bit.ly/2H2bu4c},
+}
+
+@InProceedings{Bhaduri2010,
+  author    = {Bhaduri, Kanishka and Zhu, Qiang and Oza, Nikunj C. and Srivastava, Ashok N.},
+  title     = {Fast and {Flexible} {Multivariate} {Time} {Series} {Subsequence} {Search}},
+  booktitle = {2010 {IEEE} {International} {Conference} on {Data} {Mining}},
+  year      = {2010},
+  pages     = {48--57},
+  address   = {Sydney, Australia},
+  month     = dec,
+  publisher = {IEEE},
+  isbn      = {978-1-4244-9131-5},
+  language  = {en},
+  url       = {http://ieeexplore.ieee.org/document/5693958/},
+  urldate   = {2019-03-05},
+    tag = {subsequence},
+  available = {https://go.nasa.gov/2NJLmeN},
+}
+
+@Article{Ben-Haim,
+  author   = {Ben-Haim, Yael and Tom-Tov, Elad},
+  title    = {A {Streaming} {Parallel} {Decision} {Tree} {Algorithm}},
+  pages    = {24},
+  abstract = {We propose a new algorithm for building decision tree classiﬁers. The algorithm is executed in a distributed environment and is especially designed for classifying large data sets and streaming data. It is empirically shown to be as accurate as a standard decision tree classiﬁer, while being scalable for processing of streaming data on multiple processors. These ﬁndings are supported by a rigorous analysis of the algorithm’s accuracy.},
+  language = {en},
+  tag = {subsequence},
+  available = {https://bit.ly/1pEwvW1},
+}
+
+@Article{Luo,
+  author   = {Luo, Chen and Shrivastava, Anshumali},
+  title    = {{SSH} ({Sketch}, {Shingle}, \& {Hash}) for {Indexing} {Massive}-{Scale} {Time} {Series}},
+  pages    = {20},
+  abstract = {Similarity search on time series is a frequent operation in large-scale data-driven applications. Sophisticated similarity measures are standard for time series matching, as they are usually misaligned. Dynamic Time Warping or DTW is the most widely used similarity measure for time series because it combines alignment and matching at the same time. However, the alignment makes DTW slow. To speed up the expensive similarity search with DTW, branch and bound based pruning strategies are adopted. However, branch and bound based pruning are only useful for very short queries (low dimensional time series), and the bounds are quite weak for longer queries. Due to the loose bounds branch and bound pruning strategy boils down to a brute-force search.},
+  language = {en},
+  tag = {subsequence},
+  available = {https://bit.ly/2H1bC3H},
+}
+
+
